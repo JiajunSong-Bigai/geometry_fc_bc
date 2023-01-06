@@ -1,0 +1,18 @@
+{
+    "problem": [
+        "Isosceles(Right(Triangle(A,B,C)))",
+        "Equals(MeasureOf(Angle(C)),90)",
+        "IsMidpointOf(Point(M),Line(A,C))",
+        "IsMidpointOf(Point(N),Line(B,C))",
+        "PointLiesOnLine(Point(D),Line(B,M))",
+        "Equals(LengthOf(Line(B,D)),Mul(2,LengthOf(Line(B,M))))",
+        "PointLiesOnLine(Point(E),Line(N,A))",
+        "Equals(LengthOf(Line(N,E)),Mul(2,LengthOf(Line(N,A))))"
+    ],
+
+    "question": [
+        "Proof(Perpendicular(Line(B,D),Line(D,E)))"
+    ],
+
+    "answer": []
+}

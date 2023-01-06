@@ -1,0 +1,79 @@
+[{
+        "line": 1,
+        "given": "$\\angle ABC = \\angle ABC, \\angle C = \\angle C$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$Rt\\triangle BDA \\sim Rt\\triangle BAC \\sim Rt\\triangle ADC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\frac{AD}{BD} = \\frac{AC}{AB} = \\frac{DC}{AD} = k$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "action": "Let $BD = a$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$AD = ka, DC = K^{2}a $",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\frac{DC}{BD} = \\frac{k^{2}a}{a} = K^{2}, \\frac{BC}{BD} = \\frac{DC+BD}{BD} = 1+k^{2}$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "action": "Extend $BE$ to  $F$ ,make $AF \\parallel BC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\triangle AEF \\sim \\triangle CEB$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\frac{AE}{EC} = \\frac{AF}{BC}$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "In $Rt\\triangle AFP$ and $Rt\\triangle DBP$"
+    },
+
+    {
+        "line": 11,
+        "given": "$AP = PD,\\angle APF = \\angle DPB$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$Rt\\triangle AFP \\cong Rt\\triangle DBP$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$AF = BD$",
+        "from":[9]
+    },
+
+    {
+        "line": 14,
+        "imply": "$\\frac{AE}{EC} = \\frac{AF}{BC} = \\frac{BD}{BC} = \\frac{1}{1+k^{2}}$",
+        "from":[13]
+    }
+]

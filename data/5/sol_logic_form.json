@@ -1,0 +1,35 @@
+[
+    {
+        "line": 1,
+        "given": [
+            "AddPerpendicularLineFromPoint(Line($1), D, Line(A,B))",
+            "IntersectAt(E,Line($1),Line(A,B))"
+        ]
+    },
+    {
+        "line": 2,
+        "given": [
+            "BisectsAngle(Line(A,D),Angle(C,A,B))",
+            "Equals(MeasureOf(Angle(C)),90)",
+            "Perpendicular(Line(D,E),Line(A,B))"
+        ]
+    },
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(C,D)))"
+        ]
+    },
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(C,D)),3)"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),3)"
+        ]
+    }
+]

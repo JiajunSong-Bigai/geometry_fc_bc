@@ -1,0 +1,17 @@
+{
+    "problem": [
+        "Right(Triangle(A,B,D))",
+        "Right(Triangle(A,C,E))",
+        "Equals(MeasureOf(Angle(A,B,D)), 90)",
+        "Equals(MeasureOf(Angle(A,C,E)), 90)",
+        "ConnectTwoPoints(Point(D),Point(E))",
+        "IsMidpointOf(Point(M),Line(D,E))",
+        "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(C,A,E)))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(M,B)),LengthOf(Line(M,C)))"
+    ],
+
+    "answer": []
+}

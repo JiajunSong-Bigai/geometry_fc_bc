@@ -1,0 +1,92 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1132.2,
+                1621.44
+            ],
+            "B": [
+                734.21,
+                2069.63
+            ],
+            "C": [
+                1527.88,
+                2066.04
+            ],
+            "D": [
+                1645.46,
+                1416.92
+            ],
+            "M": [
+                1588.7,
+                1733.69
+            ],
+            "N": [
+                1121.19,
+                2068.31
+            ],
+            "Point1": [
+                1128.02,
+                1788.97
+            ],
+            "Point2": [
+                1301.94,
+                1663.77
+            ]
+        },
+        "line_instances": [
+            "A_B",
+            "A_Point1",
+            "Point1_N",
+            "A_N",
+            "A_D",
+            "A_Point2",
+            "Point2_M",
+            "A_M",
+            "D_M",
+            "M_C",
+            "D_C",
+            "D_Point2",
+            "Point1_B",
+            "D_B",
+            "B_N",
+            "N_C",
+            "B_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(Point(N),Line(B,C))",
+            "PointLiesOnLine(Point(M),Line(D,C))",
+            "PointLiesOnLine(Point1,Line(A,N))",
+            "PointLiesOnLine(Point1,Line(B,D))",
+            "PointLiesOnLine(Point2,Line(A,M))",
+            "PointLiesOnLine(Point2,Line(B,D))",
+            "LabelOf(1,Angle(B,A,N)",
+            "LabelOf(4,Angle(M,A,D)"
+        ]
+    },
+    {
+        "point_positions": {
+            "Point3": [
+                1218.1,
+                1724.33
+            ]
+        },
+        "line_instances": [
+            "A_Point3",
+            "Point3_C",
+            "Point2_Point3",
+            "Point3_Point1",
+            "A_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(Point3,Line(A,C))",
+            "PointLiesOnLine(Point3,Line(B,D))",
+            "LabelOf(2,Angle(C,A,N)",
+            "LabelOf(3,Angle(C,A,M)"
+        ]
+    }
+]

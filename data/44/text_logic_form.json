@@ -1,0 +1,17 @@
+{
+    "problem": [
+        "Right(Triangle(A,B,C))",
+        "Equals(MeasureOf(Angle(A,C,B)), 90)",
+        "Perpendicular(Line(C,D),Line(A,B))",
+        "IntersectAt(Line(C,D),Line(A,B),Point(D))",
+        "BisectsAngle(Line(A,F),Angle(C,A,B))",
+        "IntersectAt(Line(A,F),Line(C,D),Point(E))",
+        "IntersectAt(Line(A,F),Line(C,B),Point(F))"
+    ],
+
+    "question": [
+        "Proof(LengthOf(Line(C,E)),LengthOf(Line(C,F)))"
+    ],
+
+    "answer": []
+}

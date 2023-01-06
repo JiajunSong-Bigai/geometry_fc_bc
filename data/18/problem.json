@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,$\\angle ACB =90, AC = m,BC = n,m > n $,$P$ is on $AB$,connect $CP$,fold $\\triangle ACP$ along $CP$ to $\\triangle QCP$, if $m = 4,n=3$, and $PQ \\perp AB$.",
+    "question": "Find:The length of $BP$.",
+    "answer": "",
+    "source": "几何辅助线-6.1-4"
+}

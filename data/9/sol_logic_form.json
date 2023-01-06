@@ -1,0 +1,50 @@
+[{
+        "line": 1,
+        "given": [
+            "Triangle(A,B,F)",
+            "Triangle(M,B,F)",
+            "Equals(MeasureOf(Angle(A,B,D)), MeasureOf(Angle(M,B,D)))",
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(B,F)))",
+            "Equals(MeasureOf(Angle(A,F,B)), MeasureOf(Angle(M,F,B)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Congruent(Triangle(A,B,F), Triangle(M,B,F))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            
+            "Equals(LengthOf(Line(B,M)),LengthOf(Line(B,A)))",
+            "Equals(LengthOf(Line(A,F)),LengthOf(Line(F,M)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(C,N)),LengthOf(Line(C,A)))",
+            "Equals(LengthOf(Line(N,G)),LengthOf(Line(G,A)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(M,N)),SumOf(LengthOf(Line(B,M)),LengthOf(Line(B,C)),LengthOf(Line(C,N))),SumOf(LengthOf(Line(A,B)),LengthOf(Line(B,C)),LengthOf(Line(C,A))))",
+            "Median(Line(F,G),Triangle(A,M,N))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(F,G)),HalfOf(LengthOf(Line(M,N))),HalfOf(Sub(SumOf(LengthOf(Line(A,B)),LengthOf(Line(B,C))),LengthOf(Line(B,C)))))"
+        ]
+    }
+]

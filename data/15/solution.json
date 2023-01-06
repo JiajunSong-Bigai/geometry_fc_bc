@@ -1,0 +1,91 @@
+[{
+        "line": 1,
+        "given": "Add $EF$ from $E$, make $EF$ parallel and equal to $BD$,connect $FD,AF$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$EP \\parallel FD$.",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle APE = \\angle ADF$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$BD = AC, BD = EF$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$AC = EF$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$AC \\perp CD, EF \\parallel CD$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$EF \\perp AC$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle AEF = 90$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "In $\\triangle AEF$ and $\\triangle DCA$,$EF = CA, \\angle AEF = \\angle DCA, AE = DC$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\triangle AEF \\cong \\triangle DCA$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$AF = AD, \\angle EAF = \\angle CDA$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "$\\angle CAD + \\angle CDA = 90$"
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\angle CAD + \\angle EAF = 90$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "imply": "$\\triangle AFD$ is equilateral triangle",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\triangle ADF = 45$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\angle APE = 45$",
+        "from":[15]
+    }
+]

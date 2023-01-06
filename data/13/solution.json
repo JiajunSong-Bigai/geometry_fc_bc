@@ -1,0 +1,92 @@
+[{
+        "line": 1,
+        "action": "Take the midpoint $N$ of $AB$."
+    },
+
+    {
+        "line": 2,
+        "given": "$\\triangle ABC$ is equilateral triangle,$E$ is the midpoint of$BC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AB = BC, AE \\perp BC$, $AE$ bisects $\\angle BAC$,$EC =\\frac{1}{2}BC$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$N$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$AN = NE = \\frac{1}{2}AB = \\frac{1}{2}BC = EC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle NAE = \\angle NEA = 30$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle ANE = 120$",
+        "from":[6]
+    },
+
+
+    {
+        "line": 8,
+        "given": "$\\angle AEM = 60$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle MEC = 30$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle NAE = \\angle CEM $",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$CM$ bisects $\\angle ACG$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\angle ACM = 60$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\angle ECM = 120 = \\angle ANE$",
+        "from":[12]
+    },
+
+
+    {
+        "line": 14,
+        "given": "In $\\triangle ANE$ and $\\triangle ECM$,$\\angle NAE = \\angle CEM,AN = EC,\\angle ANE = \\angle ECM$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\triangle ANE \\cong \\triangle ECM$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$AE = EM$",
+        "from":[15]
+    }
+]

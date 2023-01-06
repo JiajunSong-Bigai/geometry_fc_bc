@@ -1,0 +1,70 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(D,E),Point(D))",
+            "Perpendicular(Line(D,E),Line(A,B))",
+            "IntersectAt(Line(D,E),Line(A,B),Point(E))"        
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Perpendicular(Line(C,D),Line(A,C))",
+            "Equals(MeasureOf(Angle(C,A,D)), MeasureOf(Angle(D,A,B)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,D)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Congruent(Triangle(A,C,D), Triangle(A,E,D))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)),LengthOf(Line(D,E)))",
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(A,E)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Perpendicular(Line(D,E),Line(B,E))",
+            "Equals(MeasureOf(Angle(B)), 45)"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Isosceles(Right(Triangle(D,E,B)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(B,E)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(C,D)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(A,B)),SumOf(LengthOf(Line(A,E)),LengthOf(Line(B,E))))",
+            "Equals(LengthOf(Line(A,B)),SumOf(LengthOf(Line(A,C)),LengthOf(Line(C,D))))"            
+        ]
+    }
+]

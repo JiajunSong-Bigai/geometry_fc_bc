@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "given": [
+            "Isosceles(Trapezoid(A,B,C,D))",
+            "Parallel(Line(A,D), Line(B,C))",
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,D)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(C)), MeasureOf(Angle(B)),60)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Equals(MeasureOf(Angle(A,P,C)), SumOf(MeasureOf(Angle(B)),MeasureOf(Angle(B,A,P))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(A,P,E)),MeasureOf(Angle(E,P,C))),SumOf(MeasureOf(Angle(B)),MeasureOf(Angle(B,A<P))))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(MeasureOf(Angle(A,P,E)), MeasureOf(Angle(B)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,P)), MeasureOf(Angle(C,P,E)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Similar(Triangle(A,P,B), Triangle(P,E,C))"
+        ]
+    }
+]

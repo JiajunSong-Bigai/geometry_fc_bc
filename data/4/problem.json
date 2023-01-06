@@ -1,0 +1,6 @@
+{
+    "problem": "In the equilateral $\\triangle ABC$ with side length $4$, $D$ and $E$ are the midpoint of $AB$ and $BC$ respectively,$EF \\perp AC$ at $F$,$G$ is the midpoint of $EF$,connect $DG$.",
+    "question": "Proof:The length of $EF$ equals $\\sqrt{3}$",
+    "answer": "",
+    "source": "几何辅助线-1.4-1"
+}

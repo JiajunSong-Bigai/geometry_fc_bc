@@ -1,0 +1,22 @@
+[{
+        "line": 1,
+        "given": "$OA+ OB > AB$"
+    },
+
+    {
+        "line": 2,
+        "given": "$OB + OC > BC$."
+    },
+
+    {
+        "line": 3,
+        "given": "$OC + OA > AC$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$2(AO+BO+CO) > AB+ BC + AC$",
+        "from":[1,2,3]
+    }
+]

@@ -1,0 +1,104 @@
+[{
+        "line": 1,
+        "given": [
+            "Equals(MeasureOf(Angle(A,B,C)), MeasureOf(Angle(A,B,C)))",
+            "Equals(MeasureOf(Angle(C)), MeasureOf(Angle(C)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Similar(Right(Triangle(B,D,A)), Right(Triangle(B,A,C)),Right(Triangle(A,D,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,D)),LengthOf(Line(B,D))),Div(LengthOf(Line(A,C)),LengthOf(Line(A,B))),Div(LengthOf(Line(D,C)),LengthOf(Line(A,D))),k)"
+        ]
+    },
+
+    {
+        "line": 4,
+        "action": [
+            "Equals(LengthOf(Line(B,D)),a)"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),Mul(k,a))",
+            "Equals(LengthOf(Line(D,C)),Mul(SquareOf(k),a))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(Div(LengthOf(Line(D,C)),LengthOf(Line(B,D))),Div(Mul(SquareOf(k),a)),a),SquareOf(k))",
+            "Equals(Div(LengthOf(Line(B,C)),LengthOf(Line(B,D))),Div(SumOf(LengthOf(Line(D,C)),LengthOf(Line(B,D))),LengthOf(Line(B,D))),SumOf(1,SquareOf(k)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "action": [
+            "ExtendLineToPoint(Line(B, E), F)",
+            "Parallel(Line(A, F), Line(B,C))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Similar(Triangle(A,E,F), Triangle(C,E,B))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,C))),Div(LengthOf(Line(A,F)),LengthOf(Line(B,C))))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "given": [
+            "Right(Triangle(A,F,P))",
+            "Right(Triangle(D,B,P))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "given": [
+            "Equals(LengthOf(Line(A,P)),LengthOf(Line(P,D)))",
+            "Equals(MeasureOf(Angle(A,P,F)), MeasureOf(Angle(D,P,B)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Congruent(Right(Triangle(A,F,P)), Right(Triangle(D,B,P)))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(A,F)),LengthOf(Line(B,D)))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,C))),Div(LengthOf(Line(A,F)),LengthOf(Line(B,C))),Div(LengthOf(Line(B,D)),LengthOf(Line(B,C))),Div(1,SumOf(1,SquareOf(k))))"
+        ]
+    }
+]

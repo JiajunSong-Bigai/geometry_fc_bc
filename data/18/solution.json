@@ -1,0 +1,84 @@
+[{
+        "line": 1,
+        "action": "Add $CH$ from $C$< make $CH \\perp AB$ at $H$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle APC = \\angle QPC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$PQ \\perp PA$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle APQ = 90$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle APC = \\angle QPC  = 135$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle BPC + \\angle QPB = 135$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle QPB = 90$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle BPC = 45$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "$CH \\perp AB$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle CHP = 90$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$CH = PH$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "In $\\triangle ABC$, $AB = \\sqrt{AC^{2} + BC^{2}} = 5$"
+    },
+
+    {
+        "line": 13,
+        "given": "$\\frac{1}{2} \\cdot AB \\cdot CB = \\frac{1}{2} \\cdot AC \\cdot BC$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$CH = \\frac{12}{5}, BH = \\sqrt{BC^{2} - CH^{2}} = \\frac{9}{5}$",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "imply": "$PB = PH + BH = \\frac{12}{5} + \\frac{9}{5} = \\frac{21}{5}$",
+        "from":[14]
+    }
+]

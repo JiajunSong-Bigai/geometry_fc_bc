@@ -1,0 +1,83 @@
+[
+    {
+        "line": 1,
+        "action": [
+            "ExtendLine(Line(A,E), Line($1))",
+            "ExtendLine(Line(D,C), Line($2))",
+            "IntersectAt(Line($1),Line($2),Point(F))"
+        ]
+    },
+    {
+        "line": 2,
+        "given": [
+            "BisectsAngle(Line(A,E),Angle(B,A,D))"
+        ]
+    },
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(D,A,E)), MeasureOf(Angle(B,A,E)))"
+        ]
+    },
+    {
+        "line": 4,
+        "given": [
+            "Parallel(Line(A, B), Line(C, D))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(B,A,E)))"
+        ]
+    },
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(D,A,F)), MeasureOf(Angle(C,F,E)))"
+        ]
+    },
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(D,F)))"
+        ]
+    },
+    {
+        "line": 8,
+        "given": [
+            "IsMidpointOf(Point(E),Line(B,C))"
+        ]
+    },
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(C,E)),LengthOf(Line(B,E)))"
+        ]
+    },
+    {
+        "line": 10,
+        "given": [
+            "Equals(MeasureOf(Angle(F)), MeasureOf(Angle(B,A,E)))",
+            "Equals(MeasureOf(Angle(C,E,F)), MeasureOf(Angle(A,E,B)))"
+        ]
+    },
+    {
+        "line": 11,
+        "imply": [
+            "Congruent(Triangle(C,E,F), Triangle(B, E ,A))"
+        ]
+    },
+    {
+        "line": 12,
+        "imply": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,F)))"
+        ]
+    },
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),SumOf(LengthOf(Line(C,D)),LengthOf(Line(C,F))),SumOf(LengthOf(Line(C,D)),LengthOf(Line(A,B))))"
+        ]
+    }
+]

@@ -1,0 +1,78 @@
+[{
+        "line": 1,
+        "action": "Take the midpoint $F$ of $AC$, connect $FB$"
+    },
+
+    {
+        "line": 2,
+        "given": "$B$ is the midpoint of $AD$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$FB \\parallel CD, FB = \\frac{1}{2}CD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AB = AC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle ABC = \\angle ACB$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle EBC = \\angle FCB$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$E$ is the midpoint of $AB$, $F$ is the midpoint of $AC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$FC = EB$"
+    },
+
+    {
+        "line": 9,
+        "given": "In $\\triangle EBC$ and $\\triangle FCB$, $EB = FC, \\angle EBC = \\angle FCB, BC = CB$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\triangle EBC \\cong \\triangle FCB $",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$CE = BF$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$FB = \\frac{1}{2}CD$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$CE = \\frac{1}{2}CD$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "imply": "$CD = 2CE$",
+        "from":[13]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$, $CB = CA$, $D$ is the midpoint of $AB$, $M$ is in $\\triangle ABC$, and $\\angle MAC = \\angle MBC$, add $ME, MF$ from $M$, make $ME \\perp BC$ at $E$, $MF \\perp AC$ at $F$, connect $DE, DF$",
+    "question": "Proof:$DE = DF$.",
+    "answer": "",
+    "source": "学而思-拓展2问题二"
+}

@@ -1,0 +1,18 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "BisectsAngle(Line(A,D),Angle(B,A,C))",
+        "PointLiesOnLine(Point(E),Line(B,D))",
+        "PointLiesOnLine(Point(F),Line(A,D))",
+        "IntersectAt(Circle(O),Line(A,C),Point(D))",
+        "IntersectAt(Circle(O),Line(B,C),Point(E))",
+        "Equals(LengthOf(Line(D,E)),LengthOf(Line(C,D)))",
+        "Parallel(Line(E,F), Line(A,B))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(E,F)),LengthOf(Line(A,C))))"
+    ],
+
+    "answer": []
+}

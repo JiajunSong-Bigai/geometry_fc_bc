@@ -1,0 +1,129 @@
+[
+    {
+        "line": 1,
+        "action": [
+            "BisectsAngle(Line($1),Angle(B,E,D))",
+            "IntersectAt(F, Line($1),Line(B,C))",
+            "AddParallelLineFromPoint(Line($2), A, Line(E,F))",
+            "IntersectAt(H, Line($2), Line(B,C))",
+            "IntersectAt(G, Line($2), Line(B,E))"
+        ]
+    },
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(E,A,G)),MeasureOf(Angle(D,E,F))",
+            "Equals(MeasureOf(Angle(D,E,F)),MeasureOf(Angle(B,E,F)))",
+            "Equals(MeasureOf(Angle(B,E,F)),MeasureOf(Angle(A,G,E)))",
+            "Equals(MeasureOf(Angle(A,G,E)),HalfOf(MeasureOf(Angle(B,A,C)))))"
+        ]
+    },
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(G,E)),LengthOf(Line(A,E)))"
+        ]
+    },
+    {
+        "line": 4,
+        "given": [
+            "Equals(MeasureOf(Angle(A,G,E)),HalfOf(MeasureOf(Angle(B,E,D))))",
+            "Equals(HalfOf(MeasureOf(Angle(B,E,D))),MeasureOf(Angle(C,E,D)))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,G,B)), MeasureOf(Angle(C,E,A)))"
+        ]
+    },
+    {
+        "line": 6,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(A,B,E)),MeasureOf(Angle(B,A,E))),MeasureOf(Angle(B,E,D)))",
+            "Equals(MeasureOf(Angle(B,E,D)),MeasureOf(Angle(B,A,C)))",
+            "Equals(MeasureOf(Angle(B,A,C)),SumOf(MeasureOf(Angle(C,A,E)),MeasureOf(Angle(B,A,E))))"
+        ]
+    },
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,G)), MeasureOf(Angle(C,A,E)))"
+        ]
+    },
+    {
+        "line": 8,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,A)))"
+        ]
+    },
+    {
+        "line": 9,
+        "imply": [
+            "Congruent(Triangle(A,B,G), Triangle(C,A,E))"
+        ]
+    },
+    {
+        "line": 10,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(A,E)))",
+            "Equals(LengthOf(Line(A,G)),LengthOf(Line(C,E)))"
+        ]
+    },
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(G,E)))"
+        ]
+    },
+    {
+        "line": 12,
+        "given": [
+            "Parallel(Line(A, H), Line(E,F))"
+        ]
+    },
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(B,H)),LengthOf(Line(H,F)))",
+            "Equals(LengthOf(Line(G,H)),HalfOf(LengthOf(Line(E,F))))"
+        ]
+    },
+    {
+        "line": 14,
+        "given": [
+            "Equals(Div(LengthOf(Line(A,H)),LengthOf(Line(E,F))),Div(LengthOf(Line(H,D)),LengthOf(Line(F,D))))"
+        ]
+    },
+    {
+        "line": 15,
+        "given": [
+            "Equals(MeasureOf(Angle(C,E,D)), MeasureOf(Angle(F,E,D)))"
+        ]
+    },
+    {
+        "line": 16,
+        "imply": [
+            "Equals(Div(LengthOf(Line(C,D)),LengthOf(Line(F,D))), Div(LengthOf(Line(E,C)),LengthOf(Line(E,F))),",
+            "Equals(Div(LengthOf(Line(E,C)),LengthOf(Line(E,F))), Div(LengthOf(Line(A,G)),LengthOf(Line(E,F))))",
+            "Equals(Div(LengthOf(Line(A,G)),LengthOf(Line(E,F))), Div(Sub(LengthOf(Line(A,H)),LengthOf(Line(G,H))),LengthOf(Line(E,F))))",
+            "Equals(Div(Sub(LengthOf(Line(A,H)),LengthOf(Line(G,H))),LengthOf(Line(E,F))), Sub(Div(LengthOf(Line(A,H)),LengthOf(Line(E,F))),HalfOf(1)))",
+            "Equals(Sub(Div(LengthOf(Line(A,H)),LengthOf(Line(E,F))),HalfOf(1)), Sub(Div(LengthOf(Line(H,D)),LengthOf(Line(F,D))),HalfOf(1))))"
+        ]
+    },
+    {
+        "line": 17,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)), Sub(LengthOf(Line(H,D)),HalfOf(LengthOf(Line(F,D))))",
+            "Equals(Sub(LengthOf(Line(H,D)), HalfOf(LengthOf(Line(F,D)))), SumOf(LengthOf(Line(H,F)),HalfOf(LengthOf(Line(F,D)))))",
+            "Equals(SumOf(LengthOf(Line(H,F)),HalfOf(LengthOf(Line(F,D)))), SumOf(HalfOf(LengthOf(Line(B,F))),HalfOf(LengthOf(Line(F,D)))))",
+            "Equals(SumOf(HalfOf(LengthOf(Line(B,F))),HalfOf(LengthOf(Line(F,D)))), HalfOf(LengthOf(Line(B,D)))))"
+        ]
+    },
+    {
+        "line": 18,
+        "imply": [
+            "Equals(Line(B,D)),Mul(2,LengthOf(Line(C,D))))"
+        ]
+    }
+]

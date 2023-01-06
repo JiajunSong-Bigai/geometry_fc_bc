@@ -1,0 +1,62 @@
+[{
+        "line": 1,
+        "action": "Extend $ED$ to $G$, make $DG$ = DE$, connect $CG$."
+    },
+
+    {
+        "line": 2,
+        "given": "$D$ is midpoint of $BC$."
+    },
+
+    {
+        "line": 3,
+        "imply": "$BD = CD$",
+        "from":[4]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle BDE = \\angle CDG$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle BED \\cong \\triangle CGD$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle BED = \\angle DGC, BE = CG$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AF = EF$"
+    },
+
+    {
+        "line":8,
+        "imply": "$\\angle FAE = \\angle AEF = \\angle BEG$",
+        "from":[7]
+    },
+
+    {
+        "line":9,
+        "imply": "$\\angle DGC = \\angle EAF$",
+        "from":[6,8]
+    },
+
+    {
+        "line":10,
+        "imply": "$AC = GC$",
+        "from":[9]
+    },
+
+    {
+        "line":11,
+        "imply": "$AC = BE$",
+        "from":[10]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Quadrilateral (A,B,C,D)",
+        "Equals(MeasureOf(Angle(B,A,D)), 90)",
+        "Equals(MeasureOf(Angle(D,C,B)), 90)",
+        "IsMidpointOf(Point(E),Line(B, D))",
+        "IsMidpointOf(Point(F),Line(A, C))"
+    ],
+
+    "question": [
+        "Proof(Perpendicular(Line(E,F),Line(A,C)))"
+    ],
+
+    "answer": []
+}

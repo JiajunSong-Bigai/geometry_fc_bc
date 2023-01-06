@@ -1,0 +1,16 @@
+[{
+        "line": 1,
+        "given": "In $\\triangle ABC$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$BC < AB + AC$."
+    },
+
+    {
+        "line": 3,
+        "imply": "$BP + PC < AB + AC$",
+        "from":[2]
+    }
+]

@@ -1,0 +1,60 @@
+[{
+        "line": 1,
+        "action": [
+            "Perpendicular(Line(C,D), Line(A,B))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,D,C)),90)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Equals(MeasureOf(Angle(A,C,B)), 90)"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(C,A,F)), MeasureOf(Angle(C,F,A))),90)",
+            "Equals(SumOf(MeasureOf(Angle(D,A,E)), MeasureOf(Angle(A,E,D))),90)"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "BisectsAngle(Line(A,F),Angle(C,A,B))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,A,F)), MeasureOf(Angle(D,A,E)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,A)), MeasureOf(Angle(A,E,D)))",
+            "Equals(MeasureOf(Angle(A,E,D)), MeasureOf(Angle(C,E,F)))",
+            "Equals(MeasureOf(Angle(C,F,A)), MeasureOf(Angle(C,E,F)))"
+
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(C,E)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

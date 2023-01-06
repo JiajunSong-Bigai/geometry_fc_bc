@@ -1,0 +1,21 @@
+[{
+        "line": 1,
+        "given": [
+            "Triangle(A,B,C)"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "LessThan(LengthOf(Line(B,C)),SumOf(LengthOf(Line(A,B)), LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "LessThan(SumOf(LengthOf(Line(B,P)), LengthOf(Line(P,C))),SumOf(LengthOf(Line(A,B)), LengthOf(Line(A,C))))"
+        ]
+    }
+]

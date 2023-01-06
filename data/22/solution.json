@@ -1,0 +1,68 @@
+[{
+        "line": 1,
+        "action": "Add $FM$ from $F$, make $FM \\parallel AC$, intersect with $BC$ at $M$."
+    },
+
+    {
+        "line": 2,
+        "given": "$F$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$BM = CM , FM = \\frac{1}{2}AC$",
+        "from":[1]
+    },
+
+    {
+        "line": 4,
+        "given": "$CD = BC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$CM = \\frac{1}{2}CD$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$CD = \\frac{2}{3}DM$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$FM \\parallel AC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle CED = \\angle MFD, \\angle ECD = \\angle FMD$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\tirangle FMD \\sim \\triangle ECD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\frac{EC}{FM} = \\frac{DC}{DM}=\\frac{2}{3}$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$EC = \\frac{2}{3}FM = \\frac{2}{3} \\times \\frac{1}{2}AC = \\frac{1}{3}AC$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\frac{AE}{AC} = \\frac{AC - EC}{AC} = \\frac{AC - \\frac{1}{3}AC}{AC} = \\frac{2}{3}$",
+        "from":[11]
+    }
+]

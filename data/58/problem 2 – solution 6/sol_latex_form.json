@@ -1,0 +1,114 @@
+[{
+        "line": 1,
+        "action": "Add $CQ$ perpendicular to $AD$ from $C$ at $H$, intersect with $AB$ at $Q$. "
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle AHQ = \\angle AHC = 90$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle BAD + \\angle AQC = \\angle DAC + \\angle ACQ$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AD$ bisects $\\angle BAC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle BAD = \\angle DAC$",
+        "from":[4]
+    },
+    
+    {
+        "line": 6,
+        "imply": "$\\angle AQC = \\angle ACQ$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$AQ = AC, QH = HC$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "action": "Connect $EH$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$EH = \\frac{1}{2}BQ$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "$GE \\parallel AH$"
+    },
+
+    {
+        "line": 11,
+        "imply": "Quadrilateral $GEHA$ is parallelogram",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$EH = AG$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$BQ = 2 AG$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "given": "$EF \\parallel AD, \\angle BAD = \\angle DAC$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\angle EFC = \\angle DAC, \\angle FGA = \\angle BAD$",
+        "from":[9]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\angle FGA = \\angle EFC$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$AG = AF, BQ = 2 AF$",
+        "from":[16]
+    },
+
+    {
+        "line": 18,
+        "given": "$QG = AQ - AG = AC - AG = AC -AF, AG = AF$"
+    },
+
+    {
+        "line": 19,
+        "imply": "$BG = BQ + QG = 2AF + AC - AF = AC + AF = CF$",
+        "from":[18]
+    },
+
+    {
+        "line": 20,
+        "imply": "$BG = CF$",
+        "from":[19]
+    }
+]

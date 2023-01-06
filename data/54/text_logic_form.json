@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Isosceles(Right(Triangle(A,B,C)))",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "IsMidpointOf(Point(D),Line(B,C))",
+        "PointLiesOnLine(E,Line(A,B))",
+        "PointLiesOnLine(F,Line(A,C))",
+        "Perpendicular(Line(D,E), Line(D,F))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(D,E)),LengthOf(Line(D,F))))"
+    ],
+
+    "answer": []
+}

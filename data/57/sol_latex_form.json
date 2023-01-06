@@ -1,0 +1,61 @@
+[{
+        "line": 1,
+        "action": "Extend $EM$ to $D$, make $MD = EM$, connect $CD, FD$"
+    },
+
+    {
+        "line": 2,
+        "given": "$\\triangle BEM$ and $\\triangle CDM$,$BM = CM, \\angle BME = \\angle CMD, EM = DM$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle BEM \\cong \\triangle CDM$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$BE = CD$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle BME = \\angle EMA, \\angle AMF = \\angle FMC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle EMA + \\angle AMF = \\angle BME + \\angle FMC = 90$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$FM \\perp ED$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$EM = MD$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$EF = FD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "In $\\triangle CFD$, $CF + CD > FD$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$BE + CF > EF$",
+        "from":[10]
+    }
+]

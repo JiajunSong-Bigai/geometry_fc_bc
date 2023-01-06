@@ -1,0 +1,64 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(E,G),E)",
+            "Parallel(Line(E,G), Line(A,F))",
+            "IntersectAt(Line(E,G),Line(B,C),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Similar(Triangle(B,C,F), Triangle(G,C,E))",
+            "Similar(Triangle(A,B,D), Triangle(E,G,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(Div(LengthOf(Line(F,B)),LengthOf(Line(E,G))),Div(LengthOf(Line(B,C)),LengthOf(Line(C,G))),Div(LengthOf(Line(C,F)),LengthOf(Line(C,E))))",
+            "Equals(Div(LengthOf(Line(A,B)),LengthOf(Line(E,G))),Div(LengthOf(Line(B,D)),LengthOf(Line(D,G))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "IsMidpointOf(Point(D),Line(B,C))",
+            "Equals(LengthOf(Line(E,C)),Mul(Div(1,4),LengthOf(Line(C,F))))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(B,D)),LengthOf(Line(C,D)))",
+            "Equals(LengthOf(Line(C,G)),Mul(Div(1,4),LengthOf(Line(B,C))))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(D,G)),HalfOf(LengthOf(Line(B,D))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(B,F)),Mul(4,LengthOf(Line(G,E))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "ExtendLine(Line(A,B),Line($1)",
+            "PointLiesOnLine(Point(F),Line($1))",
+            "Equals(LengthOf(Line(B,F)),Mul(2,LengthOf(Line(A,B))))"
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[{
+        "line": 1,
+        "given": "$CD \\perp AB$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle ADC = 90$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$\\angle ACB = 90$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle CAF + \\angle CFA = 90, \\angle DAE + \\angle AED = 90$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$AF$ bisects $\\angle CAB$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle CAF = \\angle DAE$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle CFA = \\angle AED = \\angle CEF$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$CE = CF$",
+        "from":[7]
+    }
+]

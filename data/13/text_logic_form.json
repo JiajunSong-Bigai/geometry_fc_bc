@@ -1,0 +1,18 @@
+{
+    "problem": [
+        "Equilateral(Triangle(A,B,C))",
+        "PointLiesOnLine(Point(E),Line(B,C))",
+        "ExtendLine(Line(B,C), Line($1))",
+        "PointLiesOnLine(Point(G),Line($1))",
+        "AddLineFromPoint(Line($2),E)",
+        "Equals(MeasureOf(Angle(A,E,M)), 60)",
+        "BisectsAngle(Line($3),Angle(A,C,G))",
+        "IntersectAt(Line($2),Line($3),Point(M))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,E)),LengthOf(Line(E,M))))"
+    ],
+
+    "answer": []
+}

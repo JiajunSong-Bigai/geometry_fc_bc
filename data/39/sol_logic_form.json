@@ -1,0 +1,50 @@
+[{
+        "line": 1,
+        "given": [
+            "Parallel(Line(A, B), Line(D,F))"   
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(B,A,E)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Parallel(Line(A,D), Line(B,C))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(D,A,E)), MeasureOf(Angle(B,E,A)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,E)), MeasureOf(Angle(D,A,F)))",
+            "Equals(MeasureOf(Angle(C,E,F)), MeasureOf(Angle(B,E,A)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(C,E,F)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(C,E)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+[{
+        "line": 1,
+        "action": "Extend $BC$ to $F$, make $CF = CB$, connect $AF$"
+    },
+
+    {
+        "line": 2,
+        "given": "$AE = EB$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$CE = \\frac{1}{2}AF$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AB = AC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle ACB = \\angle ABC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$\\angle FCA = 180 - \\angle ACB, \\angle CBD = 180 - \\angle CBA$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle FCA = \\angle CBD$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$AB = AC, AB = BD$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$AC = BD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "In $\\triangle FCA$ and $\\triangle CBD$, $FC = CB, \\angle FCA = \\angle CBD, AC = DB$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\triangle FCA \\cong \\triangle CBD $",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$AF = DC$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "given": "$CE = \\frac{1}{2}AF$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$CE = \\frac{1}{2}CD$",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "imply": "$CD = 2CE$",
+        "from":[14]
+    }
+]

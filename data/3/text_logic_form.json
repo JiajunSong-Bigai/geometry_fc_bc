@@ -1,0 +1,12 @@
+{
+    "problem": [
+        "Quadrilateral(A,B,C,D)",
+        "Parallel(Line(A, B), Line(C, D))",
+        "IsMidpointOf(Point(E),Line(B,C))",
+        "BisectsAngle(Line(A,E),Angle(B,A,D))"
+    ],
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,D)),SumOf(LengthOf(Line(A,B)),LengthOf(Line(D,C)))))"
+    ],
+    "answer": []
+}

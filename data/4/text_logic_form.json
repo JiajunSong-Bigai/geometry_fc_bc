@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Equals(LengthOf(Equilateral(Triangle(A,B,C))),4)",
+        "IsMidpointOf(Point(D),Line(A, B))",
+        "IsMidpointOf(Point(E),Line(B,C))",
+        "AddPerpendicularLineFromPoint(Line($1), E, Line(A,C))",
+        "IntersectAt(F, Line($1),Line(A,C))",
+        "IsMidpointOf(Point(G),Line(E,F))",
+        "ConnectTwoPoints(Point(D),Point(G))"
+    ],
+    "question": [
+        "Proof(Equals(LengthOf(Line(E,F)),sqrt(3)))"
+    ],
+    "answer": []
+}

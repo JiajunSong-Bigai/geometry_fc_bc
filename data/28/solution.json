@@ -1,0 +1,108 @@
+[
+    {
+        "line": 1,
+        "action": "The bisector of $\\angle BED$ intersects $BC$ at $F$,add $AH $ from $A$, make $AF \\parallel EF$ intersect with $BE$ at $G$, intersect with $BC$ at $H$."
+    },
+    {
+        "line": 2,
+        "imply": "$\\angle EAG = \\angle DEF = \\angle BEF = \\angle AGE = \\frac{1}{2}\\angle BAC$",
+        "from": [
+            1
+        ]
+    },
+    {
+        "line": 3,
+        "imply": "$GE = AE$",
+        "from": [
+            2
+        ]
+    },
+    {
+        "line": 4,
+        "given": "$\\angle AGE = \\frac{1}{2}\\angle BED = \\angle CED$"
+    },
+    {
+        "line": 5,
+        "imply": "$\\angle AGB = \\angle CEA$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "given": "$\\angle ABE + \\angle BAE = \\angle BED = \\angle BAC = \\angle CAE + \\angle BAE$"
+    },
+    {
+        "line": 7,
+        "imply": "$\\angle BAG = \\angle CAE$",
+        "from": [
+            6
+        ]
+    },
+    {
+        "line": 8,
+        "given": "$AB = CA$"
+    },
+    {
+        "line": 9,
+        "imply": "$\\triangle ABG \\cong \\triangle CAE$",
+        "from": [
+            8
+        ]
+    },
+    {
+        "line": 10,
+        "imply": "$BG =  AE, AG = CE$",
+        "from": [
+            9
+        ]
+    },
+    {
+        "line": 11,
+        "imply": "$BG = GE$",
+        "from": [
+            10
+        ]
+    },
+    {
+        "line": 12,
+        "given": "$AH \\parallel EF$"
+    },
+    {
+        "line": 13,
+        "imply": "$BH = HF, GH = \\frac{1}{2}EF$",
+        "from": [
+            12
+        ]
+    },
+    {
+        "line": 14,
+        "given": "$\\frac{AH}{EF} = \\frac{HD}{FD}$"
+    },
+    {
+        "line": 15,
+        "given": "$\\angle CED = \\angle FED$"
+    },
+    {
+        "line": 16,
+        "imply": "$\\frac{CD}{FD} =\\frac{EC}{EF}=\\frac{AG}{EF} = \\frac{AH - GH}{EF} = \\frac{AH}{EF} - \\frac{1}{2} = \\frac{HD}{FD} - \\frac{1}{2}$",
+        "from": [
+            14,
+            15
+        ]
+    },
+    {
+        "line": 17,
+        "imply": "$CD = HD - \\frac{1}{2}FD = HF +\\frac{1}{2}FD = \\frac{1}{2}BF + \\frac{1}{2}FD = \\frac{1}{2}BD$",
+        "from": [
+            16
+        ]
+    },
+    {
+        "line": 18,
+        "imply": "$BD = 2CD$",
+        "from": [
+            17
+        ]
+    }
+]

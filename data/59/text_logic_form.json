@@ -1,0 +1,17 @@
+{
+    "problem": [
+       "Triangle(A,B,C)",
+       "Median(Line(A,D),Line(B,C))",
+       "PointLiesOnLine(E,Line(A,D))",
+       "ExtendLineToPoint(Line(B,E), F)",
+       "IntersectAt(Line(B,E),Line(A,C),Point(F))",
+       "PointLiesOnLine(F,Line(A,C))",
+       "Equals(LengthOf(Line(A,F)),LengthOf(Line(E,F)))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,C)),LengthOf(Line(B,E))))"
+    ],
+
+    "answer": []
+}

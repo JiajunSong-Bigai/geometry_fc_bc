@@ -1,0 +1,35 @@
+[{
+        "line": 1,
+        "given": "In $\\triangle ABC$ and $\\triangle MBF$,$\\angle ABD = \\angle MBD, BF = BF, \\angle AFB = \\angle MFB$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\triangle ABF \\cong MBF$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$BM = BA,AF = FM$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$CN = CA, NG = GA$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$MN = BM + BC + CN = AB + BC + CA,FG$ is the median of $\\triangle AMN$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$FG = \\frac{1}{2}MN = \\frac{1}{2}(AB + AC - BC)$",
+        "from":[5]
+    }
+]

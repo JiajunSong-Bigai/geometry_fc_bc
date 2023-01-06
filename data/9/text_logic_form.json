@@ -1,0 +1,22 @@
+{
+    "problem": [
+        "BisectsAngle(Line(B,D),OuterAngle($1))",
+        "BisectsAngle(Line(C,E),OuterAngle($2))",
+        "AddLineFromPoint(Line(A,F),A)",
+        "Perpendicular(Line(A,F),Line(B,D))",
+        "IntersectAt(Line(A,F),Line(B,D),Point(F))",
+        "Perpendicular(Line(A,G),Line(C,E))",
+        "IntersectAt(Line(,G),Line(C,E),Point(G))",
+        "ConnectTwoPoints(Point(F),Point(G))",
+        "ExtendLine(Line(A,F), Line($1))",
+        "ExtendLine(Line(A,G), Line($2))",
+        "IntersectAt(Line($1),Line(B,C),Point(M))",
+        "IntersectAt(Line($2),Line(B,C),Point(N))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(F,G)),HalfOf(SumOf(LengthOf(Line(A,B)),LengthOf(Line(B,C)),LengthOf(Line(A,C))))))"
+    ],
+
+    "answer": []
+}

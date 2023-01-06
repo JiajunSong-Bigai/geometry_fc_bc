@@ -1,0 +1,53 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1347.85,
+                1097.69
+            ],
+            "B": [
+                888.32,
+                1893.34
+            ],
+            "C": [
+                1584.32,
+                1476.17
+            ],
+            "P": [
+                1246.4,
+                1678.59
+            ]
+        },
+        "line_instances": [
+            "A_B",
+            "A_C",
+            "A_P",
+            "B_P",
+            "P_C",
+            "B_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(Point(P),Line(A,H))",
+            "PointLiesOnLine(Point(P),Line(B,C))"
+        ]
+    },
+    {
+        "point_positions": {
+            "H": [
+                1131.65,
+                2343.42
+            ]
+        },
+        "line_instances": [
+            "B_H",
+            "P_H",
+            "C_H",
+            "A_H"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": []
+    }
+]

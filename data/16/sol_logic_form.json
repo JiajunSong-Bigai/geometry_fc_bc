@@ -1,0 +1,53 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(A,P), H)",
+            "Equals(LengthOf(Line(P,H)),LengthOf(Line(A,P)))",
+            "ConnectTwoPoints(Point(B),Point(H))",
+            "ConnectTwoPoints(Point(H),Point(C))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(LengthOf(Line(B,P)),LengthOf(Line(P,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Parallelogram(A,B,C,D)"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(H,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Triangle(A,C,H)",
+            "LessThan(LengthOf(Line(A,H)),SumOf(LengthOf(Line(H,C)),LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "LessThan(Mul(2,LengthOf(Line(A,P))),SumOf(LengthOf(Line(A,B)),LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "LessThan(LengthOf(Line(A,P)),HalfOf(SumOf(LengthOf(Line(A,B)),LengthOf(Line(A,C)))))"
+        ]
+    }
+]

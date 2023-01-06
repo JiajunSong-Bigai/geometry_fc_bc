@@ -1,0 +1,74 @@
+[{
+        "line": 1,
+        "given": [
+            "IsPerpendicularBisectorOf(Line(A,H),Line(P,C))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(LengthOf(Line(P,A)),LengthOf(Line(A,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+           "Equilateral(Triangle(A,B,C))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(P,A)),LengthOf(Line(A,B)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "BisectsAngle(Line(A,D),Angle(P,A,B))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(P,A,D)), MeasureOf(Angle(B,A,D)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Triangle(P,A,D)" ,
+            "Triangle(B,A,D)" ,
+            "Equals(LengthOf(Line(P,A)),LengthOf(Line(B,A)))",
+            "Equals(MeasureOf(Angle(P,A,D)), MeasureOf(Angle(B,A,D)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,D)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Congruent(Triangle(P,A,D), Triangle(B,A,D))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(LengthOf(Line(D,P)),LengthOf(Line(D,B)))"
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,$O$ is on $BC$,$\\angle BAO = 30, \\angle OAC = 75, AO = 3\\sqrt{3},BO : CO = 1:3$,add $BD$ from $B$, make $BD \\parallel AC$, intersect with extension line of $AO$ at $D$.",
+    "question": "Find:The measure of $\\angle ADB$,and the length $AB$.",
+    "answer": "",
+    "source": "几何辅助线-9.1-5"
+}

@@ -1,0 +1,70 @@
+[{
+        "line": 1,
+        "action": "Add $CG$ from $C$,make make $CG \\parallel DB$ intersect with extension line of $AB$ at $G$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$DCGB$ is parallelogram",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$CG = BD,\\angle DBA = \\angle CGA$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AC = BD$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$AC = CG$",
+        "from": [3,4]
+    },
+    
+    {
+        "line": 6,
+        "imply": "$\\angle CAB = \\angle CGA$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle DBA = \\angle CAB$",
+        "from":[3,7]
+    },
+
+    {
+        "line": 8,
+        "given": "In $\\triangle ABD , \\triangle BAC$"
+    },
+
+    {
+        "line": 9,
+        "given": "$\\angle DBA = \\angle CAB,BD =AC,AB = AB$"
+    },
+
+    {
+        "line":10,
+        "imply":"$\\triangle ABD \\cong \\triangle BAC$",
+        "from":[5,8,9]
+    },
+    
+    {
+        "line":11,
+        "imply":"$AD = BC$",
+        "from":[10]
+    },
+
+    {
+        "line":12,
+        "imply":"$trapezoidal $ABCD$ is sosceles trapezoidal$",
+        "from":[11]
+    }
+
+
+]

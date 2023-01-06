@@ -1,0 +1,6 @@
+{
+    "problem": "$D$ is the midpoint of $BC$ side of $\\triangle ABC$, make a straight line through point $D$, intersecting $AC$ at $E$ and $AB$ at $F$.",
+    "question": "Proof: $ \\frac{AE}{EC} = \\frac{AF}{BF}$.",
+    "answer": "",
+    "source": "巧添辅助线-02-例1"
+}

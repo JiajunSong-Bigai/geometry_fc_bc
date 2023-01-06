@@ -1,0 +1,62 @@
+[{
+        "line": 1,
+        "action": "Extend $FE$ to $H$, make $HE = FE$, connect $BH$."
+    },
+
+    {
+        "line": 2,
+        "given": "In $\\triangle CEF$ and $\\triangle BEH$, $CE = BE, \\angle CEF = \\angle BEH, FE = HE$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle CEF \\cong \\triangle BEH$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle EFC = = \\angle BHE, CF = BH$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$AD$ bisects $\\angle BAC$"
+    },
+    
+    {
+        "line": 6,
+        "imply": "$\\angle BAD = \\angle DAC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AD \\parallel EF$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle BGH = \\angle BAD, \\angle DAC = \\angle EFC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle BHE = \\angle BGH$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$BG = BH$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$BG = CF$",
+        "from":[10]
+    }
+]

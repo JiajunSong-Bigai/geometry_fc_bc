@@ -1,0 +1,62 @@
+[{
+        "line": 1,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(B,A,C)), MeasureOf(Angle(A,B,C))),90)",
+            "Equals(SumOf(MeasureOf(Angle(C,E,F)), MeasureOf(Angle(E,F,C))),90)",
+            "Equals(MeasureOf(Angle(C,E,F)), MeasureOf(Angle(B,A,C)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,C)), MeasureOf(Angle(E,F,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "IsMidpointOf(Point(D),Line(A, B))",
+            "IsMidpointOf(Point(E),Line(A, C))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Parallel(Line(D,E), Line(B,C))",
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(C,E)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(MeasureOf(Angle(A,D,E)), MeasureOf(Angle(A,B,C)))",
+            "Equals(MeasureOf(Angle(A,E,D)), MeasureOf(Angle(A,C,B)))",
+            "Equals(MeasureOf(Angle(A,E,D)), 90)"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,D,E)), MeasureOf(Angle(E,F,C)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Congruent(Triangle(A,D,E), Triangle(E,F,C))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

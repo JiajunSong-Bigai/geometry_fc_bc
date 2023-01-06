@@ -1,0 +1,20 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(MeasureOf(Angle(A,C,B)), 90)",
+        "Equals(LengthOf(Line(A,C)),m)",
+        "Equals(LengthOf(Line(B,C)),n)",
+        "MoreThan(m,n)",
+        "PointLiesOnLine(Point(P),Line(A,B))",
+        "FordTriangleAlongLineTo(Triangle(A,C,P),Line(C,P),Triangle(Q,C,P))",
+        "Equals(m,4)",
+        "Equals(n,3)",
+        "Perpendicular(Line(P,Q),Line(A,B))"
+    ],
+
+    "question": [
+        "Find(LengthOf(Line(B,P)))"
+    ],
+
+    "answer": []
+}

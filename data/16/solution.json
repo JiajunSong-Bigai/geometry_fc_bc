@@ -1,0 +1,40 @@
+[{
+        "line": 1,
+        "action": "Extend $AP$ to $H$,make $PH = AP$, connnect $BH,HC$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$BP = PC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "Quadrilateral $ABCD$ is parallelogram",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$AB = BC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "In $\\triangle ACH,AH < BC + AC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$2AP < AB + AC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$AP < \\frac{1}{2}(AB + AC)$",
+        "from":[6]
+    }
+]

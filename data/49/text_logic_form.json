@@ -1,0 +1,20 @@
+{
+    "problem": [
+        "Quadrilateral (A,B,C,D)",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,D)))",
+        "IsMidpointOf(Point(E),Line(B,C))",
+        "IsMidpointOf(Point(F),Line(A,D))",
+        "ConnectTwoPoints(Point(E),Point(F))",
+        "ExtendLine(Line(E,F), Line(E,M))",
+        "ExtendLine(Line(B,A), Line(B,M))",
+        "ExtendLine(Line(C,D), Line(C,N))",
+        "IntersectAt(Line(B,M),Line(E,M),Point(M))",
+        "IntersectAt(Line(E,M),Line(C,N),Point(N))"
+    ],
+
+    "question": [
+        "Proof(Equals(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(C,N,E))))"
+    ],
+
+    "answer": []
+}

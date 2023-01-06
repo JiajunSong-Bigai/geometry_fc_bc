@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Acute(Triangle(A,B,C))",
+        "IsMidpointOf(Point(D),Line(B,C))",
+        "PointLiesOnLine(Point(F),Line(A,B))",
+        "ConnectTwoPoints(Point(C),Point(F))",
+        "IntersectAt(Line(C,F),Line(A,D),Point(E))",
+        "Equals(LengthOf(Line(E,C)),Mul(Div(1,4),LengthOf(Line(C,F))))"
+    ],
+
+    "question": [
+        "Find(PositionOfPoint(Point(F)))"
+    ],
+
+    "answer": []
+}

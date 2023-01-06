@@ -1,0 +1,69 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(C,D),C)",
+            "Perpendicular(Line(C,D),Line(C,E))",
+            "ExtendLine(Line(E,F), Line($1))",
+            "IntersectAt(Line(C,D),Line($1),Point(D))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(A,B,E)), MeasureOf(Angle(A,E,B))), 90)",
+            "Equals(SumOf(MeasureOf(Angle(C,E,D)), MeasureOf(Angle(A,E,B))), 90)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(A,B,E)), MeasureOf(Angle(C,E,D))))"
+
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Similar(Right(Triangle(A,B,E)), Right(Triangle(C,E,D)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(Div(AreaOf(Triangle(C,E,D)),AreaOf(Triangle(A,B,E))),SquareOf(Div(LengthOf(Line(C,E)),LengthOf(Line(A,B)))),Div(1,4))",
+            "Equals(Div(LengthOf(Line(C,E)),LengthOf(Line(C,D))),Div(LengthOf(Line(A,B)),LengthOf(Line(A,E))),2"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "BisectsAngle(Line(F,C),Angle(E,C,D))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "given": [
+            "Equals(Div(LengthOf(Line(E,F)),LengthOf(Line(F,D))),Div(LengthOf(Line(C,E)),LengthOf(Line(C,D))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(Div(Area(Triangle(C,E,F)),Area(Triangle(C,D,F))),Div(LengthOf(Line(E,F)),LengthOf(Line(F,D))),2)"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(Area(Triangle(C,E,F)),,Mul(Div(2,3),Area(Triangle(C,D,E))),Mul(Div(2,3),Div(1,4),Area(Triangle(A,B,E))),Mul(Div(2,3),Div(1,4),HalfOf(Area(Triangle(A,B,C)))),Div(1,24))"
+        ]
+    }
+]

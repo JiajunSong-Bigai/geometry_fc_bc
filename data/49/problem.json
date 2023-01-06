@@ -1,0 +1,6 @@
+{
+    "problem": "In quadrilateral $ABCD$, $AB = CD$, $E,F$ are the midpoints of $BC,AD$ respectively, connect $EF$ and extend to intersect with the extension of $BA,CD$ at $M,N$ respectively.",
+    "question": "Proof:$\\angle BME = \\angle CNE$.",
+    "answer": "",
+    "source": "学而思-例题9"
+}

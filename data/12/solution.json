@@ -1,0 +1,56 @@
+[{
+        "line": 1,
+        "given": "$AH$ is perpendicular bisector of $PC$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$PA = AC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$\\tiangle ABC$ is equilateral triangle"
+    },
+
+    {
+        "line": 4,
+        "imply": "$AB = AC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$PA = AB $",
+        "from":[2,4]
+    },
+
+    {
+        "line": 6,
+        "given": "$AD$ bisects $\\angle PAB$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle PAD = \\angle BAD$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "In $\\triangle PAD$ and $\\triangle BAD$, $PA = BA,\\angle PAD = \\angle BAD, AD = AD$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\triangle PAD \\cong \\triangle BAD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$DP = DB$",
+        "from":[9]
+    }
+]

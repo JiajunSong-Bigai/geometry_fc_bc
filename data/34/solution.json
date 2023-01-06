@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "action": "Add $CD from $C$, make $CD \\perp CE$ intersect with extension line of $EF$ at $D$."
+    },
+
+    {
+        "line": 2,
+        "given": "$\\angle ABE + \\angle AEB = 90, \\angle CED + \\angle AEB = 90$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle ABE = \\angle CED$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$Rt\\triangle ABE \\sim Rt\\triangle CED",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\frac{S_{\\triangle CED}}{S_{\\triangle ABE}} = (\\frac{CE}{AB})^{2} = \\frac{1}{4}.\\frac{CE}{CD} = \\frac{AB}{AE} = 2$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$FC$ bisects $\\angle ECD$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\frac{EF}{FD} = \\frac{CE}{CD}$",
+        "from":[7]
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\frac{S_{\\triangle CEF}}{S_{\\triangle CDF}} = \\frac{EF}{FD} = 2$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$S_{\\triangle CEF} = \\frac{2}{3}S_{\\triangle CDE} = \\frac{2}{3} \\cdot \\frac{1}{4}\\frac{1}{2}S_{\\triangle ABC} = \\frac{1}{24}$",
+        "from":[8]
+    }
+]

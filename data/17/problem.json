@@ -1,0 +1,6 @@
+{
+    "problem": "In isosceles trapezoid $ABCD$,$AD \\parallel BC, AD = 3, BC = 7,\\angle B = 60$,$P$ is on $BC$, add $\\angle APE$ from $E$, make $\\angle APE = \\angle B$, $PE$ intersect with $CD$ at $E$",
+    "question": "Proof:$\\triangle APB \\sim \\triangle PEC$.",
+    "answer": "",
+    "source": "几何辅助线-3.3-4"
+}

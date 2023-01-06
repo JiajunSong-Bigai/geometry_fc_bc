@@ -1,0 +1,74 @@
+[{
+        "line": 1,
+        "action": "Add $BP ,CQ$ from $B,C$ perpendicular to $EF$ at $P,Q$ respectively."
+    },
+
+    {
+        "line": 2,
+        "imply": "$BP \\parallel CQ$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle PBE = \\angle QCE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$BE = CE$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\tiangle BPE \\cong \\triangle CQE (AAS)$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$BP = CQ$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AD$ bisects $\\angle BAC$"
+    },
+    
+    {
+        "line": 8,
+        "imply": "$\\angle BAD = \\angle DAC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "$EF \\parallel AD, \\angle BAD =\\angle DAC$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle CFE = \\angle DAC, \\angle BGP = \\angle BAD$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\angle BGP = \\angle CFE$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\triangle BPG \\cong \\triangle CQF (AAS)$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$BG = CF$",
+        "from":[12]
+    }
+]

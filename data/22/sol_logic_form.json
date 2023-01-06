@@ -1,0 +1,88 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(F,M),F)",
+            "Parallel(Line(F,M),Line(A,C))",
+            "IntersectAt(Line(F,M),Line(B,C),Point(M))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "IsMidpointOf(Point(F),Line(A, B))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(B,M)),LengthOf(Line(C,M)))",
+            "Equals(LengthOf(Line(F,M)),HalfOf(LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(C,D)),LengthOf(Line(B,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(C,M)),HalfOf(LengthOf(Line(C,D))))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)),Mul(Div(2,3),LengthOf(Line(D,M))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "given": [
+            "Parallel(Line(F,M),Line(A,C))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,E,D)), MeasureOf(Angle(M,F,D)))",
+            "Equals(MeasureOf(Angle(E,C,D)), MeasureOf(Angle(F,M,D)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Similar(Triangle(F,M,D), Triangle(E,C,D))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(Div(LengthOf(Line(E,C)),LengthOf(Line(F,M))),Div(LengthOf(Line(D,C)),LengthOf(Line(D,M))),Div(2,3))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(E,C)),Mul(Div(2,3),LengthOf(Line(F,M))),Mul(Div(2,3),HalfOf(LengthOf(Line(A,C)))),Mul(Div(1,3),LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(A,C))),Div(Sub(LengthOf(Line(A,C)),LengthOf(Line(E,C))),LengthOf(Line(A,C))),Div(Sub(LengthOf(Line(A,C)),Mul(Div(1,3),LengthOf(Line(A,C)))),LengthOf(Line(A,C))),Div(2,3))"
+        ]
+    }
+]

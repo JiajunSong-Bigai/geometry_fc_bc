@@ -1,0 +1,89 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(B,D),B)",
+            "Parallel(Line(B,D),Line(A,C))",
+            "ExtendLine(Line(A,O),Line($1)",
+            "IntersectAt(Line(B,D),Line($1),Point(D))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Parallel(Line(B,D),Line(A,C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,D,B)), MeasureOf(Angle(O,A,C)),75)"
+        ]
+    },
+
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(MeasureOf(Angle(B,O,D)), MeasureOf(Angle(C,O,A)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Similar(Triangle(B,O,D), Triangle(C,O,A))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(Div(LengthOf(Line(O,D)),LengthOf(Line(O,A))),Div(LengthOf(Line(O,B)),LengthOf(Line(O,C))),Div(1,3))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "given": [
+            "Equals(LengthOf(Line(A,O)),Mul(3,Sqrt(3)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(O,D)),Sqrt(3))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(A,D))SumOf(LengthOf(Line(A,O)),LengthOf(Line(O,D))),Mul(4,Sqrt(3)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "given": [
+            "Equals(MeasureOf(Angle(B,A,D)),30)",
+            "Equals(MeasureOf(Angle(A,D,B)),75)"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,D)), Sub(180,MeasureOf(Angle(B,A,D)),MeasureOf(Angle(A,D,B))),75,MeasureOf(Angle(A,D,B)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,D)),Mul(4,Sqrt(3)))"
+        ]
+    }
+]

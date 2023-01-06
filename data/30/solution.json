@@ -1,0 +1,118 @@
+[{
+        "line": 1,
+        "action": "Connect $AD$,take the midpoint $F$ of $AD$,connect $EF$."
+    },
+
+    {
+        "line": 2,
+        "given": "$AC = BC,CN = CM$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$Rt\\triangle ACN \\cong Rt\\triangle BCM$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle NAC = \\angle MBC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle 3 =\\angle 6$",
+        "from":[4]
+    },
+    
+    {
+        "line": 6,
+        "given": "$BM = DM,CM = AM,\\angle BMC = AMD$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\triangle BCM \\cong \\triangle DAM$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$AD = BC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "$\\angle ADM = \\angle MBC$"
+    },
+    
+    {
+        "line":10,
+        "imply":"$\\angle 2 = \\angle 6$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\angle ADM = \\angle CAN$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "$AD \\parallel BC$"
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\angle 2 = \\angle 3, \\angle 4 = \\angle 5$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "given": "$AE = AN,\\angle ANC = \\angle EAF,AF = NC$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\triangle AEF \\cong \\triangle NAC$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\angle EFA = \\angle C = 90$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "given": "$AF = FD$"
+    },
+
+    {
+        "line": 18,
+        "imply": "$\\angle EDF = \\angle EAF = \\angle ANC$",
+        "from":[17]
+    },
+
+    {
+        "line": 19,
+        "given": "$\\angle NAC + \\angle ANC = 90$"
+    },
+
+    {
+        "line": 20,
+        "imply": "$\\angle EDF + \\angle ADM = 90$",
+        "from":[19]
+    },
+
+    {
+        "line": 21,
+        "imply": "$BD \\perp DE$",
+        "from":[20]
+    }
+]

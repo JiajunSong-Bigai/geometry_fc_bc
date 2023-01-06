@@ -1,0 +1,93 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(B,G),Point(B))",
+            "ExtendLineToPoint(Line(E,D), Line(E,G)",
+            "Perpendicular(Line(B,G), Line(E,G))",
+            "IntersectAt(Line(B,G),Line(E,G),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Congruent(Triangle(C,E,D), Triangle(B,G,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(C,E)),LengthOf(Line(B,G)))",
+            "Equals(LengthOf(Line(E,G)),Mul(2,LengthOf(Line(D,E))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "action": [
+            "ConnectTwoPoints(Point(A), Point(D))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Similar(Triangle(A,D,E), Triangle(D,C,E))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(D,E))),Div(LengthOf(Line(E,D)),LengthOf(Line(E,C))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,F))),Div(Mul(2,LengthOf(Line(A,E)),LengthOf(Line(D,E))))",
+            "Equals(Div(Mul(2,LengthOf(Line(A,E)),LengthOf(Line(D,E))), Div(Mul(2,LengthOf(Line(D,E)),LengthOf(Line(E,C))))", 
+            "Equals(Div(Mul(2,LengthOf(Line(D,E)),LengthOf(Line(E,C))), Div(LengthOf(Line(E,G)),LengthOf(Line(B,G))))",
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,F))), Div(LengthOf(Line(E,G)),LengthOf(Line(B,G))))"            
+        ]
+    },
+    
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,F)),MeasureOf(Angle(E,G,B)))",
+            "Equals(MeasureOf(Angle(A,E,F)),90)"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Similar(Triangle(A,E,F),Triangle(E,G,B))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(MeasureOf(Angle(F,A,E)),MeasureOf(Angle(B,E,F)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(B,E,F)),MeasureOf(Angle(A,F,E))),SumOf(MeasureOf(Angle(F,A,E)),MeasureOf(Angle(A,F,E))))",
+            "Equals(SumOf(MeasureOf(Angle(B,E,F)),MeasureOf(Angle(A,F,E))),90)"          
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Perpendicular(Line(A,F), Line(B,E))"
+        ]
+    }
+]

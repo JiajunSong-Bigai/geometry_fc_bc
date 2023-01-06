@@ -1,0 +1,53 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1572.7,
+                1325.47
+            ],
+            "B": [
+                1849.55,
+                1792.53
+            ],
+            "C": [
+                899.96,
+                1792.74
+            ],
+            "D": [
+                783.03,
+                1558.72
+            ],
+            "E": [
+                1351.88,
+                1792.86
+            ]
+        },
+        "line_instances": [
+            "A_D",
+            "D_C",
+            "A_E",
+            "A_B",
+            "C_E",
+            "E_B",
+            "C_B"
+        ],
+        "arc_instances": [],
+        "circle_instances": []
+    },
+    {
+        "point_positions": {
+            "F": [
+                1132.46,
+                2253.69
+            ]
+        },
+        "line_instances": [
+            "C_F",
+            "E_F",
+            "A_F",
+            "D_F"
+        ],
+        "arc_instances": [],
+        "circle_instances": []
+    }
+]

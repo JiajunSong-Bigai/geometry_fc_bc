@@ -1,0 +1,54 @@
+[
+    {
+        "line": 1,
+        "action": [
+            "AddParallelLineFromPoint(Line($1), C, Line(P,Q))",
+            "IntersectAt(D, Line($1), Line(A, B))",
+            "AddParallelLineFromPoint(Line($2), M, Line(P,Q))",
+            "IntersectAt(K, Line($2), Line(A, B))"
+        ]
+    },
+    {
+        "line": 2,
+        "imply": [
+            "Parallel(Line(M,K), Line(C,D))"
+        ]
+    },
+    {
+        "line": 3,
+        "given": [
+            "Equals(LengthOf(Line(B,M)),LengthOf(Line(M,C)))"
+        ]
+    },
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(B,K)),LengthOf(Line(K,D)))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(A,K)),HalfOf(SumOf(LengthOf(Line(A,D)),LengthOf(Line(A,B)))))"
+        ]
+    },
+    {
+        "line": 6,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,K)),LengthOf(Line(A,P))),HalfOf(SumOf(Div(LengthOf(Line(A,D)),LengthOf(Line(A,P))),Div(LengthOf(Line(A,B)),LengthOf(Line(A,P))))))"
+        ]
+    },
+    {
+        "line": 7,
+        "given": [
+            "Equals(Div(LengthOf(Line(A,K)),LengthOf(Line(A,P))),Div(LengthOf(Line(A,M)),LengthOf(Line(A,N))))",
+            "Equals(Div(LengthOf(Line(A,D)),LengthOf(Line(A,P))),Div(LengthOf(Line(A,C)),LengthOf(Line(A,Q))))"
+        ]
+    },
+    {
+        "line": 8,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,M)),LengthOf(Line(A,N))),HalfOf(SumOf(Div(LengthOf(Line(A,B)),LengthOf(Line(A,P))),Div(LengthOf(Line(A,C)),LengthOf(Line(A,Q))))),HalfOf(SumOf(HalfOf(5),Div(4,3))),Div(23,12))"
+        ]
+    }
+]

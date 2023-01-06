@@ -1,0 +1,6 @@
+{
+    "problem": "$BD$ and $CE$ are outer corner bisectors of $\\triangle ABC$ respectively,add $AF$ from $A$,make $AF \\perp BD$ at $F$,$AG \\perp CE$ at $G$,connect $FG$,extend $AF,AG$, intersect with $CF$ at $M,N$.",
+    "question": "Proof:$FG = \\frac{1}{2}(AB + BC + AC)$",
+    "answer": "",
+    "source": "几何辅助线-2.4-4"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,extend $BC$ to $D$,make $CD = BC$,take the midpoint $F$ of $AB$,connect $FD$ intersect with $AC$ at $E$.",
+    "question": "Find:$\\frac{AE}{AC}$.",
+    "answer": "",
+    "source": "几何辅助线-9.1-2"
+}

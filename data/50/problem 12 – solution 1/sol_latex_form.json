@@ -1,0 +1,67 @@
+[{
+        "line": 1,
+        "action": "Extend $CE$ to $F$, make $EF = CE$, connect $BF$"
+    },
+
+    {
+        "line": 2,
+        "given": "$E$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AE = EB$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "In $\\triangle EAC$ and $\\triangle EBF$, $AE = BE, \\angle AEC = \\angle BEF, CE = FE$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle EAC \\cong \\triangle EBF $",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$AC = BF = AB = BD, \\angle CAB = \\angle EBF$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AB = AC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle ABC = \\angle ACB$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle FBC = \\angle FBE + \\angle EBC = \\angle CAB + \\angle ACB = \\angle DBC$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "In $\\triangle FBC$ and $\\triangle DBC$, $FB = DB, \\angle FBC = \\angle DBC, BC = BC$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\triangle FBC \\cong \\triangle DBC (SAS)$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$CF = CD = 2CE$",
+        "from":[11]
+    }
+]

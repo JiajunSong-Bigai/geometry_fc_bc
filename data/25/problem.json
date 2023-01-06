@@ -1,0 +1,6 @@
+{
+    "problem": "In $Rt\\triangle ABC$,$\\angle ACB = 90,CD \\perp AB$,$E$ is the midpoint of $AC$, the extension of $DE$ intersect with extension line of $BC$ at $F$.",
+    "question": "Proof:$\\triangle FDC \\sim \\triangle FBD$.",
+    "answer": "",
+    "source": "几何辅助线-9.3-3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "IsMidpointOf(Point(D),Line(A, B))",
+        "PointInTriangle(Point(M),Triangle(A,B,C))",
+        "Equals(MeasureOf(Angle(M,A,C)), MeasureOf(Angle(M,B,C)))",
+        "AddLineFromPoint(Line(M,E),Point(M))",
+        "AddLineFromPoint(Line(M,F),Point(M))",
+        "Perpendicular(Line(M,E),Line(B,C))",
+        "IntersectAt(Line(M,E),Line(B,C),Point(E))",
+        "Perpendicular(Line(M,F),Line(A,C))",
+        "IntersectAt(Line(M,F),Line(A,C),Point(F))",
+        "ConnectTwoPoints(Point(D),Point(E))",
+        "ConnectTwoPoints(Point(D),Point(F))"
+        
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(D,E)),LengthOf(Line(D,F))))"
+    ],
+
+    "answer": []
+}

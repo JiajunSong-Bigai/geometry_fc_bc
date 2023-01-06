@@ -1,0 +1,6 @@
+{
+    "problem": "$\\triangle ABC$ is isosceles right triangle,$\\angle C = 90$,$M,N$ is the midpoint of $AC,BC$ respectively,$D$ is on the $BM$,and $BD = 2BM$,$E$ is on the $NA$, and $NE = 2EA$.",
+    "question": "Prrof: $BD \\perp DE$.",
+    "answer": "",
+    "source": "几何题-例13"
+}

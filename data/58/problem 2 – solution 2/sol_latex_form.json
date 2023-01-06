@@ -1,0 +1,79 @@
+[{
+        "line": 1,
+        "action": "Take the midpoint $Q$ of $AB$, connect $EQ$."
+    },
+
+    {
+        "line": 2,
+        "imply": "EQ = \\frac{1}{2}AC, EQ \\parallel AC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle QEG = \\angle CFE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AD$ bisects $\\angle BAC$"
+    },
+
+
+    {
+        "line": 5,
+        "imply": "$\\angle BAD = \\angle DAC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$EF \\parallel AD$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle CFE = \\angle DAC = \\angle BAD$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$\\angle QGE = \\angle BAD, \\angle QGE = \\angle CFE, \\angle FGA = \\angle BAD$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle CFE = \\angle FGA, \\angle QGE = \\angle QEG$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$EQ = GQ, AF = AG$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$BQ = GQ + AG$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$BG = BQ + GQ = 2GQ + AG$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "given": "$2GQ = 2EQ = AC$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$BG = AC + AF = CF$",
+        "from":[13]
+    }
+]

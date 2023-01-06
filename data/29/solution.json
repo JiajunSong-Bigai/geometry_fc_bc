@@ -1,0 +1,134 @@
+[{
+        "line": 1,
+        "action": "Add the parallel line of $AB$ from $C$ intersect with extension line of $AF$ at $P$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$PC \\perp AC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "In $Rt\\triangle ABE$ and $Rt\\triangle CAP$"
+    },
+
+    {
+        "line": 4,
+        "given": "$AP \\perp BE,\\angle ABE = \\angle CAP$"
+    },
+
+    {
+        "line": 5,
+        "given": "$AB = AC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$Rt\\triangle ABE \\cong Rt\\\triangle CAP$",
+        "from":[4,5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle AEB = \\angle CPA, BE = AP$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "In $Rt\\triangle ABE$ and $\\Rt\\triangle ACD,AB = AC, AE = AD$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$Rt\\triangle ABE \\cong Rt\\triangle ACD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle ABE = \\angle ACD$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$\\angle AEB$ and $\\angle CMF$ are the cosine angle of $\\angle ABE$ and $\\angle ACD$ respectively"
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\angle AEB = \\angle CMF$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\angle FMC = \\angle CPA$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "imply": "$\\angle ACB = 45$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\angle FCP = 90 - 45 = 45$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\angle MCF = \\angle FCP$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "given": "$FC = FC$"
+    },
+
+    {
+        "line": 18,
+        "imply": "$\\triangle MCF cong \\triangle PCF$",
+        "from":[17]
+    },
+
+    {
+        "line": 19,
+        "imply": "$MF = PF$",
+        "from":[18]
+    },
+
+    {
+        "line": 20,
+        "given": "$\\angle AEB = \\angle CMF$"
+    },
+
+    {
+        "line": 21,
+        "imply": "$\\triangle MGE$ is a isosceles triangle",
+        "from":[20]
+    },
+
+    {
+        "line": 22,
+        "imply": "$EG = MG$",
+        "from":[21]
+    },
+
+    {
+        "line": 23,
+        "imply": "$BE + EG = AP + MG = AF + FP + MG = AF + FM + MG$",
+        "from":[7,19,22]
+    },
+    {
+        "line": 24,
+        "imply": "$BG = AF + FG$",
+        "from":[23]
+    }
+]

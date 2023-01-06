@@ -1,0 +1,12 @@
+{
+    "problem": [
+        "IntersectAt(Triangle(U,V,W),Triangle(X,Y,Z),,Point(A),Point(B),Point(C),Point(D),Point(E),Point(F))",
+        "Equals(Div(LengthOf(Line(A,B)),LengthOf(Line(U,V))),Div(LengthOf(Line(C,D)),LengthOf(Line(V,W))),Div(LengthOf(Line(E,F)),LengthOf(Line(W,U))))"
+    ],
+
+    "question": [
+        "Proof(Equals(Div(LengthOf(Line(B,C)),LengthOf(Line(X,Y))),Div(LengthOf(Line(D,E)),LengthOf(Line(Y,Z))),Div(LengthOf(Line(F,A)),LengthOf(Line(Z,X)))))"
+    ],
+
+    "answer": []
+}

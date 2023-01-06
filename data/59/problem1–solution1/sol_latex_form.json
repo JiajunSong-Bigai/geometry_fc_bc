@@ -1,0 +1,56 @@
+[{
+        "line": 1,
+        "action": "Extend $AD$ to $G$, make $DG = AD$, connect $BG$."
+    },
+
+    {
+        "line": 2,
+        "given": "$BD = CD, \\angle BDG = \\angle CDA, GD = AD$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle GDB \\cong \\triangle ADC$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$GB = AC, \\angle DGB = \\angle DAC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$AF = EF$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle EAF = \\angle AEF $",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle AEF = \\angle BED$"
+    },
+
+    {
+        "line":8,
+        "imply": "$\\angle DGB = \\angle BED$",
+        "from":[7]
+    },
+
+    {
+        "line":9,
+        "imply": "$BE = BG$",
+        "from":[8]
+    },
+
+    {
+        "line":10,
+        "imply": "$AC = BE$",
+        "from":[9]
+    }
+]

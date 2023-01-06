@@ -1,0 +1,14 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(MeasureOf(Angle(A,B,C)), Mul(2,MeasureOf(Angle(A,C,B))))",
+        "Perpendicular(Line(A,D),Line(B,C))",
+        "IsMidpointOf(Point(E),Line(B,C))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,B),Mul(2,LengthOf(Line(D,E)))))"
+    ],
+
+    "answer": []
+}

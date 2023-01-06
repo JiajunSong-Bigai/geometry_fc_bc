@@ -1,0 +1,101 @@
+[{
+        "line": 1,
+        "action": "Add $DF$ from $D$, make $DF \\paprallel CA$ intersect with $AB$ at $F$,take $G$ from $BD$, make $BG = DC$, connect $AG,FG$."
+    },
+
+    {
+        "line": 2,
+        "given": "$DF \\parallel DC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle BFD = \\angle BAC, FB = FD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AB = AC, \\angle ABG = \\angle ACD, BG = DC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle ABG \\cong \\triangle ACD$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$AG = AD, \\angle FAG = \\angle EAC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle ABE = \\angle BED - \\angle BAE = \\angle EAC = \\angle FDA$"
+    },
+
+    {
+        "line": 8,
+        "given": "$\\angle BAE = \\angle BAE$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\triangle ABE \\sim \\triangle ADF$",
+        "from":[7,8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\frac{AE}{AB} = \\frac{AF}{AD}$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\frac{AF}{AG} = \\frac{AE}{AC}$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "$\\angle FAG = \\angle EAC$"
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\triangle FAG \\sim \\triangle EAC$",
+        "from":[9]
+    },
+
+    {
+        "line": 14,
+        "given": "$\\angle AFG = \\angle AEC$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\angle BFG = \\angle DEC = \\frac{1}{2}BED = \\frac{1}{2}\\angle BAC = \\frac{1}{2}\\angle BFD$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\triangle BFG \\sim \\triangle DFG$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$BG = GD$",
+        "from":[16]
+    },
+
+    {
+        "line": 18,
+        "imply": "$BD = 2CD$",
+        "from":[17]
+    }
+]

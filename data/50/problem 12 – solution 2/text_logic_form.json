@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "Median(Line(C,E),Line(A,B))",
+        "ExtendLineToPoint(Line(A,B), Point(D))",
+        "Equals(LengthOf(Line(B,D)),LengthOf(Line(A,B)))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(C,D)),Mul(2,LengthOf(Line(C,E)))))"
+    ],
+
+    "answer": []
+}

@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "given": "$\\angle ACB = 90, CD \\perp AB$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle ACD + \\angle DCB = \\angle B + \\angle DCB = 90$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle ACB = \\angle B$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle ADC = 90$, $E$, is the midpoint of $AC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$DE = EC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle ACD = \\angle FDC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle FDC = \\angle B$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$\\angle F = \\angle F$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\triangle FDC sim \\triangle FBD$",
+        "from":[8]
+    }
+]

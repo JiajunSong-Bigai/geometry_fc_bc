@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Median(Line(B,D),Triangle(A,B,C))",
+        "Median(Line(C,E),Triangle(A,B,C))",
+        "IntersectAt(Line(B,D),Line(C,E),Point(O))",
+        "IsMidpointOf(Point(F),Line(B,O))",
+        "IsMidpointOf(Point(G),Line(C,O))"
+    ],
+
+    "question": [
+        "Proof(Parallel(Line(E,F),Line(D,G)))",
+        "Proof(Equals(LengthOf(Line(E,F)),LengthOf(Line(D,G))))"
+    ],
+
+    "answer": []
+}

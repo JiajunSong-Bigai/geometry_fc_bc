@@ -1,0 +1,28 @@
+[
+    {
+        "line": 1,
+        "given": "Add $DE$ from $D$, make $DE \\perp AB$ at $E$."
+    },
+    {
+        "line": 2,
+        "given": "$AD$ bisects $\\angle CAB$,$\\angle C = 90,DE \\perp AB$."
+    },
+    {
+        "line": 3,
+        "imply": "$DE = CD$",
+        "from": [
+            2
+        ]
+    },
+    {
+        "line": 4,
+        "given": "$CD = 3$"
+    },
+    {
+        "line": 5,
+        "imply": "$DE = 3$",
+        "from": [
+            4
+        ]
+    }
+]

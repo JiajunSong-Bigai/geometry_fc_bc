@@ -1,0 +1,11 @@
+{
+    "problem": [
+        "PointInTriangle(Point(O),Triangle(A,B,C))"
+    ],
+
+    "question": [
+        "Proof(MoreThan(Mul(2,SumOf(LengthOf(Line(A,O)),LengthOf(Line(B,O)),LengthOf(Line(C,O)))), SumOf(LengthOf(Line(A,B)),LengthOf(Line(B,C)),LengthOf(Line(A,C)))))"
+    ],
+
+    "answer": []
+}

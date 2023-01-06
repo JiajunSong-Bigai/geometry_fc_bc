@@ -1,0 +1,38 @@
+[
+    {
+        "line": 1,
+        "given": "$E$ is the midpoint of $BC$"
+    },
+    {
+        "line": 2,
+        "imply": "$EC = \\frac{1}{2}BC = 2$.",
+        "from": [
+            1
+        ]
+    },
+    {
+        "line": 3,
+        "given": "$\\triangle ABC$ is equilateral triangle"
+    },
+    {
+        "line": 4,
+        "imply": "$\\angle C = 90$",
+        "from": [
+            3
+        ]
+    },
+    {
+        "line": 5,
+        "given": "$EF \\perp AC$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "imply": "In $Rt\\triangle EFC$,$EF = EC \\cdot \\sin C = 2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3}$",
+        "from": [
+            5
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "problem": [
+        "Isosceles(Trapezoid(A,B,C,D))",
+        "Parallel(Line(A,D), Line(B,C))",
+        "Equals(LengthOf(Line(A,D)),3)",
+        "Equals(LengthOf(Line(B,C)),7)",
+        "Equals(MeasureOf(Angle(B)),60)",
+        "PointLiesOnLine(Point(P),Line(B,C))",
+        "ExtendLineToPoint(Line(P, E), P)",
+        "Equals(MeasureOf(Angle(A,P,E)), MeasureOf(Angle(B)))",
+        "IntersectAt(Line(P,E),Line(C,D),Point(E))"
+    ],
+
+    "question": [
+        "Proof(Similar(Triangle(A,P,B), Triangle(P,E,C)))"
+    ],
+
+    "answer": []
+}

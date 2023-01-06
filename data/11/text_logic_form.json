@@ -1,0 +1,12 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "PointLiesOnLine(Point(P),Line(B,C))"
+    ],
+
+    "question": [
+        "Proof(LessThan(SumOf(LengthOf(Line(B,P)), LengthOf(Line(P,C))),SumOf(LengthOf(Line(A,B)), LengthOf(Line(A,C)))))"
+    ],
+
+    "answer": []
+}

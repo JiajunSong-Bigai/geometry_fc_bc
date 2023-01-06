@@ -1,0 +1,102 @@
+[{
+        "line": 1,
+        "action": "Connect $AD$."
+    },
+
+    {
+        "line": 2,
+        "given": "$AB = AC, \\angle BAC = 90$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle ABC = \\angle ACB = 45$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$BD = DC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$AD = BD = DC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle DAB = \\angle DAC = 45$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$PE \\perp AB, PF \\perp AC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle PEA = \\angle EAF = \\angle AFP = 90$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "Quadrilateral $AEPF$ is rectangle",
+        "from":[7,8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$PE = AF$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$\\angle PEA = 90, \\angle ABC = 45$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\angle ABC = \\angle BPE = 45$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$BE = PE = AF$",
+        "from":[9]
+    },
+
+    {
+        "line": 14,
+        "given": "In $\\triangle BDE$ and $\\triangle ADF$, $BD = AD, \\angle ABC = \\angle DAF, BE = AF$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\triangle DBE \\cong \\triangle DAF$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$DE = DF, \\angle BDE = \\angle ADF$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$\\angle BDA = \\angle EDF = 90$",
+        "from":[16]
+    },
+
+    {
+        "line": 18,
+        "imply": "$\\triangle DEF$ is isosceles right triangle",
+        "from":[17]
+    }
+] 

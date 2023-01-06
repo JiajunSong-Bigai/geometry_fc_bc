@@ -1,0 +1,36 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(A),Point(P))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(AreaOf(Triangle(A,B,P)),SumOf(AreaOf(Triangle(A,B,C)),AreaOf(Triangle(A,C,P))))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(HalfOf(Mul(LengthOf(Line(A,B)),LengthOf(Line(P,M)))),SumOf(HalfOf(Mul(LengthOf(Line(A,B)),LengthOf(Line(C,G)))),HalfOf(Mul(LengthOf(Line(A,C)),LengthOf(Line(P,N))))))"
+        ]
+    },
+
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(P,M)),SumOf(LengthOf(Line(C,G)),LengthOf(Line(P,N))))"
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(E,M), D)",
+            "Equals(LengthOf(Line(M,D)),LengthOf(Line(E,M)))",
+            "ConnectTwoPoints(Point(C),Point(D))",
+            "ConnectTwoPoints(Point(F),Point(D))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Triangle(B,E,M)",
+            "Triangle(C,D,M)",
+            "Equals(LengthOf(Line(B,M)),LengthOf(Line(C,M)))",
+            "Equals(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(C,M,D)))",
+            "Equals(LengthOf(Line(E,M)),LengthOf(Line(D,M)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Congruent(Right(Triangle(B,E,M)), Right(Triangle(C,D,M)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(C,D)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(E,M,A)))",
+            "Equals(MeasureOf(Angle(A,M,F)), MeasureOf(Angle(F,M,C)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(E,M,A)), MeasureOf(Angle(A,M,F))),SumOf(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(F,M,C))))",
+            "Equals(SumOf(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(F,M,C))),90)"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Perpendicular(Line(F,M), Line(E,D))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(LengthOf(Line(E,M)),LengthOf(Line(M,D)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(F,D)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "given": [
+            "Triangle(C,F,D)",
+            "Gt(SumOf(LengthOf(Line(C,F)),LengthOf(Line(C,D))),LengthOf(Line(F,D)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Gt(SumOf(LengthOf(Line(B,E)),LengthOf(Line(C,F))),LengthOf(Line(E,F)))"
+        ]
+    }
+]

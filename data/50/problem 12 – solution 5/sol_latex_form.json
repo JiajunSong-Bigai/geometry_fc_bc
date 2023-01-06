@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "action": "Extend $AC$ to $F$, make $CF = AC$, connect $BF,DF$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$AF = 2AC = 2AB = AD$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "In $\\triangle ACD$ and $\\triangle ABF$, $AC = AB, \\angle A = \\angle A, AD = AF$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\triangle ACD \\cong \\triangle ABF (SAS)$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$CD = BF$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$E$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$CE$ is the median of $\\triangle ABF$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$CE = \\frac{1}{2}BF = \\frac{1}{2}CD$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$CD = 2CE$",
+        "from":[8]
+    }
+]

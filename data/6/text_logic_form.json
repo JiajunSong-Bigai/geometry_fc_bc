@@ -1,0 +1,12 @@
+{
+    "problem": [
+        "BisectsAngle(Line(B,D),InnerAngle(E,B,A))",
+        "BisectsAngle(Line(C,D),OuterAngle(E,C,A))",
+        "IntersectAt(Line(B,D),Line(A,C),Point(F))",
+        "ConnectTwoPoints(Point(A),Point(D))"
+    ],
+    "question": [
+        "Proof(Equals(MeasureOf(Angle(B,D,C)), HalfOf(MeasureOf(Angle(B,A,C)))))"
+    ],
+    "answer": []
+}

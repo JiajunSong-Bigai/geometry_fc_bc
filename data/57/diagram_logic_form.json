@@ -1,0 +1,93 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1447.7942675868958,
+                1281.0097334486134
+            ],
+            "B": [
+                713.0521059536737,
+                1976.7187177450705
+            ],
+            "C": [
+                1776.1321710667419,
+                1974.4226484899668
+            ],
+            "E": [
+                1009.2450398620664,
+                1696.5982686224047
+            ],
+            "F": [
+                1649.8483620360319,
+                1696.5982686224047
+            ],
+            "M": [
+                1234.2598268622405,
+                1974.4226484899668
+            ],
+            "Point1": [
+                1321.5104585561858,
+                1694.3021993673008
+            ]
+        },
+        "line_instances": [
+            "A_E",
+            "B_E",
+            "A_B",
+            "A_Point1",
+            "Point1_M",
+            "A_M",
+            "A_F",
+            "F_C",
+            "A_C",
+            "E_F",
+            "E_Point1",
+            "Point1_F",
+            "E_M",
+            "F_M",
+            "B_M",
+            "C_M",
+            "B_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(E,Line(A,B))",
+            "PointLiesOnLine(Point1,Line(E,F))",
+            "PointLiesOnLine(Point1,Line(A,M))",
+            "PointLiesOnLine(F,Line(A,C))",
+            "PointLiesOnLine(M,Line(B,C))"
+        ]
+    },
+    {
+        "point_positions": {
+            "D": [
+                1480.6071177832737,
+                2285.6741230010325
+            ],
+            "Point2": [
+                1565.561680222115,
+                1980.2969120722244
+            ]
+        },
+        "line_instances": [
+            "M_Point2",
+            "Point2_C",
+            "F_Point2",
+            "B_Point2",
+            "Point2_D",
+            "F_D",
+            "M_D",
+            "E_D",
+            "D_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(Point2,Line(B,C))",
+            "PointLiesOnLine(Point2,Line(F,D))",
+            "PointLiesOnLine(Point2,Line(M,C))",
+            "PointLiesOnLine(M,Line(E,D))"
+        ]
+    }
+]

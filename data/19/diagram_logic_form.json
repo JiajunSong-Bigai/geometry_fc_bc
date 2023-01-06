@@ -1,0 +1,76 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1370.92,
+                1157.53
+            ],
+            "B": [
+                912.2,
+                2299.68
+            ],
+            "C": [
+                1791.6,
+                2310.87
+            ],
+            "G": [
+                1043.99,
+                1980.08
+            ],
+            "M": [
+                989.73,
+                2111.07
+            ],
+            "N": [
+                1732.04,
+                2149.84
+            ],
+            "P": [
+                1370.8,
+                2305.43
+            ],
+            "Point2": [
+                1573.65,
+                2215.83
+            ]
+        },
+        "line_instances": [
+            "A_G",
+            "G_M",
+            "M_B",
+            "A_B",
+            "A_N",
+            "N_C",
+            "A_C",
+            "B_C",
+            "M_P",
+            "N_Point1",
+            "Point1_P",
+            "N_P",
+            "Point1_C",
+            "G_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": []
+    },
+    {
+        "point_positions": {
+            "Point2": [
+                1372.37,
+                2123.47
+            ]
+        },
+        "line_instances": [
+            "A_Point2",
+            "Point2_P",
+            "A_P",
+            "G_Point2",
+            "Point2_Point1",
+            "Point1_C",
+            "B_P",
+            "P_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": []
+    }
+]

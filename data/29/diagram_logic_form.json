@@ -1,0 +1,121 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1202.48,
+                1305.22
+            ],
+            "B": [
+                639.9,
+                1865.83
+            ],
+            "C": [
+                1770.63,
+                1859.48
+            ],
+            "D": [
+                993.79,
+                1510.27
+            ],
+            "E": [
+                1411.51,
+                1504.32
+            ],
+            "F": [
+                1469.77,
+                1858.98
+            ],
+            "G": [
+                1713.14,
+                1360.59
+            ],
+            "M": [
+                1568.84,
+                1658.29
+            ],
+            "Point1": [
+                1202.51,
+                1600.83
+            ],
+            "Point2": [
+                1317.95,
+                1549.74
+            ],
+            "Point3": [
+                1382.4,
+                1685.04
+            ],
+            "Point4": [
+                1524.21,
+                1751.62
+            ]
+        },
+        "line_instances": [
+            "A_D",
+            "D_B",
+            "A_B",
+            "A_E",
+            "E_M",
+            "M_C",
+            "A_C",
+            "G_E",
+            "E_Point2",
+            "Point2_Point1",
+            "Point1_B",
+            "G_B",
+            "G_M",
+            "M_Point4",
+            "Point4_F",
+            "G_F",
+            "A_Point2",
+            "Point2_Point3",
+            "Point3_F",
+            "D_Point1",
+            "Point1_Point3",
+            "Point3_Point4",
+            "Point4_C",
+            "D_C",
+            "B_F",
+            "F_C",
+            "B_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(Point(D),Line(A,B))",
+            "PointLiesOnLine(Point(F),Line(B,C))",
+            "PointLiesOnLine(Point(F),Line(A,P))",
+            "PointLiesOnLine(Point(E),Line(A,C))",
+            "PointLiesOnLine(Point(E),Line(B,G))",
+            "PointLiesOnLine(Point(M),Line(A,C))",
+            "PointLiesOnLine(Point(M),Line(F,G))",
+            "PointLiesOnLine(Point1,Line(B,G))",
+            "PointLiesOnLine(Point1,Line(D,C))",
+            "PointLiesOnLine(Point2,Line(A,P))",
+            "PointLiesOnLine(Point2,Line(B,G))",
+            "PointLiesOnLine(Point3,Line(A,P))",
+            "PointLiesOnLine(Point3,Line(D,C))",
+            "PointLiesOnLine(Point4,Line(F,G))",
+            "PointLiesOnLine(Point4,Line(D,C))",
+            "LabelOf(PerpendicularSymbol,Angle(B,A,C))",
+            "LabelOf(PerpendicularSymbol,Angle(A,Point2,B))",
+            "LabelOf(PerpendicularSymbol,Angle(G,Point4,C))"
+        ]
+    },
+    {
+        "point_positions": {
+            "P": [
+                1569.07,
+                2064.59
+            ]
+        },
+        "line_instances": [
+            "F_P",
+            "C_P",
+            "A_P"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": []
+    }
+]

@@ -1,0 +1,74 @@
+[{
+        "line": 1,
+        "action": "Connect $BP,CR$"
+    },
+
+    {
+        "line": 2,
+        "given": "Quadrilateral $ABCD$ is isosceles trapezoid"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AD = BC, OA = OB, OC = OD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle AOB  = 60$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle AOB, \\triangle COD$ are equilateral triangle",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$P$ is the midpoint of $OA$, $R$ is the midpoint of $OD$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$BP \\perp OA, CR \\perp OD$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$PQ, RQ$ are the midian of the hypotenuse of $Rt\\triangle PBC$ and $Rt\\triangle RBC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$PQ = \\frac{1}{2}BC = QR$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "$PR$ is the median of $\\triangle ODA$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$PR = \\frac{1}{2}AD = \\frac{1}{2}BC$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$PR = PQ = QR$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\triangle PQR$ is equilateral triangle",
+        "from":[12]
+    }
+]

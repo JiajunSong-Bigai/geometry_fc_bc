@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "action": "Connnect $AC$."
+    },
+
+    {
+        "line": 2,
+        "given": "$M$  is the midpoint of $CD$,$AM \\perp CD$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AM$ is perpendicular bisector of $CD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$AC = AD$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$AM \\perp CD$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle 2 = \\angle 4$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle 1 = \\angle 2$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle 2 + \\angle 3 = \\frac{1}{2}\\angle BAD$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle BAD = 2\\angle MAN$",
+        "from":[7,8]
+    }
+]

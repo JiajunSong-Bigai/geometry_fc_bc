@@ -1,0 +1,39 @@
+[{
+        "line": 1,
+        "given": "In isosceles trapezoid $ABCD$,$AD \\parallel BC, AB = CD$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle C = \\angle B = 60$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$\\angle APC = \\angle B + \\angle BAP$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle APE + \\angle EPC = \\angle B + \\angle BAP$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle APE = \\angle B$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle BAP = \\angle CPE$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\triangle APB \\sim \\triangle PEC$",
+        "from":[6]
+    }
+]

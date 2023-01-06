@@ -1,0 +1,67 @@
+[{
+        "line": 1,
+        "given": "Add $BD$ from $b$, make $BD parallel AC$,intersect with extension line of $AO$ at $D$."
+    },
+
+    {
+        "line": 2,
+        "given": "$BD \\parallel AC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle ADB = \\angle OAC = 75$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle BOD = \\angle COA$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle BOD \\sim \\triangle COA$",
+        "from":[3,4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\frac{OD}{OA} = \\frac{OB}{OC} = \\frac{1}{3}$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AO = 3 \\sqrt{3}$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$OD = \\sqrt{3}$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$AD = AO + OD = 4\\sqrt{3}$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "$\\angle BAD = 30,\\angle ADB = 75$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\angle ABD = 180 - \\angle BAD - \\angle ADB = 75 = \\angle ADB$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$AB = AD = 4\\aqrt{3}$",
+        "from":[11]
+    }
+]

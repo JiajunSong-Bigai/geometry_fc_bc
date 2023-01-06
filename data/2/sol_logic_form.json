@@ -1,0 +1,87 @@
+[
+    {
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(A,D), G)",
+            "Equals(LengthOf(Line(D,G)),LengthOf(Line(A,D)))",
+            "ConnectTwoPoints(Point(B),Point(G))"
+        ]
+    },
+    {
+        "line": 2,
+        "given": [
+            "Median(Line(A,D),Line(B,C))"
+        ]
+    },
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(D,C)),LengthOf(Line(D,B)))"
+        ]
+    },
+    {
+        "line": 4,
+        "given": [
+            "Triangle(A,D,C)",
+            "Triangle(G,D,B)",
+            "Equals(LengthOf(Line(D,A)),LengthOf(Line(D,G)))",
+            "Equals(MeasureOf(Angle(A,D,C)), MeasureOf(Angle(G,D,B)))",
+            "Equals(LengthOf(Line(D,C)),LengthOf(Line(D,B)))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Congruent(Triangle(A, D, C), Triangle(G,D,B))"
+        ]
+    },
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,A,D)), MeasureOf(Angle(B,G,D)))",
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(A,C)))"
+        ]
+    },
+    {
+        "line": 7,
+        "given": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(A,C)))"
+        ]
+    },
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(B,G)))"
+        ]
+    },
+    {
+        "line": 9,
+        "given": [
+            "Equals(MeasureOf(Angle(B,E,D)), MeasureOf(Angle(E,G,B)))"
+        ]
+    },
+    {
+        "line": 10,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,E,D)), MeasureOf(Angle(A,E,F)))"
+        ]
+    },
+    {
+        "line": 11,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,F)), MeasureOf(Angle(F,A,E)))"
+        ]
+    },
+    {
+        "line": 12,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,F)), MeasureOf(Angle(F,A,E)))"
+        ]
+    },
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(A,F)),LengthOf(Line(E,F)))"
+        ]
+    }
+]

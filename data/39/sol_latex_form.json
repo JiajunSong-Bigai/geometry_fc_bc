@@ -1,0 +1,39 @@
+[{
+        "line": 1,
+        "given": "$AB \\parallel DF$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle CFE = \\angle BAE$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$AD \\parallel BC$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle DAE = \\angle BEA$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle BAE = \\angle DAF, \\angle CEF = \\angle BEA$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle CFE = \\angle CEF$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$CE = CF$",
+        "from":[6]
+    }
+]

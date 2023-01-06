@@ -1,0 +1,100 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(B,P),B)",
+            "Perpendicular(Line(B,P),Line(E,F))",
+            "IntersectAt(Line(B,P),Line(E,F),Point(P))",
+            "PointLiesOnLine(Point(P),Line(E,F))",
+            "AddLineFromPoint(Line(C,Q),C)",
+            "Perpendicular(Line(C,Q),Line(E,F))",
+            "IntersectAt(Line(C,Q),Line(E,F),Point(Q))",
+            "PointLiesOnLine(Point(Q),Line(E,F))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Parallel(Line(B,P),Line(C,Q))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(P,B,E)),MeasureOf(Angle(Q,C,E)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(C,E)))"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "imply": [
+            "Congruent(Triangle(B,P,E), Triangle(C,Q,E))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(B,P)),LengthOf(Line(C,Q)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "BisectsAngle(Line(A,D),Angle(B,A,C))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "given": [
+            "Parallel(Line(E,F), Line(A,D))",
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"          
+        ]
+    },
+
+    {
+        "line":10,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(D,A,C)))",
+            "Equals(MeasureOf(Angle(B,G,P)), MeasureOf(Angle(B,A,D)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,G,P)), MeasureOf(Angle(C,F,E)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Congruent(Triangle(B,P,G), Triangle(C,Q,F))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

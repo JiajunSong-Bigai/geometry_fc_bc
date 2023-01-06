@@ -1,0 +1,70 @@
+[{
+        "line": 1,
+        "action": "Take the midpoint $F,G$ of $AD, AE$, connect $BF, MF, MG, CG$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$MG,MF$ are the median of $\\triangle ADE$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "Quadrilateral $MFAG$ is Parallelogram, $MG = \\frac{1}{2}AD, MF = \\frac{1}{2}AE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle MFA = \\angle AGM$",
+        "from":[5]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle DBA = \\angle ACE = 90$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$BF = \\frac{1}{2}AD = MG, CG = \\frac{1}{2}AE = MF$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle DAB = \\angle CAE$"
+    },
+
+
+    {
+        "line": 8,
+        "imply": "$\\angle DAB = \\angle CAE$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle BFA = 2\\angle BDA = 2\\angle CEA = \\angle CGA$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle BFM = \\angle BFA - \\angle MFA = \\angle CGA - \\angle AGM = \\angle MGC$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\triangle BFM \\cong \\triangle MGC$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$MB = CM$",
+        "from":[11]
+    }
+]

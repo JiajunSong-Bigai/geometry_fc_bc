@@ -1,0 +1,17 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(LengthOf(Line(A,B)),Mul(3,LengthOf(Line(A,C))))",
+        "BisectsAngle(Line(A,D),Angle(B,A,C))",
+        "IntersectAt(Line(A,D),Line(B,C),Point(D))",
+        "AddLineFromPoint(Line(B,E),Point(B))",
+        "Perpendicular(Line(B,E),Line(A,D))",
+        "IntersectAt(Line(B,E),Line(A,D),Point(E))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,D)),LengthOf(Line(D,E))))"
+    ],
+
+    "answer": []
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "line": 1,
+        "given": "$BD$ and $CD$ bisects the inner angle $\\angle EBA$ and outer angle $\\angle ECA$ of $\\triangle ABC$ equally"
+    },
+    {
+        "line": 2,
+        "imply": "$\\angle ABC = 2 \\angle DBC,\\angle ACE = 2 \\angle DCE$",
+        "from": [
+            1
+        ]
+    },
+    {
+        "line": 3,
+        "given": "$\\angle DCE = \\angle BDC + \\angle DBC$"
+    },
+    {
+        "line": 4,
+        "imply": "$2\\angle DCE = 2\\angle BDC + 2 \\angle DBC$",
+        "from": [
+            3
+        ]
+    },
+    {
+        "line": 5,
+        "imply": "$\\angle ACE = 2 \\angle BDC + \\angle ABC$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "given": "$\\angle ACE = \\angle BAC + \\angle ABC$"
+    },
+    {
+        "line": 7,
+        "imply": "$\\angle BAC = 2 \\angle BDC$",
+        "from": [
+            5,
+            6
+        ]
+    },
+    {
+        "line": 8,
+        "imply": "$\\angle BDC = \\frac{1}{2}\\angle BAC$",
+        "from": [
+            7
+        ]
+    }
+]

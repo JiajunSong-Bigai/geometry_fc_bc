@@ -1,0 +1,33 @@
+[{
+        "line": 1,
+        "action": "Extend $BD$ intersect with $AC$ at $H$"
+    },
+
+    {
+        "line": 2,
+        "given": "In $\\triangle ADB$ and $\\triangle ADH$, $\\angle BAD = \\angle HAD , AD = AD, \\angle ADB = \\angle ADH$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle ADB \\cong \\triangle ADH$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$BD = HD$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$E$ is the midpoint of $BC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$DE \\parallel AC$",
+        "from":[5]
+    }
+]

@@ -1,0 +1,45 @@
+[{
+        "line": 1,
+        "action": "Connect $DE,FG$."
+    },
+
+    {
+        "line": 2,
+        "given": "$BD,CE$ are the median of $\\triangle ABC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$D,E$ are the midpoint of $AC,AB$ respectively",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$DE \\parallel BC, DE = \\frac{1}{2}BC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$FG \\parallel BC, FG = \\frac{1}{2}BC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$DE \\parallel FG, DE = FG$",
+        "from":[4,5]
+    },
+
+    {
+        "line": 7,
+        "imply": "Quadrilateral $ABCD$ is parallelogram",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$EF \\parallel DG, EF = DG$",
+        "from":[7]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Isosceles(Triangle(A,B,C))",
+        "IsMidpointOf(Point(D),Line(B,C))",
+        "AddLineFromPoint(Line(D,E),Point(D))",
+        "Perpendicular(Line(D,E), Line(A,C))",
+        "IntersectAt(Line(D,E),Line(A,C),Point(E))",
+        "IsMidpointOf(Point(F),Line(D,E))"
+    ],
+
+    "question": [
+        "Proof(Perpendicular(Line(A,F), Line(B,E)))"
+    ],
+
+    "answer": []
+}

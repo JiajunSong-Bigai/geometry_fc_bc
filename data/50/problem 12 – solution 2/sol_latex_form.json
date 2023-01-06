@@ -1,0 +1,83 @@
+[{
+        "line": 1,
+        "action": "Extend $CE$ to $H$, make $EH = CE$, connect $AH$"
+    },
+
+    {
+        "line": 2,
+        "given": "$E$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AE = EB$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "In $\\triangle AEH$ and $\\triangle BEC$, $EH = EC, \\angle AEH = \\angle BEC, AE = BE$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle AEH \\cong \\triangle BEC $",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle EAH = \\angle EBC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AC = AB$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle BCA = \\angle ABC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "$\\angle CBD = \\angle CAB + \\angle ACB, \\angle CAH = \\angle CAB + \\angle EAH$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\angle CBD = \\angle CAH$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$AB = BD$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$AC = BD$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "given": "In $\\triangle CAH$ and $\\triangle DBC$, $AC = BD, \\angle CAH = \\angle DBC, AH = BC$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$\\triangle CAH \\cong \\triangle DBC $",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "imply": "$HC = CD = 2CE$",
+        "from":[14]
+    }
+]

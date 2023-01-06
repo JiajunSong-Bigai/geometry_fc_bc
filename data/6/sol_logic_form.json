@@ -1,0 +1,52 @@
+[
+    {
+        "line": 1,
+        "given": [
+            "BisectsAngle(Line(B,D),InnerAngle(E,B,A))",
+            "BisectsAngle(Line(C,D),OuterAngle(E,C,A))"
+        ]
+    },
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,C)), Mul(2,MeasureOf(Angle(D,B,C))))",
+            "Equals(MeasureOf(Angle(A,C,E)), Mul(2,MeasureOf(Angle(D,C,E))))"
+        ]
+    },
+    {
+        "line": 3,
+        "given": [
+            "Equals(MeasureOf(Angle(D,C,E)),SumOf(MeasureOf(Angle(B,D,C)), MeasureOf(Angle(D,B,C))))"
+        ]
+    },
+    {
+        "line": 4,
+        "imply": [
+            "Equals(Mul(2,MeasureOf(Angle(D,C,E))),SumOf(Mul(2,MeasureOf(Angle(B,D,C))),Mul(2,MeasureOf(Angle(D,B,C)))))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,C,E)),SumOf(Mul(2,MeasureOf(Angle(B,D,C))),MeasureOf(Angle(A,B,C))))"
+        ]
+    },
+    {
+        "line": 6,
+        "given": [
+            "Equals(MeasureOf(Angle(A,C,E)),SumOf(MeasureOf(Angle(B,A,C)),MeasureOf(Angle(A,B,C)))))"
+        ]
+    },
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,C)),Mul(2,MeasureOf(Angle(B,D,C))))"
+        ]
+    },
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,D,C)),HalfOf(MeasureOf(Angle(B,A,C))))"
+        ]
+    }
+]

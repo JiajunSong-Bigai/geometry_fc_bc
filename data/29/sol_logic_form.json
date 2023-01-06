@@ -1,0 +1,177 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line($1),C)",
+            "ExtendLine(Line(A,F),Line($2)",
+            "IntersectAt(Line($1),Line($2),Point(P))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Perpendicular(Line(P,C), Line(A, C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Right(Triangle(A,B,E))",
+            "Right(Triangle(C,A,P))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Perpendicular(Line(A,P), Line(B,E))",
+            "Equals(MeasureOf(Angle(A,B,E)), MeasureOf(Angle(C,A,P)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Congruent(Right(Triangle(A,B,E)), Right(Triangle(C,A,P)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,B)), MeasureOf(Angle(C,P,A)))",
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(A,P)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Right(Triangle(A,B,E))",
+            "Right(Triangle(A,C,D))",
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(A,D)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Congruent(Right(Triangle(A,B,E)), Right(Triangle(A,C,D)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,E)), MeasureOf(Angle(A,C,D)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "given": [
+            "IsCosineAngleOf(MeasureOf(Angle(A,E,B)), MeasureOf(Angle(A,B,E)))",
+            "IsCosineAngleOf(MeasureOf(Angle(C,M,F)), MeasureOf(Angle(A,C,D)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,B)), MeasureOf(Angle(C,M,F)))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equals(MeasureOf(Angle(F,M,C)), MeasureOf(Angle(C,P,A)))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "given": [
+            "Equals(MeasureOf(Angle(A,C,B)),45)"
+        ]
+    },
+
+    {
+        "line": 15,
+        "imply": [
+            "Equals(MeasureOf(Angle(F,C,P)),Sub(90,45),45)"
+        ]
+    },
+
+    {
+        "line": 16,
+        "imply": [
+            "Equals(MeasureOf(Angle(M,C,F)), MeasureOf(Angle(F,C,P)))"
+        ]
+    },
+
+    {
+        "line": 17,
+        "given": [
+            "Equals(LengthOf(Line(F,C)),LengthOf(Line(F,C)))"
+        ]
+    },
+
+    {
+        "line": 18,
+        "imply": [
+            "Congruent(Right(Triangle(M,C,F)), Right(Triangle(P,C,F)))"
+        ]
+    },
+
+    {
+        "line": 19,
+        "given": [
+            "Equals(LengthOf(Line(M,F)),LengthOf(Line(P,F)))"
+        ]
+    },
+
+    {
+        "line":20,
+        "given": [
+            "Equals(MeasureOf(Angle(A,E,B)), MeasureOf(Angle(C,M,F)))"
+        ]
+    },
+
+    {
+        "line": 21,
+        "imply": [
+            "Isosceles(Triangle(M,G,E))"
+        ]
+    },
+
+    {
+        "line": 22,
+        "imply": [
+            "Equals(LengthOf(Line(E,G)),LengthOf(Line(M,G)))"
+        ]
+    },
+
+    {
+        "line": 23,
+        "imply": [
+            "Equals(SumOf(LengthOf(Line(B,E)),LengthOf(Line(E,G))),SumOf(LengthOf(Line(A,P)),LengthOf(Line(M,G))),SumOf(LengthOf(Line(A,F)),LengthOf(Line(F,P)),LengthOf(Line(M,G))),SumOf(LengthOf(Line(A,F)),LengthOf(Line(F,M)),LengthOf(Line(M,G))))"
+        ]
+    },
+
+    {
+        "line": 24,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),SumOf(LengthOf(Line(A,F)),LengthOf(Line(F,G))))"
+        ]
+    }
+]

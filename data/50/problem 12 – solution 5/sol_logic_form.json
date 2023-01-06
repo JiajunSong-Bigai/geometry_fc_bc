@@ -1,0 +1,73 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(A,C), Point(F))",
+            "Equals(LengthOf(Line(C,F)),LengthOf(Line(A,C)))",
+            "ConnectTwoPoints(Point(B),Point(F))",
+            "ConnectTwoPoints(Point(D),Point(F))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Equals(LengthOf(Line(A,F)),Mul(2,LengthOf(Line(A,C))))",
+            "Equals(LengthOf(Line(A,D)),Mul(2,LengthOf(Line(A,B))))",
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))"            
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Triangle(A,C,D)",
+            "Triangle(A,B,F)",
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(A,B)))",
+            "Equals(MeasureOf(Angle(C,A,B)), MeasureOf(Angle(B,A,C)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,F)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Congruent(Triangle(A,C,D), Triangle(A,B,F))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)),LengthOf(Line(B,F)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "IsMidpointOf(Point(E),Line(A, B))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Median(Line(C,E),Triangle(A,B,F))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(LengthOf(Line(C,E)),HalfOf(LengthOf(Line(B,F))))",
+            "Equals(LengthOf(Line(C,E)),HalfOf(LengthOf(Line(C,D))))"            
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)),Mul(2,LengthOf(Line(C,E))))"
+        ]
+    }
+]

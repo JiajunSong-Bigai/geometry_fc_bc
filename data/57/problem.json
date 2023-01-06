@@ -1,0 +1,6 @@
+{
+    "problem": "$M$ is the midpoint of $BC$ of $\\triangle ABC$, the bisectors of $\\angle AMB, \\angle AMC$ intersect with $AB,AC$ at point $E$ and point $F$ respectively, connect $EF$.",
+    "question": "Proof:$BE + CF > EF$.",
+    "answer": "",
+    "source": "学而思-变式1"
+}

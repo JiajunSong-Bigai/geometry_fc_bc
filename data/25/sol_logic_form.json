@@ -1,0 +1,65 @@
+[{
+        "line": 1,
+        "given": [
+            "Equals(MeasureOf(Angle(A,C,B)),90)",
+            "Parallel(Line(C,D), Line(A,B))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(A,C,D)), MeasureOf(Angle(D,C,B))),SumOf(MeasureOf(Angle(B)), MeasureOf(Angle(D,C,B))),90)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Equals(MeasureOf(Angle(A,C,D)), MeasureOf(Angle(B)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,D,C)),90)",
+            "IsMidpointOf(Point(E),Line(A, C))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(E,C)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,C,D)), MeasureOf(Angle(F,D,C)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(F,D,C)), MeasureOf(Angle(B)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "given": [
+            "Equals(MeasureOf(Angle(F)), MeasureOf(Angle(F)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Similar(Triangle(F,D,C), Triangle(F,B,D))"
+        ]
+    }
+]

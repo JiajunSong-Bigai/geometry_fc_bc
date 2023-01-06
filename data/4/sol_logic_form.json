@@ -1,0 +1,40 @@
+[
+    {
+        "line": 1,
+        "given": [
+            "IsMidpointOf(Point(E),Line(B,C))"
+        ]
+    },
+    {
+        "line": 2,
+        "imply": [
+            "Equals(LengthOf(Line(E,C)),HalfOf(LengthOf(Line(B,C))))"
+        ]
+    },
+    {
+        "line": 3,
+        "given": [
+            "Equilateral(Triangle(A,B,C)))"
+        ]
+    },
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,C,B)),60)"
+        ]
+    },
+    {
+        "line": 5,
+        "given": [
+            "Perpendicular(Line(E,F), Line(A,C))"
+        ]
+    },
+    {
+        "line": 6,
+        "imply": [
+            "Right(Triangle(E,F,C))",
+            "Equals(LengthOf(Line(E,F)),Mul(HalfOf(LengthOf(Line(E,C))),sin C))",
+            "Equals(Mul(HalfOf(LengthOf(Line(E,C))),sin C), sqrt(3))"
+        ]
+    }
+]

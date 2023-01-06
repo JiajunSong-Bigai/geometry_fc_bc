@@ -1,0 +1,38 @@
+[
+    {
+        "line": 1,
+        "given": "$DA$ bisects $\\angle BAC$."
+    },
+    {
+        "line": 2,
+        "imply": "$\\angle BAD = \\angle CAD$.",
+        "from": [
+            1
+        ]
+    },
+    {
+        "line": 3,
+        "given": "$AD \\parallel EM$"
+    },
+    {
+        "line": 4,
+        "imply": "$\\angle BAD = \\angle AEF, \\angle CAD = \\angle AFE$",
+        "from": [
+            3
+        ]
+    },
+    {
+        "line": 5,
+        "imply": "$\\angle AEF = \\angle AFE$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "imply": "$AE = AF$",
+        "from": [
+            5
+        ]
+    }
+]

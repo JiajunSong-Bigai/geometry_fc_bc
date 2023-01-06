@@ -1,0 +1,108 @@
+[{
+        "line": 1,
+        "action": [
+            "IsMidpointOf(Point(Q),Line(A, B))",
+            "ConnectTwoPoints(Point(E),Point(Q))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+           "Equals(LengthOf(Line(E,Q)),HalfOf(LengthOf(Line(A,C))))",
+           "Parallel(Line(E,Q), Line(A,C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(Q,E,G)),MeasureOf(Angle(C,F,E)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "BisectsAngle(Line(A,D),Angle(B,A,C))"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Parallel(Line(E,F), Line(A,D))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(D,A,C)))",
+            "Equals(MeasureOf(Angle(F,G,A)), MeasureOf(Angle(B,A,D)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(MeasureOf(Angle(Q,G,E)), MeasureOf(Angle(B,A,D)))",
+            "Equals(MeasureOf(Angle(Q,E,G)), MeasureOf(Angle(C,F,E)))",
+            "Equals(MeasureOf(Angle(F,G,A)), MeasureOf(Angle(B,A,D)))"
+
+        ]
+    },
+
+    {
+        "line":9,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,F,E)), MeasureOf(Angle(F,G,A)))",
+            "Equals(MeasureOf(Angle(Q,G,E)), MeasureOf(Angle(Q,E,G)))"
+
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(LengthOf(Line(E,Q)),LengthOf(Line(G,Q)))",
+            "Equals(LengthOf(Line(A,F)),LengthOf(Line(A,G)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "given": [
+            "Equals(LengthOf(Line(B,Q)),SumOf(LengthOf(Line(G,Q)),LengthOf(Line(A,G))))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),SumOf(LengthOf(Line(B,Q)),LengthOf(Line(G,Q))))",
+            "Equals(LengthOf(Line(B,G)),SumOf(LengthOf(Line(A,G)),Mul(2,LengthOf(Line(G,Q)))))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "given": [
+            "Equals(LengthOf(Line(C,F)),SumOf(LengthOf(Line(A,F)),Mul(2,LengthOf(Line(E,Q)))))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

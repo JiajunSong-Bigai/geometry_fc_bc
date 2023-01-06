@@ -1,0 +1,19 @@
+{
+    "problem": [
+        "IsBaseOf(Line(B,C),Isosceles(Right(Triangle(A,B,C))))",
+        "PointLiesOnLine(P,Line(B,C))",
+        "AddLineFromPoint(Line(P,E),Point(P))",
+        "Perpendicular(Line(P,E),Line(B,A))",
+        "IntersectAt(Line(P,E),Line(B,A),Point(E))",
+        "AddLineFromPoint(Line(P,F),P)",
+        "Perpendicular(Line(P,F),Line(A,C))",
+        "IntersectAt(Line(P,F),Line(A,C),Point(F))",
+        "IsMidpointOf(Point(D),Line(B,C))"
+    ],
+
+    "question": [
+        "Proof(Isosceles(Right(Triangle(D,E,F))))"
+    ],
+
+    "answer": []
+}

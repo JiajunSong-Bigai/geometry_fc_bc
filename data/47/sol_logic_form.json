@@ -1,0 +1,103 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(B),Point(P))",
+            "ConnectTwoPoints(Point(C),Point(R))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Isosceles(Trapezoid(A,B,C,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(B,C)))",
+            "Equals(LengthOf(Line(O,A)),LengthOf(Line(O,B)))",
+            "Equals(LengthOf(Line(O,C)),LengthOf(Line(O,D)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(MeasureOf(Angle(A,O,B)), 60)"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equilateral(Triangle(A,O,B))",
+            "Equilateral(Triangle(C,O,D))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "IsMidpointOf(Point(P),Line(O,A))",
+            "IsMidpointOf(Point(R),Line(O,D))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Perpendicular(Line(B,P), Line(O,A))",
+            "Perpendicular(Line(C,R), Line(O,D))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Median(Line(P,Q),HypotenuseOf(Right(Triangle(P,B,C))))",
+            "Median(Line(R,Q),HypotenuseOf(Right(Triangle(R,B,C))))"
+
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(P,Q)),HalfOf(LengthOf(Line(B,C))))",
+            "Equals(LengthOf(Line(Q,R)),HalfOf(LengthOf(Line(B,C))))",
+            "Equals(LengthOf(Line(P,Q)),LengthOf(Line(Q,R)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Median(Line(P,R),Triangle(O,D,A))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(P,R)),HalfOf(LengthOf(Line(A,D))))",
+            "Equals(LengthOf(Line(P,R)),HalfOf(LengthOf(Line(B,C))))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(LengthOf(Line(P,R)),LengthOf(Line(P,Q)))",
+            "Equals(LengthOf(Line(P,R)),LengthOf(Line(Q,R)))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equilateral(Triangle(P,Q,R))"
+        ]
+    }
+]

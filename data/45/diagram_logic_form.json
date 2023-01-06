@@ -1,0 +1,108 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1033.3537670406563,
+                1321.4205523384405
+            ],
+            "B": [
+                879.0579130976796,
+                1844.9243425021114
+            ],
+            "C": [
+                1815.8541691800376,
+                1842.1690593959868
+            ],
+            "D": [
+                961.7164062814171,
+                1574.906598101902
+            ],
+            "E": [
+                1278.5739634857441,
+                1847.679625608236
+            ],
+            "F": [
+                1350.2113242449834,
+                1533.5773515100334
+            ],
+            "M": [
+                1273.063397273495,
+                1671.3415068162626
+            ],
+            "Point1": [
+                1193.1601871958821,
+                1552.8643332529055
+            ],
+            "Point2": [
+                1138.0545250733903,
+                1729.2024520448788
+            ]
+        },
+        "line_instances": [
+            "A_D",
+            "A_B",
+            "D_B",
+            "B_E",
+            "E_C",
+            "B_C",
+            "A_F",
+            "F_C",
+            "A_C",
+            "A_M",
+            "Point1_M",
+            "D_F",
+            "D_Point1",
+            "Point1_F",
+            "F_M",
+            "B_M",
+            "Point2_M",
+            "D_E",
+            "D_Point2",
+            "Point2_E",
+            "M_E"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(D,Line(A,B))",
+            "PointLiesOnLine(Point1,Line(D,F))",
+            "PointLiesOnLine(Point1,Line(A,M))",
+            "PointLiesOnLine(Point2,Line(D,E))",
+            "PointLiesOnLine(Point2,Line(B,M))",
+            "PointLiesOnLine(E,Line(C,B))",
+            "PointLiesOnLine(F,Line(A,C))",
+            "LabelOf(PerpendicularSymbol,Angle(M,E,C))",
+            "LabelOf(PerpendicularSymbol,Angle(M,F,C))"
+        ]
+    },
+    {
+        "point_positions": {
+            "G": [
+                1116.0122602243937,
+                1445.4082921140468
+            ],
+            "H": [
+                1016.8220684039088,
+                1778.7975479551212
+            ]
+        },
+        "line_instances": [
+            "D_G",
+            "G_F",
+            "D_H",
+            "H_E",
+            "A_G",
+            "G_M",
+            "H_M",
+            "G_Point1",
+            "B_H",
+            "H_Point2"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(G,Line(A,M))",
+            "PointLiesOnLine(H,Line(B,M))"
+         ]
+    }
+]

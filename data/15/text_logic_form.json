@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Right(Triangle(A,B,C))",
+        "PointLiesOnLine(Point(D),Line(C,B))",
+        "PointLiesOnLine(Point(E),Line(C,A))",
+        "IntersectAt(Line(B,E),Line(A,D),Point(P))",
+        "Equals(LengthOf(Line(B,D)),LengthOf(Line(A,C)))",
+        "Equals(LengthOf(Line(A,E)),LengthOf(Line(C,D)))"
+    ],
+
+    "question": [
+        "Find(MeasureOf(Triangle(A,P,E)))"
+    ],
+
+    "answer": []
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "line": 1,
+        "given": "Extend $AE$ intersect with extension line of $DC$ at $F$."
+    },
+    {
+        "line": 2,
+        "given": "$AE$ is the bisects of $\\angle BAD$"
+    },
+    {
+        "line": 3,
+        "imply": "$\\angle DAE = \\angle BAE$.",
+        "from": [
+            2
+        ]
+    },
+    {
+        "line": 4,
+        "given": "$AB \\parallel CD$"
+    },
+    {
+        "line": 5,
+        "imply": "$\\angle CFE = \\angle BAE$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "imply": "$\\angle DAF = \\angle F$",
+        "from": [
+            5
+        ]
+    },
+    {
+        "line": 7,
+        "imply": "$AD = DF$",
+        "from": [
+            6
+        ]
+    },
+    {
+        "line": 8,
+        "given": "$E$ is the midpoint of $BC$"
+    },
+    {
+        "line": 9,
+        "imply": "$CE = BE$",
+        "from": [
+            8
+        ]
+    },
+    {
+        "line": 10,
+        "given": "$\\angle CFE = \\angle BAE, \\angle CEF = \\angle AEB$"
+    },
+    {
+        "line": 11,
+        "imply": "$\\triangle CEF = \\triangle BEA$",
+        "from": [
+            10
+        ]
+    },
+    {
+        "line": 12,
+        "imply": "$AB = CF$",
+        "from": [
+            11
+        ]
+    },
+    {
+        "line": 13,
+        "imply": "$AD = CD + CF = CD + AB$",
+        "from": [
+            12
+        ]
+    }
+]

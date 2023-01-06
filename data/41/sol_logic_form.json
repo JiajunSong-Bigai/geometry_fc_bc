@@ -1,0 +1,110 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLine(Line(A,C), Line(A,F))",
+            "ExtendLine(Line(B,E), Line(B,F))",
+            "IntersectAt(Line(A,F),Line(B,F),Point(F))",
+            "IsMidpointOf(Point(G),Line(C,F))",
+            "ConnectTwoPoints(Point(E),Point(G))"           
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Triangle(A,B,E)",
+            "Triangle(A,F,E)",
+            "Equals(MeasureOf(Angle(B,A,E)), MeasureOf(Angle(F,A,E)))",
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(A,E)))",
+            "Equals(MeasureOf(Angle(B,E,A)), MeasureOf(Angle(F,E,A)))",
+            "Equals(MeasureOf(Angle(B,E,A)), 90)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Congruent(Triangle(A,B,E), Triangle(A,F,E))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,F)))",
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(F,E)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),Mul(3,LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(A,F)),Mul(3,LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(C,F)),Mul(2,LengthOf(Line(A,C))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(LengthOf(Line(C,G)),LengthOf(Line(F,G)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(C,G)))",
+            "Equals(LengthOf(Line(C,G)),LengthOf(Line(F,G)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "given": [
+            "Triangle(B,C,F)"
+        ]
+    },
+
+    {
+        "line": 11,
+        "given": [
+            "Equals(LengthOf(Line(C,G)),LengthOf(Line(F,G)))",
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(F,E)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Parallel(Line(E,G), Line(B,C))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "given": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(C,G)))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(D,E)))"
+        ]
+    }
+]

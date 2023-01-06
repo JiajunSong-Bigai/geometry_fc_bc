@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Equals(MeasureOf(Angle(B,A,C)),MeasureOf(Angle(D,A,E)))",
+        "Equals(MeasureOf(Angle(B,A,C)),90)",
+        "IsMidpointOf(Point(M),Line(B,E))",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,E)))"
+    ],
+
+    "question": [
+        "Proof(Perpendicular(Line(A,M),Line(C,D)))"
+    ],
+
+    "answer": []
+}

@@ -1,0 +1,96 @@
+[{
+        "line": 1,
+        "action": "Extend $AM$ to $F$, make $MF = AM$ intersect with $CD$ at $N$, connect $BF, EF$."
+    },
+
+    {
+        "line": 2,
+        "given": "$BM = EM$"
+    },
+
+    {
+        "line": 3,
+        "imply": "Quadrilateral $ABFE$ is parallelogram",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$BF = AE, \\angle ABF + \\angle BAE = 180$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle BAC = \\angle DAE = 90$"
+    },
+    
+    {
+        "line": 6,
+        "imply": "$\\angle CAD + \\angle BAE = 180$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle ABF = \\angle CAD$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$BF = AE, AD = AE$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$BD = AD$",
+        "from":[8]
+    },
+    
+    {
+        "line":10,
+        "given":"In $\\triangle ABF$ and $\\triangle CAD$, $BF = AD, \\angle ABF = \\angle CAD, AB = CA$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\triangle ABF \\cong \\triangle CAD$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\angle BAF = \\angle ACD$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "given": "$\\angle BAC = 90$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$\\angle BAF + \\angle CAN = 90$",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\angle ACD + \\angle CAN = 90$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$\\angle ANC = 90$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$AM \\perp CD$",
+        "from":[16]
+    }
+]

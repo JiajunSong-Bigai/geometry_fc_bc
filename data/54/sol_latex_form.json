@@ -1,0 +1,61 @@
+[{
+        "line": 1,
+        "action": "Connect $AD$."
+    },
+
+    {
+        "line": 2,
+        "given": "$\\triangle ABC$ is isosceles right triangle, $D$is the midpoint of $BC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AD \\perp BC$, $AD$ bisects $\\angle BAC$, $AD = BD = CD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle DAE = \\angle BCA = 45$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$DE \\perp DF$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle EDA + \\angle FDA = 90$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle CDF+ \\angle FDA = 90$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle EDA = \\angle CDF$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "In $\\triangle ADE$ and $\\triangle CDF$, $\\angle DAE = \\angle BCA, DA = DC, \\angle EDA = \\angle FDC$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\triangle ADE \\cong \\triangle CDF$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$AE = CF, DE = DF$",
+        "from":[10]
+    }
+]

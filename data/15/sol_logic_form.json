@@ -1,0 +1,122 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(E,F),E)",
+            "Parallel(Line(E,F),Line(B,D))",
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(B,D)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Parallel(Line(E,P),Line(F,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,P,E)), MeasureOf(Angle(A,D,F)))"
+        ]
+    },
+
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(B,D)),LengthOf(Line(A,C)))",
+            "Equals(LengthOf(Line(B,D)),LengthOf(Line(E,F)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(E,F)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "Perpendicular(Line(A,C),Line(C,D))",
+            "Parallel(Line(E,F),Line(C,D))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Perpendicular(Line(E,F),Line(A,C))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,F)),90)"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Triangle(A,E,F)",
+            "Triangle(D,C,A)",
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(C,A)))",
+            "Equals(MeasureOf(Angle(A,E,F)), MeasureOf(Angle(D,C,A)))",
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(D,C)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Congruent(Triangle(A,E,F), Triangle(D,C,A))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(A,F)),LengthOf(Line(A,D)))",
+            "Equals(MeasureOf(Angle(E,A,F)), MeasureOf(Angle(C,D,A)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(C,A,D)), MeasureOf(Angle(C,D,A))),90)"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(C,A,D)), MeasureOf(Angle(E,A,F))),90)"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Isosceles(Right(Triangle(A,F,D)))"
+        ]
+    },
+
+    {
+        "line": 15,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,D,F)), 45)"
+        ]
+    },
+
+    {
+        "line": 16,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,P,E)), 45)"
+        ]
+    }
+]

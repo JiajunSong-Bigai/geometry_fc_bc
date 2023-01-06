@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Quadrilateral(A,B,C,D)",
+        "IsMidpointOf(Point(M),Line(C,D))",
+        "IsMidpointOf(Point(N),Line(B,C))",
+        "Perpendicular(Line(A,M), Line(C,D))",
+        "Perpendicular(Line(A, N), Line(B, C))"
+    ],
+
+    "question": [
+        "Proof(Equals(MeasureOf(Angle(B,A,D)), Mul(2,MeasureOf(Angle(M,A,N)))))"
+    ],
+
+    "answer": []
+}

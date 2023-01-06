@@ -1,0 +1,6 @@
+{
+    "problem": "$\\triangle ABC$,$AD$ bisects $\\angle BAC$,intersect with $BC$ at $D$, $M$ is the midpoint of $BC$,$ME \\parallel AD$,intersect with extension line of $BA$ at $E$,intersect with $AC$ at $F$. ",
+    "question": "Proof: $AE = AF$.",
+    "answer": "",
+    "source": "几何辅助线-2.3-例题"
+}

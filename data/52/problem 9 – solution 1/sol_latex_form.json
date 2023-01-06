@@ -1,0 +1,51 @@
+[{
+        "line": 1,
+        "action": "Take $F$ from $AC$,connect $EF,DF$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$EF = \\frac{1}{2}AB, \\angle ABC = \\angle CEF$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$DF$ is the median of the side of $Rt\\triangle ADC$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$DF = CF$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle CDF = \\angle ACB$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$\\angle DFE + \\angle FDE = \\angle CEF$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle DFE = \\angle ACB = \\angle EDF$",
+        "from":[8]
+    },
+
+    {
+        "line": 9,
+        "imply": "$DE = EF = \\frac{1}{2}AB$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$AB = 2DE$",
+        "from":[9]
+    }
+]

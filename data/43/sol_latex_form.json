@@ -1,0 +1,61 @@
+[{
+        "line": 1,
+        "action": "Extend $BA$ intersect with extension line of $CE$ at $F$."
+    },
+
+    {
+        "line": 2,
+        "given": "$\\angle FBE = \\angle CBE, BE = BE, \\angle BEF = \\angle BEC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle BCE \\cong \\triangle BFE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$CE = EF = \\frac{1}{2}CF$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle FCA + \\angle F = 90, \\angle DBA + \\angle F = 90$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle FCA = \\angle DBA$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$AC = AB, \\angle FCA = \\angle DAB = 90$ "
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\triangle FCA  \\cong \\triangle DBA$ ",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$CF = BD$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "$CF = 2CE$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$BD = 2CE$",
+        "from":[10]
+    }
+]

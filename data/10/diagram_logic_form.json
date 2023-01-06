@@ -1,0 +1,38 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1370.97,
+                1402.43
+            ],
+            "B": [
+                768.78,
+                2004.95
+            ],
+            "C": [
+                1642.7,
+                2005.36
+            ],
+            "O": [
+                1263.11,
+                1733.03
+            ]
+        },
+        "line_instances": [
+            "A_B",
+            "B_C",
+            "A_C",
+            "A_O",
+            "O_C",
+            "O_B"
+        ],
+        "arc_instances": [],
+        "circle_instances": []
+    },
+    {
+        "point_positions": [],
+        "line_instances": [],
+        "arc_instances": [],
+        "circle_instances": []
+    }
+]

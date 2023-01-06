@@ -1,0 +1,78 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1225.15,
+                1080.31
+            ],
+            "B": [
+                644.01,
+                1734.54
+            ],
+            "C": [
+                1813.59,
+                1730.89
+            ],
+            "D": [
+                1225.15,
+                1734.54
+            ],
+            "E": [
+                1539.47,
+                1434.84
+            ],
+            "F": [
+                1400.58,
+                1570.07
+            ]
+        },
+        "line_instances": [
+            "A_B",
+            "A_E",
+            "A_C",
+            "A_F",
+            "B_E",
+            "B_D",
+            "B_C",
+            "C_E",
+            "C_D",
+            "E_F",
+            "D_F"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(F,Line(E,D))",
+            "PointLiesOnLine(D,Line(B,C))",
+            "PointLiesOnLine(E,Line(A,C))"
+
+        ]
+    },
+    {
+        "point_positions": {
+            "Point1": [
+                1225.15,
+                1540.83
+            ],
+            "G": [
+                907.11,
+                2023.55
+            ]
+        },
+        "line_instances": [
+            "A_Point1",
+            "A_D",
+            "Point1_D",
+            "B_G",
+            "G_D",
+            "E_G"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(Point1,Line(B,E))",
+            "PointLiesOnLine(Point1,Line(A,D))",
+            "PointLiesOnLine(D,Line(E,G))"
+        ]
+    }
+]

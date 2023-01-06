@@ -1,0 +1,96 @@
+[{
+        "line": 1,
+        "action": "Add $DM$ from $D$, make $DM \\parallel AB$,intersect with $AC$ at $M$, extend $EF$, intersect with $AC$ at $N$."
+    },
+
+    {
+        "line": 2,
+        "given": "$AB \\parallel EN, AB \\parallel DM$."
+    },
+
+    {
+        "line": 3,
+        "imply": "$DM \\parallel EN$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$DE = DC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$CM = EN$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$EN = 2DM$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$EF = 2DM - FN$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$AB \\parallel DM$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle 1 = \\angle 2$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "$\\angle 1 = \\angle 3$"
+    },
+
+    {
+        "line": 11,
+        "imply": "$\\angle 2 = \\angle 3$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "imply": "$DM = AM$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "$AN = FN$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "imply": "$MN = MC = Dm - FN$",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "given": "$AC = 2MN + AN$"
+    },
+
+    {
+        "line": 16,
+        "imply": "$AC = 2 Dn - FN$",
+        "from":[13,14,15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$EF = AC$",
+        "from":[7,16]
+    }
+]

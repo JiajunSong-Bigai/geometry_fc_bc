@@ -1,0 +1,67 @@
+[{
+        "line": 1,
+        "action": "Add parallel lines of $UW,WV$ from $A,B$ intersect with $P$, connect $PE,PD$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\triangle ABP \\sim \\triangle UVW$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\frac{AB}{UV} =\\frac{BP}{VW} = \\frac{PA}{WU}$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\frac{AB}{UV} = \\frac{CD}{VW} = \\frac{EF}{WU}$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$CD = BP, EF = PA$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$CD \\stackrel{/\\mkern-4mu/}{\\raise-.5ex\\hbox{=}} BP,EF \\stackrel{/\\mkern-4mu/}{\\raise-.5ex\\hbox{=}} PA$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "action": "Connect $PC,PF$"
+    },
+
+    {
+        "line": 8,
+        "given": "$\\triangle BPC \\cong \\triangle DCP,\\triangle AFP \\cong EPF$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$BC \\stackrel{/\\mkern-4mu/}{\\raise-.5ex\\hbox{=}} PD,FA \\stackrel{/\\mkern-4mu/}{\\raise-.5ex\\hbox{=}} EP$",
+        "from":[7,8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\triangle PDE \\sim \\triangle XYZ$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$\\frac{PD}{XY} = \\frac{DE}{YZ} =\\frac{EP}{ZX}$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$\\frac{BC}{XY} = \\frac{DE}{YZ} =\\frac{FA}{ZX}$",
+        "from":[11]
+    }
+]

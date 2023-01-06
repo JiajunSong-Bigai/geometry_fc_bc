@@ -1,0 +1,6 @@
+{
+    "problem": "$BD$ and $CD$ bisects the inner angle $\\angle EBA$ and outer angle $\\angle ECA$ of $\\triangle ABC$ equally,$BD$ intersect with $AC$ at $F$, connect $AD$.",
+    "question": "Proof:$\\angle BDC = \\frac{1}{2}\\angle BAC$",
+    "answer": "",
+    "source": "几何辅助线-2.1-2"
+}

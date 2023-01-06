@@ -1,0 +1,66 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(B),Point(D))",
+            "IsMidpointOf(Point(H),Line(B,D))",
+            "ConnectTwoPoints(Point(H),Point(E))",
+            "ConnectTwoPoints(Point(H),Point(F))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,D)))",
+            "IsMidpointOf(Point(E),Line(B,C))",
+            "IsMidpointOf(Point(F),Line(A,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(F,H)),HalfOf(LengthOf(Line(A,B))))",
+            "Parallel(Line(F,H), Line(M,B))",
+            "Equals(LengthOf(Line(H,E)),HalfOf(LengthOf(Line(D,C))))",
+            "Parallel(Line(H,E), Line(N,C))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(H,E)),LengthOf(Line(H,F)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(H,F,E)), MeasureOf(Angle(H,E,F)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "Parallel(Line(F,H), Line(M,B))",
+            "Parallel(Line(H,E), Line(N,C))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(H,F,E)))",
+            "Equals(MeasureOf(Angle(C,N,E)), MeasureOf(Angle(F,E,H)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,M,E)), MeasureOf(Angle(C,N,E)))"
+        ]
+    }
+]

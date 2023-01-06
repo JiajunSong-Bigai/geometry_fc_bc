@@ -1,0 +1,74 @@
+[{
+        "line": 1,
+        "action": [
+            "IsMidpointOf(Point(F),Line(A, C))",
+            "ConnectTwoPoints(Point(E),Point(F))",
+            "ConnectTwoPoints(Point(D),Point(F))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(LengthOf(Line(E,F)),HalfOf(LengthOf(Line(A,B))))",
+            "Equals(MeasureOf(Angle(A,B,C)), MeasureOf(Angle(C,E,F)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Median(Line(F,D),Line(A,C))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(D,F)),HalfOf(LengthOf(Line(C,A))))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,D,F)), MeasureOf(Angle(A,C,B)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(D,F,E)), MeasureOf(Angle(F,D,E))), MeasureOf(Angle(C,E,F)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(F,D,E)),MeasureOf(Angle(D,F,E))),Mul(2,MeasureOf(Angle(A,C,B))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(D,F,E)), MeasureOf(Angle(A,C,B)))",
+            "Equals(MeasureOf(Angle(D,F,E)), MeasureOf(Angle(E,D,F)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(E,F)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(LengthOf(Line(A,B),Mul(2,LengthOf(Line(D,E))))"
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "PointLiesOnLine(Point(P),Line(A,B))",
+        "PointLiesOnLine(Point(Q),Line(A,C))",
+        "Median(Line(A,M),Line(B,C))",
+        "Equals(Div(LengthOf(Line(A,B)),LengthOf(Line(A,P))),Div(5,2))",
+        "Equals(Div(LengthOf(Line(A,C)),LengthOf(Line(A,Q))),Div(4,3))",
+        "IntersectAt(Median(Line(A,M)),Line(P,Q),Point(N))"
+    ],
+    "question": [
+        "Find(Div(LengthOf(Line(A,M)),LengthOf(Line(A,N))))"
+    ],
+    "answer": []
+}

@@ -1,0 +1,45 @@
+[{
+        "line": 1,
+        "action": "Connect $BD$, take the midpoint $H$ of $BD$, connect $HE,HF$."
+    },
+
+    {
+        "line": 2,
+        "given": "$AB = CD$, $E,F$ are the midpoints of $BC,AD$ respectively"
+    },
+
+    {
+        "line": 3,
+        "imply": "$FH = \\frac{1}{2}AB, FH \\parallel MB, HE = \\frac{1}{2}DC, HE \\parallel NC$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$HE = HF$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle HFE = \\angle HEF$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "given": "$FH \\parallel MB, HE \\parallel NC$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle BME = \\angle HFE, \\angle CNE = \\angle FEH$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle BME = \\angle CNE$",
+        "from":[7]
+    }
+]

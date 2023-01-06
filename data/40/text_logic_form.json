@@ -1,0 +1,14 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(LengthOf(Line(A,C)),LengthOf(Line(B,C)))",
+        "Equals(MeasureOf(Angle(A,C,B)), 90)",
+        "BisectsAngle(Line(A,D),Angle(C,A,B))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,B)),SumOf(LengthOf(Line(A,C)),LengthOf(Line(C,D)))))"
+    ],
+
+    "answer": []
+}

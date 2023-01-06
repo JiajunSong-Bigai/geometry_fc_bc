@@ -1,0 +1,54 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(B,G),Point(B))",
+            "Parallel(Line(B,G), Line(A,C))",
+            "IntersectAt(Line(B,G),Line(A,C),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,F)),LengthOf(Line(B,F))),Div(LengthOf(Line(A,E)),LengthOf(Line(B,G))))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Triangle(D,C,E)",
+            "Triangle(D,B,G)"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(MeasureOf(Angle(D,C,E)), MeasureOf(Angle(D,B,G)))",
+            "Equals(MeasureOf(Angle(C,D,E)), MeasureOf(Angle(B,D,G)))",
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(E,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Congruent(Triangle(D,C,E), Triangle(D,B,G))"
+        ]
+    },
+    
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(E,C)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,C))),Div(LengthOf(Line(A,F)),LengthOf(Line(B,F))))"
+        ]
+    }
+]

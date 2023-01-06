@@ -1,0 +1,14 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "BisectsAngle(Line(A,D),Angle(B,A,C))",
+        "Perpendicular(Line(A,D), Line(B,D))",
+        "IsMidpointOf(Point(E),Line(B,C))"
+    ],
+
+    "question": [
+        "Proof(Parallel(Line(D,E), Line(A,C)))"
+    ],
+
+    "answer": []
+}

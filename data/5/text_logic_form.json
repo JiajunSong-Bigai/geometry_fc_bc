@@ -1,0 +1,13 @@
+{
+    "problem": [
+        "RightTriangle(A,B,C))",
+        "Equals(MeasureOf(Angle(C)),90)",
+        "BisectsAngle(Line($1),Angle(C,A,B))",
+        "IntersectAt(D, Line($1), Line(C,B))",
+        "Equals(LengthOf(Line(C,D)),3)"
+    ],
+    "question": [
+        "Proof(Equals(Distance(Point(D),Line(A,B))), 3)"
+    ],
+    "answer": []
+}

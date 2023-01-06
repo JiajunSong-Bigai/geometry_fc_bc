@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Isosceles(Right(Triangle(A,B,C)))",
+        "Equals(MeasureOf(Angle(B,A,C)),90)",
+        "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,E)))",
+        "AddPerpendicularLineFromPoint(Line($1), Point(A), Line(B,E))",
+        "IntersectAt(Point(F), Line($1), Line(B,C))",
+        "AddPerpendicularLineFromPoint(Line($2), Point(F), Line(C,D))",
+        "ExtendLine(Line(B,E), Line($3))",
+        "IntersectAt(Line($2),Line($3),Point(G))"
+    ],
+    "question": [
+        "Proof(Equals(LengthOf(Line(B,G)),SumOf(LengthOf(Line(A,F)),LengthOf(Line(F,G)))))"
+    ],
+    "answer": []
+}

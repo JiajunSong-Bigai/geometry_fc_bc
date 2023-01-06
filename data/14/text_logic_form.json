@@ -1,0 +1,20 @@
+{
+    "problem": [
+        "Right(Triangle(A,B,D))",
+        "Equals(MeasureOf(Angle(C,B,D)),90)",
+        "Equals(LengthOf(Line(B,C)),LengthOf(Line(B,D)))",
+        "ExtendLine(Line(C,B), Line($1))",
+        "PointLiesOnLine(Point(A),Line($1))",
+        "Equals(LengthOf(Line(B,A)),LengthOf(Line(B,C)))",
+        "PointMovesOnLine(Point(E),Line(B,D))",
+        "AddLineFromPoint(Line(E,F),E)",
+        "Perpendicular(Line(E,F),Line(E,A))",
+        "IntersectAt(Line(E,F),Line(C,D),Point(F))"
+    ],
+
+    "question": [
+        "Find(Equals(LengthOf(Line(A,E)),LengthOf(Line(E,F))))"
+    ],
+
+    "answer": []
+}

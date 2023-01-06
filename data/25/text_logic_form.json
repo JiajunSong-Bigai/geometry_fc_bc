@@ -1,0 +1,18 @@
+{
+    "problem": [
+        "Right(Triangle(A,B,C))",
+        "Equals(MeasureOf(Angle(A,C,B)),90)",
+        "Perpendicular(Line(C,D),Line(A,B))",
+        "IntersectAt(Line(C,D),Line(A,B),Point(D))",
+        "IsMidpointOf(Point(E),Line(A, C))",
+        "ExtendLine(Line(D,E), Line($1))",
+        "ExtendLine(Line(B,C), Line($2))",
+        "IntersectAt(Line($1),Line($2),Point(F))"
+    ],
+
+    "question": [
+        "Proof(Similar(Triangle(F,D,C), Triangle(F,B,D)))"
+    ],
+
+    "answer": []
+}

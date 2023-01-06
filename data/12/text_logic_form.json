@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "PointOutOfTriangle(Point(P),Equilateral(Triangle(A,B,C)))",
+        "IsPerpendicularBisectorOf(Line(A,H),Line(P,C))",
+        "IntersectAt(Line(A,H),Line(P,C),Point(H))",
+        "BisectsAngle(Line($1),Angle(B,A,P))",
+        "IntersectAt(Line($1),Line(P,C),Point(D))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(D,P)),LengthOf(Line(D,B))))"
+    ],
+
+    "answer": []
+}

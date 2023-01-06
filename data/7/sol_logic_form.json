@@ -1,0 +1,39 @@
+[
+    {
+        "line": 1,
+        "given": [
+            "BisectsAngle(Line(D,A),Angle(B,A,C))"
+        ]
+    },
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)),MeasureOf(Angle(C,A,D)))"
+        ]
+    },
+    {
+        "line": 3,
+        "given": [
+            "Parallel(Line(A, D), Line(E,M))"
+        ]
+    },
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)),MeasureOf(Angle(A,E,F)))",
+            "Equals(MeasureOf(Angle(C,A,D)),MeasureOf(Angle(A,F,E)))"
+        ]
+    },
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,E,F)),MeasureOf(Angle(A,F,E)))"
+        ]
+    },
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(A,F)))"
+        ]
+    }
+]

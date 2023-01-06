@@ -1,0 +1,130 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(A,M), Point(F))",
+            "Equals(LengthOf(Line(M,F)),LengthOf(Line(A,M)))",
+            "IntersectAt(Line(A,F),Line(C,D),Point(N))",
+            "ConnectTwoPoints(Point(B),Point(F))",
+            "ConnectTwoPoints(Point(E),Point(F))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Equals(LengthOf(Line(B,M)),LengthOf(Line(E,M)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Quadrilateral (A,B,F,E)"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(A,E)))",
+            "Equals(SumOf(MeasureOf(Angle(A,B,F)), MeasureOf(Angle(B,A,E))),180)"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "given": [
+            "Equals(MeasureOf(Angle(B,A,C)), MeasureOf(Angle(D,A,E)))",
+            "Equals(MeasureOf(Angle(B,A,C)), 90)"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(C,A,D)), MeasureOf(Angle(B,A,E))),180)"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,B,F)), MeasureOf(Angle(C,A,D)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(A,E)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,E)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(A,D)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Triangle(A,B,F)",
+            "Triangle(C,A,D)",
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(A,D)))",
+            "Equals(MeasureOf(Angle(A,B,F)), MeasureOf(Angle(C,A,D)))",
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(C,A)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Congruent(Triangle(A,B,F), Triangle(C,A,D))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,F)), MeasureOf(Angle(A,C,D)))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "given": [
+            "Equals(MeasureOf(Angle(B,A,C)),90)"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(B,A,F)), MeasureOf(Angle(C,A,N))),90)"
+        ]
+    },
+
+    {
+        "line": 15,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(A,C,D)), MeasureOf(Angle(C,A,N))),90)"
+        ]
+    },
+
+    {
+        "line": 16,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,N,C)), 90)"
+        ]
+    },
+
+    {
+        "line": 17,
+        "imply": [
+            "Perpendicular(Line(A,M), Line(C,D))"
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,$AB = AC$,$P$ is on $BC$,$PN \\perp AC$ at $N$,$PM \\perp AB$ at $M$,$CG \\perp AB$ at $G$. ",
+    "question": "Proof:$PM = CG + PN$.",
+    "answer": "",
+    "source": "几何辅助线-6.1-5"
+}

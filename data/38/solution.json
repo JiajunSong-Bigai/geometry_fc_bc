@@ -1,0 +1,69 @@
+[{
+        "line": 1,
+        "action": "Add $BG$ from $B$, make $BG$ perpendicular to the extension line of $ED$ at $G$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\triangle CED \\cong \\triangle BGD$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$CE = BG,EG = 2DE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "action": "Connect $A$ and $D$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\triangle ADE \\sim \\triangle DCE $",
+        "from":[4]
+    },
+    
+    {
+        "line": 6,
+        "imply": "$\\frac{AE}{DE} = \\frac{ED}{EC}$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\frac{AE}{EF} = \\frac{2AE}{2EF} = \\frac{AE}{DE} = 2 \\times \\frac{AE}{DE} = 2 \\times \\frac{DE}{EC} = \\frac{2DE}{EC} = \\frac{EG}{BG}$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$\\angle AEF = \\angle EGB =90 $"
+    },
+
+    {
+        "line":9,
+        "imply":"$\\triangle AEF \\sim \\triangle EGB$",
+        "from":[8]
+    },
+
+    {
+        "line":10,
+        "imply":"$\\angle FAE = \\angle BEF$",
+        "from":[9]
+    },
+
+    {
+        "line":11,
+        "imply":"$\\angle BEF + \\angle AFE = \\angle FAE + \\angle AFE $ =90",
+        "from":[10]
+    },
+
+    {
+        "line":12,
+        "imply":"$AF \\perp BE$",
+        "from":[11]
+    }
+]

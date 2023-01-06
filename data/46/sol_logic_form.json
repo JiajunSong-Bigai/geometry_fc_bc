@@ -1,0 +1,100 @@
+[{
+        "line": 1,
+        "action": [
+            "IsMidpointOf(Point(F),Line(A, D))",
+            "IsMidpointOf(Point(G),Line(A, E))",
+            "ConnectTwoPoints(Point(B),Point(F))",
+            "ConnectTwoPoints(Point(M),Point(F))",
+            "ConnectTwoPoints(Point(M),Point(G))",
+            "ConnectTwoPoints(Point(C),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Median(Line(M,G),Triangle(A,D,E))",
+            "Median(Line(M,F),Triangle(A,D,E))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Parallelogram(M,F,A,G)",
+            "Equals(LengthOf(Line(M,G)),HalfOf(LengthOf(Line(A,D))))",
+            "Equals(LengthOf(Line(M,F)),HalfOf(LengthOf(Line(A,E))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(M,F,A)),MeasureOf(Angle(A,G,M)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Equals(MeasureOf(Angle(D,B,A)), 90)",
+            "Equals(MeasureOf(Angle(A,C,E)), 90)"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(B,F)),HalfOf(LengthOf(Line(A,D))))",
+            "Equals(LengthOf(Line(B,F)),LengthOf(Line(M,G)))",            
+            "Equals(LengthOf(Line(C,G)),HalfOf(LengthOf(Line(A,E))))",
+            "Equals(LengthOf(Line(C,G)),LengthOf(Line(M,F)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "given": [
+            "Equals(MeasureOf(Angle(D,A,B)), MeasureOf(Angle(C,A,E)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,D,A)), MeasureOf(Angle(C,E,A)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,F,A)), Mul(2,MeasureOf(Angle(B,D,A))))",
+            "Equals(MeasureOf(Angle(C,G,A)), Mul(2,MeasureOf(Angle(C,E,A))))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,F,M)), Sub(MeasureOf(Angle(B,F,A)),MeasureOf(Angle(M,F,A))))",
+            "Equals(MeasureOf(Angle(M,G,C)), Sub(MeasureOf(Angle(C,G,A)),MeasureOf(Angle(A,G,M))))",
+            "Equals(MeasureOf(Angle(B,F,M)), MeasureOf(Angle(M,G,C)))"
+
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Congruent(Triangle(B,F,M), Triangle(M,G,C))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(LengthOf(Line(M,B)),LengthOf(Line(C,M)))"
+        ]
+    }
+]

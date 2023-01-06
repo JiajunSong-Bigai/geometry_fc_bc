@@ -1,0 +1,12 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "IsMidpointOf(Point(P),Line(B,C))"
+    ],
+
+    "question": [
+        "Proof(LessThan(LengthOf(Line(A,P)),HalfOf(SumOf(LengthOf(Line(A,B)),LengthOf(Line(A,C))))))"
+    ],
+
+    "answer": []
+}

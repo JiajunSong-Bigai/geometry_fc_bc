@@ -1,0 +1,28 @@
+[{
+        "line": 1,
+        "action": "Connect $AP$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$S_{\\triangle ABP} = S_{\\triangle ABC} + S_{\\triangle ACP}$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\frac{1}{2}AB \\cdot PM = \\frac{1}{2} \\cdot AB \\cdot CG + \\frac{1}{2} AC \\cdot PN$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$AB = AC$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$PM  = CG + PN$",
+        "from":[4]
+    }
+]

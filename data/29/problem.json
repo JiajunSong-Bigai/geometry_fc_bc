@@ -1,0 +1,6 @@
+{
+    "problem": "In isosceles right triangle $\\triangle ABC$, $\\angle BAC = 90,AD = AE, AF \\perp BE$ intersect with $BC$ at $F$, add $FG$ from $F$, make $FG \\perp CD$ intersect with extension line of $BE$ at $G$.",
+    "question": "Proof:$BG =  AF + FG$.",
+    "answer": "",
+    "source": "几何题-例11"
+}

@@ -1,0 +1,44 @@
+[{
+        "line": 1,
+        "action": "Connect $AE,CE$."
+    },
+
+    {
+        "line": 2,
+        "given": "$\\angle BAD = 90$, $E$ is the midpoint of $BD$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AE = \\frac{1}{2}DB$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle DCB = 90$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$CE = \\frac{1}{2}BD$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$AE = CE$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$F$ is the midpoint of $AC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$EF \\perp AC$",
+        "from":[7]
+    }
+]

@@ -1,0 +1,46 @@
+[{
+        "line": 1,
+        "given": "$\\angle BAC + \\angle ABC = 90, \\angle CEF + \\angle EFC = 90, \\angle CEF = \\angle BAC$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle ABC = \\angle EFC$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$D,E$ are the midpoint of $AB,AC$ respectively"
+    },
+
+    {
+        "line": 4,
+        "imply": "$DE \\parallel BC, AE = CE$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle ADE = \\angle ABC, \\angle AED = \\angle ACB = 90$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle ADE = \\angle EFC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\triangle ADE = \\triangle EFC$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$DE = FC$",
+        "from":[7]
+    }
+]

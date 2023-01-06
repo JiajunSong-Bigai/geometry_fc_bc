@@ -1,0 +1,137 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(B,Q),Poiny(B))",
+            "Perpendicular(Line(B,Q),Line(A,D))",
+            "IntersectAt(Line(B,Q),Line(A,D),Point(Q))",
+            "ExtendLine(Line(B, Q), Line(B,S))",
+            "ExtendLine(Line(A,C), Line(A,S))",
+            "IntersectAt(Line(B,Q),Line(A,C),Point(S))",
+            "ConnectTwoPoints(Point(E),Point(Q))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "BisectsAngle(Line(A,D),Angle(B,A,C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Isosceles(Triangle(A,B,S))"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "imp[ly": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,S)))",
+            "Equals(LengthOf(Line(B,Q)),LengthOf(Line(Q,S)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "given": [
+            "Equals(LengthOf(Line(B,E)),LengthOf(Line(E,C)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Parallel(Equals(LengthOf(Line(E,Q)),HalfOf(LengthOf(Line(C,S)))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Parallel(Line(E,F), Line(A,Q))"
+        ]
+    },
+
+    {
+        "line":9,
+        "imply": [
+            "Parallelogram(E,Q,A,F)"
+
+        ]
+    },
+
+
+    {
+        "line":10,
+        "imply": [
+            "Equals(LengthOf(Line(E,Q)),LengthOf(Line(A,F)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(C,S)),Mul(2,LengthOf(Line(A,F))))",
+            "Equals(LengthOf(Line(C,S)),Mul(2,LengthOf(Line(E,Q))))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "given": [
+            "Equals(MeasureOf(Angle(E,F,C)), MeasureOf(Angle(D,A,C)))",
+            "Equals(MeasureOf(Angle(F,G,A)), MeasureOf(Angle(D,A,C)))",
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"
+
+        ]
+    },
+
+    {
+        "line":13,
+        "imply": [
+            "Equals(MeasureOf(Angle(F,G,A)), MeasureOf(Angle(E,F,C)))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(LengthOf(Line(A,G)),LengthOf(Line(A,F)))"
+        ]
+    },
+
+    {
+        "line": 15,
+        "given": [
+            "Equals(LengthOf(Line(B,G)),Sub(LengthOf(Line(A,B)),LengthOf(Line(A,G))))",
+            "Equals(LengthOf(Line(A,C)),Sub(LengthOf(Line(A,S)),LengthOf(Line(C,S))))",
+            "Equals(LengthOf(Line(A,C)),Sub(LengthOf(Line(A,B)),Mul(2,LengthOf(Line(A,F)))))"
+        ]
+    },
+
+    {
+        "line": 16,
+        "imply": [
+            "Equals(LengthOf(Line(C,F)),SumOf(LengthOf(Line(A,C)),LengthOf(Line(A,F))))",
+            "Equals(LengthOf(Line(C,F)),Sub(LengthOf(Line(A,B)),LengthOf(Line(A,F))))",
+            "Equals(LengthOf(Line(C,F)),Sub(LengthOf(Line(A,B)),LengthOf(Line(A,G))))",
+            "Equals(LengthOf(Line(B,G)),Sub(LengthOf(Line(A,B)),LengthOf(Line(A,G))))"            
+        ]
+    },
+
+    {
+        "line": 17,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

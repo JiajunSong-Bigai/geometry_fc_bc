@@ -1,0 +1,109 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(C,H),C)",
+            "Perpendicular(Line(C,H),Line(A,B))",
+            "IntersectAt(Line(C,H),Line(A,B),Point(A,H))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,P,C)), MeasureOf(Angle(Q,P,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "Perpendicular(Line(P,Q),Line(P,A))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,P,Q)),90)"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(MeasureOf(Angle(A,P,Q)), MeasureOf(Angle(Q,P,C)),135)"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(B,P,C)), MeasureOf(Angle(Q,P,B))),135)"
+        ]
+    },
+
+    {
+        "line": 7,
+        "given": [
+            "Equals(MeasureOf(Angle(Q,P,B)), 90)"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,P,C)),45)"
+        ]
+    },
+
+    {
+        "line": 9,
+        "given": [
+            "Perpendicular(Line(C,H),Line(A,B))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,H,P)),90)"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(A,H)),LengthOf(Line(P,H)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "given": [
+            "Right(Triangle(A,B,C))",
+            "Equals(LengthOf(Line(A,B)),Sqrt(SumOf(SquareOf(LengthOf(Line(A,C))),SquareOf(LengthOf(Line(B,C))))),5)"
+        ]
+    },
+
+    {
+        "line": 13,
+        "given": [
+            "Equals(HalfOf(Mul(LengthOf(Line(A,B)),LengthOf(Line(C,H)))),HalfOf(Mul(LengthOf(Line(A,C)),LengthOf(Line(B,C)))))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(LengthOf(Line(C,H)),Div(12,5))",
+            "Equals(LengthOf(Line(B,H)),Sqrt(Sub(SquareOf(LengthOf(Line(B,C))),SquareOf(LengthOf(Line(C,H))))),Div(9,5))"
+        ]
+    },
+
+    {
+        "line": 15,
+        "imply": [
+            "Equals(LengthOf(Line(P,B)),SumOf(LengthOf(Line(P,H)),LengthOf(Line(B,H))),SumOf(Div(12,5),Div(9,5)),Div(21,5))"
+        ]
+    }
+]

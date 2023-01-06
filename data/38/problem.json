@@ -1,0 +1,6 @@
+{
+    "problem": "Pass through the midpoint $D$ of the bottom $BC$ of the isosceles $\\triangle ABC$ as the vertical line $DE$ of $AC$, intersect $AC$ at point $E$, and let the midpoint of $DE$ be $F$.",
+    "question": "find: $AF \\perp BE$",
+    "answer": "",
+    "source": "巧添辅助线-02-例10"
+}

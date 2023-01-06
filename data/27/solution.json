@@ -1,0 +1,49 @@
+[
+    {
+        "line": 1,
+        "action": "Add $CD$ from $C$, make $CD \\parallel PQ$ intersect with $AB$ at $D$, add $MK$ from $M$ ,make $MK \\parallel PQ$ intersect with $AB$ at $K$."
+    },
+    {
+        "line": 2,
+        "imply": "$MK \\parallel CD$.",
+        "from": [
+            1
+        ]
+    },
+    {
+        "line": 3,
+        "given": "$BM = MC$"
+    },
+    {
+        "line": 4,
+        "imply": "$BK = KD$",
+        "from": [
+            3
+        ]
+    },
+    {
+        "line": 5,
+        "imply": "$AK = \\frac{1}{2}(AD + AB)$",
+        "from": [
+            4
+        ]
+    },
+    {
+        "line": 6,
+        "imply": "$frac{AK}{AP} = \\frac{1}{2}(\\frac{AD}{AP} + \\frac{AB}{AP})$",
+        "from": [
+            5
+        ]
+    },
+    {
+        "line": 7,
+        "given": "$\\frac{AK}{AP} = \\frac{AM}{AN},\\frac{AD}{AP} = \\frac{AC}{AQ}$"
+    },
+    {
+        "line": 8,
+        "imply": "$\\frac{AM}{AN} = \\frac{1}{2}(\\frac{AB}{AP}+\\frac{AC}{AQ}) = \\frac{1}{2}(\\frac{5}{2}+\\frac{4}{3}) = \\frac{23}{12}$",
+        "from": [
+            7
+        ]
+    }
+]

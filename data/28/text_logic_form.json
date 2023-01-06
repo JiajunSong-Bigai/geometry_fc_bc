@@ -1,0 +1,14 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "PointLiesOnLine(Point(D),Line(B,C))",
+        "PointLiesOnLine(Point(E),Line(A,D))",
+        "Equals(MeasureOf(Angle(B,E,D)), MeasureOf(Angle(B,A,C)))",
+        "Equals(Mul(2,MeasureOf(Angle(C,E,D))), MeasureOf(Angle(B,A,C)))"
+    ],
+    "question": [
+        "Proof(Equals(Line(B,D)),Mul(2,LengthOf(Line(C,D)))))"
+    ],
+    "answer": []
+}

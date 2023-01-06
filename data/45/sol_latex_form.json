@@ -1,0 +1,90 @@
+[{
+        "line": 1,
+        "given": "$CB = CA$"
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\angle CAB = \\angle CBA",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$\\angle MAC = \\angle MBC$"
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle CAB - \\angle MAC = \\angle CBA - \\angle MBC$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle MAB = \\angle MBA$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$MA = MB$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$ME \\perp BC$ at $E$, $MF \\perp AC$ at $F$"
+    },
+
+    {
+        "line": 8,
+        "imply": "\\angle AFM = \\angle BEM = 90",
+        "form":[7]
+    },
+
+    {
+        "line": 9,
+        "given": "In $\\triangle AFM $ and $\\triangle BEM$, $\\angle AFM = \\angle BEM, \\angle MAF = \\angle MBE, MA = MB$"
+    },
+
+    {
+        "line": 10,
+        "imply": "$\\triangle AFM \\cong \\triangle BEM$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$AF = BE$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "$D$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 13,
+        "imply": "$BD = AD$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "given": "In $\\triangle BDE$ and $\\triangle ADF$, $BD = AD, \\angle DBE = \\angle DAF, BE = AF$"
+    },
+
+    {
+        "line": 15,
+        "imply": "$\\triangle BDE \\cong \\triangle ADF$",
+        "from":[14]
+    },
+
+    {
+        "line": 16,
+        "imply": "$DE = DF$",
+        "from":[15]
+    }
+]

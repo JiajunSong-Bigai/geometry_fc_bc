@@ -1,0 +1,63 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(D),Point(E))",
+            "ConnectTwoPoints(Point(F),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Median(Line(B,D),Triangle(A,B,C))",
+            "Median(Line(C,E),Triangle(A,B,C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "IsMidpointOf(Point(D),Line(A,C))",
+            "IsMidpointOf(Point(E),Line(A,B))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Parallel(Line(D,E), Line(B,C))",
+            "Equals(LengthOf(Line(D,E)),HalfOf(LengthOf(Line(B,C))))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Parallel(Line(F,G), Line(B,C))",
+            "Equals(LengthOf(Line(F,G)),HalfOf(LengthOf(Line(B,C))))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Parallel(Line(D,E), Line(F,G))",
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(F,G)))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "imply": [
+            "Parallelogram(A,B,C,D)"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Parallel(Line(E,F),Line(D,G))",
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(D,G)))"
+        ]
+    }
+]

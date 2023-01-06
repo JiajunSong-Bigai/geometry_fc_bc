@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,$AB = AC$,$D$ is point on $BC$,$E$ is the point on $AD$, and $\\angle BED = 2\\angle CED = \\angle BAC$.",
+    "question": "Proof: $BD = 2CD$.",
+    "answer": "",
+    "source": "几何题-例4"
+}

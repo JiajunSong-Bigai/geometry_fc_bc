@@ -1,0 +1,13 @@
+{
+    "problem": [
+        "Trapezoid(A,B,C,D)",
+        "Parallel(Line(D,C), Line(A,B))",
+        "Equals(LengthOf(Line(A,C)),LengthOf(Line(B,D)))"
+    ],
+
+    "question": [
+        "Proof(Isosceles(Trapezoid(A,B,C,D)))"
+    ],
+
+    "answer": []
+}

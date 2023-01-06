@@ -1,0 +1,86 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLineToPoint(Line(F,E), H)",
+            "Equals(LengthOf(Line(H,E)),LengthOf(Line(F,E)))",
+            "ConnectTwoPoints(Point(B),Point(H))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+           "Triangle(C,E,F)",
+           "Triangle(B,E,H)",
+           "Equals(LengthOf(Line(C,E)),LengthOf(Line(B,E)))",
+           "Equals(MeasureOf(Angle(C,E,F)), MeasureOf(Angle(B,E,H)))",
+           "Equals(LengthOf(Line(F,E)),LengthOf(Line(H,E)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Congruent(Triangle(C,E,F), Triangle(B,E,H))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(E,F,C)),MeasureOf(Angle(B,H,E)))",
+            "Equals(LengthOf(Line(C,F)),LengthOf(Line(B,H)))"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "given": [
+            "BisectsAngle(Line(A,D),Angle(B,A,C))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(D,A,C)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "given": [
+            "Parallel(Line(A, D), Line(E,F))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,G,H)), MeasureOf(Angle(B,A,D)))",
+            "Equals(MeasureOf(Angle(D,A,C)), MeasureOf(Angle(E,F,C)))"
+        ]
+    },
+
+    {
+        "line":9,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,H,E)), MeasureOf(Angle(B,G,H)))"
+
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(B,H)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(B,G)),LengthOf(Line(C,F)))"
+        ]
+    }
+]

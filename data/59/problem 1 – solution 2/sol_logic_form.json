@@ -1,0 +1,82 @@
+[{
+    "line": 1,
+    "action": [
+        "ExtendLineToPoint(Line(E,D), G)",
+        "Equals(LengthOf(Line(D,G)),LengthOf(Line(D,E)))",
+        "ConnectTwoPoints(Point(C),Point(G))"
+    ]
+},
+
+{
+    "line": 2,
+    "given": [
+        "IsMidpointOf(Point(D),Line(B,C))"
+    ]
+},
+
+{
+    "line": 3,
+    "imply": [
+        "Equals(LengthOf(Line(B,D)),LengthOf(Line(C,D)))"
+    ]
+},
+
+{
+    "line": 4,
+    "given": [
+        "Equals(MeasureOf(Angle(B,D,E)), MeasureOf(Angle(C,D,G)))"
+    ]
+},
+
+{
+    "line": 5,
+    "given": [
+        "Congruent(Triangle(B,E,D), Triangle(C,G,D))"
+    ]
+},
+
+{
+    "line": 6,
+    "imply": [
+        "Equals(MeasureOf(Angle(B,E,D)), MeasureOf(Angle(D,G,C)))",
+        "Equals(LengthOf(Line(B,E)),LengthOf(Line(C,G)))"
+    ]
+},
+
+{
+    "line": 7,
+    "given": [
+        "Equals(LengthOf(Line(A,F)),LengthOf(Line(E,F)))"
+    ]
+},
+
+{
+    "line": 8,
+    "imply": [
+        "Equals(MeasureOf(Angle(F,A,E)),MeasureOf(Angle(A,E,F)))",
+        "Equals(MeasureOf(Angle(A,E,F)),MeasureOf(Angle(B,E,G)))",
+        "Equals(MeasureOf(Angle(F,A,E)),MeasureOf(Angle(B,E,G)))"
+    ]
+},
+
+{
+    "line": 9,
+    "imply": [
+        "Equals(MeasureOf(Angle(D,G,C)),MeasureOf(Angle(E,A,F)))"
+    ]
+},
+
+{
+    "line": 10,
+    "imply": [
+        "Equals(LengthOf(Line(A,C)),LengthOf(Line(G,C)))"
+    ]
+},
+
+{
+    "line": 11,
+    "imply": [
+        "Equals(LengthOf(Line(A,C)),LengthOf(Line(B,E)))"
+    ]
+}
+]

@@ -1,0 +1,83 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(C,G),Point(C))",
+            "Parallel(Line(C,G), Line(D,B))",
+            "ExtendLineToPoint(Line(A,B), Line(A,G)",
+            "IntersectAt(Line(C,G),Line(A,G),Point(G))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Parallelogram(D,C,G,B)"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(LengthOf(Line(C,G)),LengthOf(Line(B,D)))",
+            "Equals(MeasureOf(Angle(D,B,A)), MeasureOf(Angle(C,G,A)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(B,D)))"
+        ]
+    },
+    
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(C,G)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(C,A,B)), MeasureOf(Angle(C,G,A)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Equals(Triangle(D,B,A),Triangle(C,A,B))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "given": [
+            "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,B)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Congruent(Triangle(A,B,D), Triangle(B,A,C))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(B,C)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Isosceles(Trapezoid(A,B,C,D))"
+        ]
+    }
+
+
+]

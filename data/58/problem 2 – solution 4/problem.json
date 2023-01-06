@@ -1,0 +1,6 @@
+{
+    "problem": "In $\\triangle ABC$,$AD$ intersects with $BC$ at $D$, $E$ is the midpoint of $BC$, $EF \\parallel AD$, $EF$ intersects with the extension of $CA$ at $F$, $EF$ intersects with $AB$ st $G$, $AD$ is an internal bisector of $\\angle BAC$.",
+    "question": "Proof: $BG = CF$.",
+    "answer": "",
+    "source": "学而思-变式"
+}

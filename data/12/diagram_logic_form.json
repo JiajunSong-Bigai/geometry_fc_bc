@@ -1,0 +1,67 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1455.23,
+                1241
+            ],
+            "B": [
+                1097.03,
+                1854.38
+            ],
+            "C": [
+                1891.96,
+                2036.19
+            ],
+            "D": [
+                1049.94,
+                1585.25
+            ],
+            "H": [
+                1247.06,
+                1687.96
+            ],
+            "P": [
+                834.12,
+                1468.46
+            ],
+            "Point1": [
+                1205.2,
+                1669.55
+            ]
+        },
+        "line_instances": [
+            "A_P",
+            "A_D",
+            "D_B",
+            "A_Point1",
+            "Point1_B",
+            "A_B",
+            "A_H",
+            "A_C",
+            "P_B",
+            "B_C",
+            "P_D",
+            "D_Point1",
+            "Point1_H",
+            "H_C",
+            "P_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(Point(D),Line(P,C))",
+            "PointLiesOnLine(Point1,Line(P,C))",
+            "PointLiesOnLine(Point1,Line(A,B))",
+            "PointLiesOnLine(Point(H),Line(P,C))",
+            "LabelOf(PerpendicularSymbol,Angle(A,H,C)) "
+        ]
+    },
+    {
+        "point_positions": [],
+        "line_instances": [],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": []
+    }
+]

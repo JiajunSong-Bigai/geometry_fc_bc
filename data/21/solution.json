@@ -1,0 +1,47 @@
+[{
+        "line": 1,
+        "action": "Add $EG$, make $EG \\parallel AF$ intersect with $BC$ at $G$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$\\triangle BCF \\sim \\triangle GCE, \\triangle ABD \\sim \\triangle EGD$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\frac{FB}{EG} = \\frac{BC}{CG} = \\frac{CF}{CE}, \\frac{AB}{EG} = \\frac{BD}{DG}$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "given": "$D$ is the midpoint of $BC$,$EC = \\frac{1}{4}CF$ ",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$BD = CD, CG = \\frac{1}{4}BC$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$DG = \\frac{1}{2}BD$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$BF = 4 GE,AB = 2GE$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$F$ is on the extension of $AB$, and $BF = 2 AB$",
+        "from":[7]
+    }
+]

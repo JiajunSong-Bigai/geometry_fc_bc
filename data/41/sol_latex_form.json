@@ -1,0 +1,77 @@
+[{
+        "line": 1,
+        "action": "Extend $AC,BE$ and intersect at $F$, take the midpoint $G$ of $CF$, connect $EG$."
+    },
+
+    {
+        "line": 2,
+        "given": "In $\\triangle ABE$ and $\\triangle AFE$, $\\angle BAE = \\angle FAE, AE = AE, \\angle BEA = \\angle FEA = 90$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\triangle ABE \\cong \\triangle AFE$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$AB = AF, BE = FE$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$AB = 3AC$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$AF = 3AC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$CF = 2AC$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$CG = FG$"
+    },
+
+    {
+        "line": 9,
+        "imply": "$AC = CG = FG$ ",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "given": "In $\\triangle BCF$"
+    },
+
+    {
+        "line": 11,
+        "given": "$CG = FG,BE = FE$"
+    },
+
+    {
+        "line": 12,
+        "imply": "$EG \\parallel BC$ ",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "given": "$AC = CG$"
+    },
+
+    {
+        "line": 14,
+        "imply": "$AD = DE$ ",
+        "from":[13]
+    }
+]

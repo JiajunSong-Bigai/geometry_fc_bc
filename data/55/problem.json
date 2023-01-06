@@ -1,0 +1,6 @@
+{
+    "problem": "$P$ is on the base $BC$ of $Rt\\triangle ABC$, add the lines perpendicular to $BA,AC$ from $P$ at $E,F$, let $D$ is the midpoint of $BC$.",
+    "question": "Proof:$\\triangle DEF$ is isosceles right triangle.",
+    "answer": "",
+    "source": "学而思-例题5"
+}

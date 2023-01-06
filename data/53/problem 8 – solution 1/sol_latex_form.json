@@ -1,0 +1,79 @@
+[{
+        "line": 1,
+        "action": "Connect $CD$"
+    },
+
+    {
+        "line": 2,
+        "given": "$\\angle ACB = 90$, $D$ is the midpoint of $AB$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$CD = \\frac{1}{2} AB = BD$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\angle ABC = \\angle BCD$",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "given": "$\\angle ACB = \\angle ECF = 90$"
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle BAC + \\angle ABC = 90, \\angle CEF + \\angle EFC = 90$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "given": "$\\angle CEF = \\angle BAC$"
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle ABC = \\angle EFC$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\angle BCD = \\angle EFC$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$DC \\parallel EF$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "given": "$D,E$ are the midpoint of $AB,AC$ respectively"
+    },
+
+    {
+        "line": 12,
+        "imply": "$DE \\parallel BF$",
+        "from":[11]
+    },
+
+    {
+        "line": 13,
+        "imply": "Quadrilateral $DEFC$ is parallelogram",
+        "from":[9]
+    },
+
+    {
+        "line": 14,
+        "imply": "$DE = CF$",
+        "from":[13]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "IsMidpointOf(Point(D),Line(B,C))",
+        "AddLineFromPoint(Line(E,F),Point(D))",
+        "IntersectAt(Line(E,F),Line(A,C),Point(E))",
+        "IntersectAt(Line(E,F),Line(A,B),Point(F))"
+    ],
+
+    "question": [
+        "Proof(Equals(Div(LengthOf(Line(A,E)),LengthOf(Line(E,C))),Div(LengthOf(Line(A,F)),LengthOf(Line(B,F)))))"
+    ],
+
+    "answer": []
+}

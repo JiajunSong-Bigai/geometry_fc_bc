@@ -1,0 +1,18 @@
+{
+    "problem": [
+        "Isosceles(Trapezoid(A,B,C,D))",
+        "Parallel(Line(A, B), Line(C, D))",
+        "Equals(LengthOf(Line(A,D)),LengthOf(Line(B,C)))",
+        "IntersectAt(Line(A,C),Line(B,D),Point(O))",
+        "Equals(MeasureOf(Angle(A,O,B)),60)",
+        "IsMidpointOf(Point(P),Line(O,A))",
+        "IsMidpointOf(Point(Q),Line(B,C))",
+        "IsMidpointOf(Point(R),Line(O,D))"
+    ],
+
+    "question": [
+        "Proof(Equilateral(Triangle(P,Q,R)))"
+    ],
+
+    "answer": []
+}

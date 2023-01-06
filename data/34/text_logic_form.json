@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Isosceles(Right(Triangle(A,B,C)))",
+        "Equals(LengthOf(Line(A,B)),1)",
+        "Equals(MeasureOf(Angle(A)),90)",
+        "IsMidpointOf(Point(E),Line(A, C))",
+        "PointLiesOnLine(Point(F),Line(B,C))",
+        "Perpendicular(Line(E,F),Line(B,F))"
+    ],
+
+    "question": [
+        "Find(AreaOf(Triangle(C,E,F)))"
+    ],
+
+    "answer": []
+}

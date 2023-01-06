@@ -1,0 +1,14 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "IsAltitudeOf(Line(A,D),Triangle(A,B,C))",
+        "IsMidpointOf(Point(E),Line(A,C))",
+        "Equals(MeasureOf(Angle(E,B,C)),30)"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,D)),LengthOf(B,E))))"
+    ],
+
+    "answer": []
+}

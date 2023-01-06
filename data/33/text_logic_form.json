@@ -1,0 +1,17 @@
+{
+    "problem": [
+        "IsHypotenuseOf(Line(B,C),Triangle(A,B,C))",
+        "IsAltitudeOf(Line(A,D),Line(B,C))",
+        "IsMidpointOf(Point(P),Line(A, D))",
+        "ConnectTwoPoints(Point(B),Point(P))",
+        "ExtendLine(Line(B,P), Line($1))",
+        "IntersectAt(Line($1),Line(A,C),Point(E))",
+        "Equals(Div(LengthOf(Line(A,C),LengthOf(Line(A,B)),k)"
+    ],
+
+    "question": [
+        "Find(Div(LengthOf(Line(A,E),LengthOf(Line(E,C)))"
+    ],
+
+    "answer": []
+}

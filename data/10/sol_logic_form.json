@@ -1,0 +1,28 @@
+[{
+        "line": 1,
+        "given": [
+            "MoreThan(SumOf(LengthOf(Line(O,A)), LengthOf(Line(O,B))),LengthOf(Line(A,B)))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "MoreThan(SumOf(LengthOf(Line(O,B)), LengthOf(Line(O,C))),LengthOf(Line(B,C)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "given": [
+            "MoreThan(SumOf(LengthOf(Line(O,C)), LengthOf(Line(O,A))),LengthOf(Line(A,C)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(Mul(2,SumOf(LengthOf(Line(A,O)), LengthOf(Line(B,O)),LengthOf(Line(C,O)))),SumOf(LengthOf(Line(A,B)), LengthOf(Line(B,C)),LengthOf(Line(A,C))))"
+        ]
+    }
+]

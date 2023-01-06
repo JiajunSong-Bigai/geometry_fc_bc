@@ -1,0 +1,91 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1193.88,
+                1697.45
+            ],
+            "B": [
+                580.95,
+                2281.14
+            ],
+            "C": [
+                1168.17,
+                2281.41
+            ],
+            "D": [
+                1825.87,
+                1676.9
+            ],
+            "E": [
+                1541.6,
+                1070
+            ],
+            "M": [
+                1180.28,
+                1986.77
+            ],
+            "N": [
+                866.28,
+                2280.69
+            ],
+            "Point1": [
+                976.09,
+                2086.88
+            ]
+        },
+        "line_instances": [
+            "E_A",
+            "A_B",
+            "A_Point1",
+            "Point1_N",
+            "A_N",
+            "B_N",
+            "N_C",
+            "B_C",
+            "D_M",
+            "M_Point1",
+            "Point1_B",
+            "D_B",
+            "A_M",
+            "M_C",
+            "A_C",
+            "E_D"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(Point(M),Line(A,C))",
+            "PointLiesOnLine(Point(M),Line(B,D))",
+            "PointLiesOnLine(Point(N),Line(B,C))",
+            "PointLiesOnLine(Point1,Line(B,D))",
+            "PointLiesOnLine(Point1,Line(A,N))",
+            "LabelOf(3,Angle(C,A,N)",
+            "LabelOf(4,Angle(C,N,A)",
+            "LabelOf(6,Angle(D,B,C)"
+         ]
+    },
+    {
+        "point_positions": {
+            "F": [
+                1505.93,
+                1684.48
+            ]
+        },
+        "line_instances": [
+            "E_F",
+            "A_F",
+            "F_D",
+            "A_D"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+         "logic_form": [
+            "PointLiesOnLine(Point(F),Line(A,D))",
+            "LabelOf(1,Angle(E,D,A)",
+            "LabelOf(2,Angle(A,D,B)",
+            "LabelOf(5,Angle(E,A,D)"
+        ]
+
+    }
+]

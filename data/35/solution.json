@@ -1,0 +1,38 @@
+[{
+        "line": 1,
+        "action": "Add $BG$ from $B$,make $BG \\parallel AC$ intersect with  $EF$ at $G$."
+    },
+
+    {
+        "line": 2,
+        "imply": "$AF : BF = AE : BG$",
+        "from":[1]
+    },
+
+    {
+        "line": 3,
+        "given": "$\\triangle DCE , \\triangle DBG$"
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle DCE = \\angle DBG,\\angle CDE = \\angle BDG,DC = DB$"
+    },
+
+    {
+        "line": 5,
+        "given": "$\\triangle DCE \\cong \\triangle DBG$"
+    },
+    
+    {
+        "line": 6,
+        "imply": "$BG = EC$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$AE : EC = AF : BF$",
+        "from":[2,5,6]
+    }
+]

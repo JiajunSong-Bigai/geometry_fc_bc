@@ -1,0 +1,47 @@
+[{
+        "line": 1,
+        "action": [
+            "ExtendLine(Line(B,D), Line(B,H))",
+            "IntersectAt(Line(B,D),Line(A,C),Point(H))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Triangle(A,D,B)",
+            "Triangle(A,D,H)",
+            "Equals(MeasureOf(Angle(B,A,D)), MeasureOf(Angle(H,A,D)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(A,D)))",
+            "Equals(MeasureOf(Angle(A,D,B)), MeasureOf(Angle(A,D,H)))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Congruent(Triangle(A,D,B), Triangle(A,D,H))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(B,D)),LengthOf(Line(H,D)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "IsMidpointOf(Point(E),Line(B,C))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Parallel(Line(D,E), Line(A,C))"
+        ]
+    }
+]

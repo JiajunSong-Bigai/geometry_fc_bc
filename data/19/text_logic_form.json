@@ -1,0 +1,19 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "PointLiesOnLine(Point(P),Line(B,C))",
+        "Perpendicular(Line(P,N),Line(A,C))",
+        "IntersectAt(Line(P,N),Line(A,C),Point(N))",
+        "Perpendicular(Line(P,M),Line(A,B))",
+        "IntersectAt(Line(P,M),Line(A,B),Point(M))",
+        "Perpendicular(Line(C,G),Line(A,B))",
+        "IntersectAt(Line(C,G),Line(A,B),Point(G))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(P,M)),SumOf(LengthOf(Line(C,G)),LengthOf(Line(P,N)))))"
+    ],
+
+    "answer": []
+}

@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "ExtendLineToPoint(Line(B,C), D)",
+        "Equals(LengthOf(Line(C,D)),LengthOf(Line(B,C)))",
+        "IsMidpointOf(Point(F),Line(A, B))",
+        "ConnectTwoPoints(Point(F),Point(D))",
+        "IntersectAt(Line(F,D),Line(A,C),Point(E))"
+    ],
+
+    "question": [
+        "Find(Div(LengthOf(Line(A,E)),LengthOf(Line(A,C))))"
+    ],
+
+    "answer": []
+}

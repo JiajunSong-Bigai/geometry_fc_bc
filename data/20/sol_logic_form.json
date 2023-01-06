@@ -1,0 +1,64 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(A),Point(C))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "IsMidpointOf(Point(M),Line(C,D))",
+            "Perpendicular(Line(A,M), Line(C,D))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "IsPerpendicularBisectorOf(Line(A,M),Line(C,D))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),LengthOf(Line(A,D)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Perpendicular(Line(A,M), Line(C,D))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(MeasureOf(Angle(3)), MeasureOf(Angle(4)))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(MeasureOf(Angle(1)), MeasureOf(Angle(2)))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(2)), MeasureOf(Angle(3))),HalfOf(MeasureOf(Angle(B,A,D))))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(MeasureOf(Angle(B,A,D)),Mul(2,MeasureOf(Angle(M,A,N))))"
+        ]
+    }
+]

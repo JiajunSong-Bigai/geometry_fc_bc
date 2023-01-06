@@ -1,0 +1,6 @@
+{
+    "problem": "In $Rt\\triangle BCD$,$\\angle CBD = 90,BC = BD$, $A$ is onthe extension of $CB$, and $BA = BC$, $E$ moves on the line $BD$, add $EF$ from $E$, make $EF \\perp EA$,intersect with $CD$ at $F$, when $E$ moves on $BD$",
+    "question": "Proof:$AE = EF$.",
+    "answer": "",
+    "source": "几何辅助线-3.2-4"
+}

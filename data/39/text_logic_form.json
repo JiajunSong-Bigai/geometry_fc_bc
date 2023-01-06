@@ -1,0 +1,15 @@
+{
+    "problem": [
+        "Parallelogram(A,B,C,D)",
+        "BisectsAngle(Line(A,E),Angle(B,A,D))",
+        "IntersectAt(Line(A,E),Line(B,C),Point(E))",
+        "ExtendLine(Line(D,C), Line(D,F))",
+        "IntersectAt(Line(A,E),Line(D,C),Point(F))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(C,E)),LengthOf(Line(C,F))))"
+    ],
+
+    "answer": []
+}

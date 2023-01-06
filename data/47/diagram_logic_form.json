@@ -1,0 +1,93 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                762.2339093979973,
+                2307.811904331041
+            ],
+            "B": [
+                1701.2343919652553,
+                2311.1182440583907
+            ],
+            "C": [
+                1397.0511370491013,
+                1256.3958710339002
+            ],
+            "D": [
+                1112.7059204970442,
+                1249.7831915792012
+            ],
+            "O": [
+                1251.5721890457232,
+                1501.0650108577634
+            ],
+            "P": [
+                1010.2093889492097,
+                1894.5194384123538
+            ],
+            "Point1": [
+                1420.1955151405477,
+                1811.8609452286162
+            ],
+            "Point2": [
+                1268.1038876824707,
+                1471.3079533116177
+            ],
+            "Q": [
+                1549.142764507178,
+                1778.7975479551212
+            ],
+            "R": [
+                1182.1390547713838,
+                1378.7304409458318
+            ]
+        },
+        "line_instances": [
+            "A_B",
+            "B_C",
+            "B_Q",
+            "Q_C",
+            "D_C",
+            "D_B",
+            "D_R",
+            "R_O",
+            "O_Point1",
+            "Point1_B",
+            "R_P",
+            "A_P",
+            "P_O",
+            "O_Point2",
+            "Point2_C",
+            "A_C",
+            "R_Point2",
+            "Point2_Q",
+            "R_Q",
+            "P_Point1",
+            "Point1_Q",
+            "P_Q"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(R,Line(B,D))",
+            "PointLiesOnLine(O,Line(B,D))",
+            "PointLiesOnLine(O,Line(A,C))",
+            "PointLiesOnLine(Point2,Line(A,C))",
+            "PointLiesOnLine(Point2,Line(R,Q))",
+            "PointLiesOnLine(Point1,Line(B,D))",
+            "PointLiesOnLine(Point1,Line(P,Q))",
+            "PointLiesOnLine(P,Line(A,C))",
+            "PointLiesOnLine(Q,Line(B,C))"
+        ]
+    },
+    {
+        "point_positions": [],
+        "line_instances": [
+            "R_C",
+            "P_B"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": []
+    }
+]

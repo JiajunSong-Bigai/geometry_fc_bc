@@ -1,0 +1,57 @@
+[{
+        "line": 1,
+        "action": "Take $BH$ from $BA$,make $BH = BE$,connect $EH$."
+    },
+
+    {
+        "line": 2,
+        "given": "$BC = AB = BD, BE = BH$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$AH = ED$",
+        "from":[1]
+    },
+
+    {
+        "line": 4,
+        "given": "$\\angle AEF = \\angle ABE = 90$"
+    },
+
+    {
+        "line": 5,
+        "imply": "$\\angle AEB + \\angle FED = 90, \\angle AEB + \\angle BAE = 90$",
+        "from":[4]
+    },
+
+    {
+        "line": 6,
+        "imply": "$\\angle FED = \\angle HAE$",
+        "from":[5]
+    },
+
+    {
+        "line": 7,
+        "imply": "$\\angle BHE = \\angle CDB = 45$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "imply": "$\\angle AHE = \\angle EDF = 135$",
+        "from":[7]
+    },
+
+    {
+        "line": 9,
+        "imply": "$\\tirangle AHE \\cong \\triangle EDF$",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$AE = EF$",
+        "from":[9]
+    }
+]

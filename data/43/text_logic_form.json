@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Isosceles(Right(Triangle(A,B,C)))",
+        "Equals(MeasureOf(Angle(C,A,B)), 90)",
+        "Equals(LengthOf(Line(A,B)),LengthOf(Line(A,C)))",
+        "BisectsAngle(Line(B,D),Angle(A,B,C))",
+        "Perpendicular(Line(C,E), Line(B,D))",
+        "IntersectAt(Line(C,E),Line(B,D),Point(E))"
+    ],
+
+    "question": [
+        "Proof(Equals(LengthOf(Line(B,D)),Mul(2,LengthOf(Line(C,E)))))"
+    ],
+
+    "answer": []
+}

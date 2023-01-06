@@ -1,0 +1,17 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "IsMidpointOf(Point(M),Line(B,C))",
+        "BisectsAngle(Line(M,E),Angle(A,M,B))",
+        "BisectsAngle(Line(M,F),Angle(A,M,C))",
+        "IntersectAt(Line(M,E),Line(A,B),Point(E))",
+        "IntersectAt(Line(M,F),Line(A,C),Point(F))",
+        "ConnectTwoPoints(Point(E),Point(F))"
+    ],
+
+    "question": [
+        "Proof(Gt(SumOf(LengthOf(Line(B,E)),LengthOf(Line(C,F))),LengthOf(Line(E,F))))"
+    ],
+
+    "answer": []
+}

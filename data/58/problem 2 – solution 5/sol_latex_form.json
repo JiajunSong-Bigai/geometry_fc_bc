@@ -1,0 +1,96 @@
+[{
+        "line": 1,
+        "action": "Add $BQ$ perpendicular to $AD$ at $Q$, extend $BQ$ intersect with the extemsion of $AC$ at $S$, connect $EQ$."
+    },
+
+    {
+        "line": 2,
+        "given": "$AD$ bisects $\\angle BAC$"
+    },
+
+    {
+        "line": 3,
+        "imply": "$\\angle BAD = \\angle DAC$",
+        "from":[2]
+    },
+
+    {
+        "line": 4,
+        "imply": "$\\triangle ABS$ is isosceles triangle",
+        "from":[3]
+    },
+
+    {
+        "line": 5,
+        "imply": "$AB = AS, BQ = QS$",
+        "from":[4]
+    },
+    
+    {
+        "line": 6,
+        "given": "$BE = EC$"
+    },
+
+    {
+        "line": 7,
+        "imply": "$EQ = \\frac{1}{2}CS$",
+        "from":[6]
+    },
+
+    {
+        "line": 8,
+        "given": "$EF \\parallel AQ$"
+    },
+
+    {
+        "line": 9,
+        "imply": "Quadrilateral $EQAF$ is parallelogram",
+        "from":[8]
+    },
+
+    {
+        "line": 10,
+        "imply": "$EQ = AF$",
+        "from":[9]
+    },
+
+    {
+        "line": 11,
+        "imply": "$CS = 2EQ = 2AF$",
+        "from":[10]
+    },
+
+    {
+        "line": 12,
+        "given": "$\\angle EFC = \\angle DAC, \\angle FGA = \\angle BAC, \\angle BAC = \\angle DAC$"
+    },
+
+    {
+        "line": 13,
+        "imply": "$\\angle FGA = \\angle EFC$",
+        "from":[12]
+    },
+
+    {
+        "line": 14,
+        "imply": "$AG = AF$",
+        "from":[13]
+    },
+
+    {
+        "line": 15,
+        "given": "$BG = AB - AG, AC = AS - CS = AB - 2AF$"
+    },
+
+    {
+        "line": 16,
+        "imply": "$CF = AC + AF = AB - 2AF + AF = AB - AF = AB - AG = BG$",
+        "from":[15]
+    },
+
+    {
+        "line": 17,
+        "imply": "$BG = CF$",
+        "from":[16]
+    }
+]

@@ -1,0 +1,87 @@
+[{
+        "line": 1,
+        "action": [
+            "ConnectTwoPoints(Point(A),Point(D))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Isosceles(Triangle(Triangle(A,B,C)))",
+            "IsMidpointOf(Point(D),Line(B,C))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Perpendicular(Line(A, D), Line(B, C))",
+            "BisectsAngle(Line(A,D),Angle(B,A,C))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(B,D)))",
+            "Equals(LengthOf(Line(A,D)),LengthOf(Line(C,D)))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "imply": [
+            "Equals(MeasureOf(Angle(D,A,E)), 45)",
+            "Equals(MeasureOf(Angle(B,C,A)), 45)"
+        ]
+    },
+
+    {
+        "line": 5,
+        "given": [
+            "Perpendicular(Line(D,E), Line(D,F))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(SumOf(MeasureOf(Angle(E,D,A)), MeasureOf(Angle(F,D,A))),90)"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "given": [
+            "Equals(SumOf(MeasureOf(Angle(C,D,F)), MeasureOf(Angle(F,D,A))),90)"
+        ]
+    },
+
+    {
+        "line": 8,
+        "imply": [
+            "Equals(MeasureOf(Angle(E,D,A)), MeasureOf(Angle(C,D,F)))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "given": [
+            "Triangle(A,D,E)",
+            "Triangle(C,D,F)",
+            "Equals(MeasureOf(Angle(D,A,E)), MeasureOf(Angle(B,C,A)))",
+            "Equals(LengthOf(Line(D,A)),LengthOf(Line(D,C)))",
+            "Equals(MeasureOf(Angle(E,D,A)), MeasureOf(Angle(F,D,C)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Congruent(Triangle(A,D,E), Triangle(C,D,F))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(LengthOf(Line(A,E)),LengthOf(Line(C,F)))",
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(D,F)))"
+        ]
+    }
+]

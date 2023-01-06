@@ -1,0 +1,6 @@
+{
+    "problem": "In equilateral $\\triangle ABC$,$E$ is on $BC$,$G$ is on the extension line of $BC$,add $\\angle AEM = 60 $ from $E$, intersect with the bisects of $\\angle ACG$ at $M$,when $E$ is the midpoint of $BC$.",
+    "question": "Proof:$AE = EM$",
+    "answer": "",
+    "source": "几何辅助线-3.2-3"
+}

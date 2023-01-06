@@ -1,0 +1,6 @@
+{
+    "problem": "$\\triangle UWV$ intersect with the edages of $\\triangle XYZ$ at $A,B,C,D,E,F$,if $\\frac{AB}{UV} = \\frac{CD}{VW} = \\frac{EF}{WU}$.",
+    "question": "Proof:$\\frac{BC}{XY} = \\frac{DE}{YZ} = \\frac{FA}{ZX}$.",
+    "answer": "",
+    "source": "几何题-例8"
+}

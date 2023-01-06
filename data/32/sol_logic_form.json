@@ -1,0 +1,95 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line($1),D)",
+            "AddLineFromPoint(Line($2),D)",
+            "Parallel(Line($1), Line(U,W))",
+            "Parallel(Line($2), Line(W,V))",
+            "IntersectAt(Line($1),Line($2),Point(P))",
+            "ConnectTwoPoints(Point(P),Point(E))",
+            "ConnectTwoPoints(Point(P),Point(D))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "imply": [
+            "Similar(Triangle(A,B,P), Triangle(U,V,W))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Equals(Div(LengthOf(Line(A,B)),LengthOf(Line(U,V))),Div(LengthOf(Line(B,P)),LengthOf(Line(V,W))),Div(LengthOf(Line(P,A)),LengthOf(Line(W,U))))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(Div(LengthOf(Line(A,B)),LengthOf(Line(U,V))),Div(LengthOf(Line(C,D)),LengthOf(Line(V,W))),Div(LengthOf(Line(E,F)),LengthOf(Line(W,U))))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(C,D)),LengthOf(Line(B,P)))",
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(P,A)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Parallel(Equals(LengthOf(Line(C,D)),LengthOf(Line(B,P))))",
+            "Parallel(Equals(LengthOf(Line(E,F)),LengthOf(Line(P,A))))"
+        ]
+    },
+    
+    {
+        "line": 7,
+        "action": [
+            "ConnectTwoPoints(Point(P),Point(C))",
+            "ConnectTwoPoints(Point(P),Point(F))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Congruent(Triangle(B,P,C), Triangle(D,C,P))",
+            "Congruent(Triangle(A,F,P), Triangle(E,P,F))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Parallel(Equals(LengthOf(Line(B,C)),LengthOf(Line(P,D))))",
+            "Parallel(Equals(LengthOf(Line(F,A)),LengthOf(Line(E,P))))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "imply": [
+            "Similar(Triangle(P,D,E), Triangle(X,Y,Z))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(Div(LengthOf(Line(P,D)),LengthOf(Line(X,Y))),Div(LengthOf(Line(D,E)),LengthOf(Line(Y,Z))),Div(LengthOf(Line(E,P)),LengthOf(Line(Z,X))))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(Div(LengthOf(Line(B,C)),LengthOf(Line(X,Y))),Div(LengthOf(Line(D,E)),LengthOf(Line(Y,Z))),Div(LengthOf(Line(F,A)),LengthOf(Line(Z,X))))"
+        ]
+    }
+]

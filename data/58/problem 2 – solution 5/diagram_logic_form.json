@@ -1,0 +1,89 @@
+[
+    {
+        "point_positions": {
+            "A": [
+                1575.0626311141941,
+                1350.6133279044518
+            ],
+            "B": [
+                782.9187381033767,
+                1793.754694139489
+            ],
+            "C": [
+                1641.648639512205,
+                1796.0507633945929
+            ],
+            "D": [
+                1354.6399826242275,
+                1793.754694139489
+            ],
+            "E": [
+                1214.5797580628946,
+                1796.0507633945929
+            ],
+            "F": [
+                1545.2137307978444,
+                1176.1120645165615
+            ],
+            "G": [
+                1398.2652984712001,
+                1447.0482366188123
+            ]
+        },
+        "line_instances": [
+            "B_E",
+            "E_D",
+            "D_C",
+            "B_C",
+            "B_G",
+            "G_A",
+            "B_A",
+            "F_G",
+            "G_E",
+            "F_E",
+            "A_D",
+            "A_C",
+            "A_F",
+            "F_C"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "PointLiesOnLine(G,Line(F,E))",
+            "PointLiesOnLine(G,Line(A,B))",
+            "PointLiesOnLine(E,Line(B,C))",
+            "PointLiesOnLine(A,Line(F,C))",
+            "PointLiesOnLine(D,Line(B,C))"
+        ]
+    },
+    {
+        "point_positions": {
+            "Q": [
+                1253,
+                1993
+            ],
+            "S": [
+                1705,
+                2185
+            ]            
+        },
+        "line_instances": [
+            "B_Q",
+            "Q_S",
+            "C_S",
+            "A_S",
+            "B_S",
+            "E_Q",
+            "Q_A",
+            "Q_D"
+        ],
+        "arc_instances": [],
+        "circle_instances": [],
+        "logic_form": [
+            "Perpendicular(Line(B,Q),Line(A,D))",
+            "PointLiesOnLine(Q,Line(B,S))",
+            "PointLiesOnLine(D,Line(A,Q))",
+            "PointLiesOnLine(S,Line(A,C))"
+        ]
+    }
+]

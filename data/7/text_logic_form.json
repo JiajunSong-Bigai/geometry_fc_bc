@@ -1,0 +1,16 @@
+{
+    "problem": [
+        "Triangle(A,B,C)",
+        "BisectsAngle(Line($1),Angle(B,A,C))",
+        "IntersectAt(D, Line($1),Line(B,C))",
+        "IsMidpointOf(Point(M),Line(B,C))",
+        "Parallel(Line(M,E), Line(A, D))",
+        "ExtendLine(Line(B, A), Line($1))",
+        "IntersectAt(Line(M,E),Line($1),Point(E))",
+        "IntersectAt(Line(M,E),Line(A,C),Point(F))"
+    ],
+    "question": [
+        "Proof(Equals(LengthOf(Line(A,E)),LengthOf(Line(A,F))))"
+    ],
+    "answer": []
+}

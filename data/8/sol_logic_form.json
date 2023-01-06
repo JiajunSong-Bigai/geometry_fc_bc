@@ -1,0 +1,124 @@
+[{
+        "line": 1,
+        "action": [
+            "AddLineFromPoint(Line(D,M),D)",
+            "Parallel(Line(D,M), Line(A,B))",
+            "IntersectAt(Line(D,M),Line(A,C),Point(M))",
+            "ExtendLine(Line(B, A), Line($2))",
+            "IntersectAt(Line($2),Line(A,C),Point(N))"
+        ]
+    },
+
+    {
+        "line": 2,
+        "given": [
+            "Parallel(Line(A,B), Line(E,N))",
+            "Parallel(Line(A,B), Line(D,M))"
+        ]
+    },
+
+    {
+        "line": 3,
+        "imply": [
+            "Parallel(Line(D,M), Line(E,N))"
+        ]
+    },
+
+    {
+        "line": 4,
+        "given": [
+            "Equals(LengthOf(Line(D,E)),LengthOf(Line(D,C)))"
+        ]
+    },
+
+    {
+        "line": 5,
+        "imply": [
+            "Equals(LengthOf(Line(C,M)),LengthOf(Line(M,N)))"
+        ]
+    },
+
+    {
+        "line": 6,
+        "imply": [
+            "Equals(LengthOf(Line(E,N)),Mul(2,LengthOf(Line(D,M))))"
+        ]
+    },
+
+    {
+        "line": 7,
+        "imply": [
+            "Equals(LengthOf(Line(E,F)),Sub(Mul(2,LengthOf(Line(D,M))),LengthOf(Line(F,N))))"
+        ]
+    },
+
+    {
+        "line": 8,
+        "given": [
+            "Parallel(Line(A,B), Line(D,M))"
+        ]
+    },
+
+    {
+        "line": 9,
+        "imply": [
+            "Equals(MeasureOf(Angle(1)), MeasureOf(Angle(2)))"
+        ]
+    },
+
+    {
+        "line": 10,
+        "given": [
+            "Equals(MeasureOf(Angle(1)), MeasureOf(Angle(3)))"
+        ]
+    },
+
+    {
+        "line": 11,
+        "imply": [
+            "Equals(MeasureOf(Angle(2)), MeasureOf(Angle(2)))"
+        ]
+    },
+
+    {
+        "line": 12,
+        "imply": [
+            "Equals(LengthOf(Line(D,M)),LengthOf(Line(A,M)))"
+        ]
+    },
+
+    {
+        "line": 13,
+        "imply": [
+            "Equals(LengthOf(Line(A,N)),LengthOf(Line(F,N)))"
+        ]
+    },
+
+    {
+        "line": 14,
+        "imply": [
+            "Equals(LengthOf(Line(M,N)),LengthOf(Line(M,C)),Sub(LengthOf(Line(D,M)),LengthOf(Line(F,N))))"
+        ]
+    },
+
+    {
+        "line": 15,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),SumOf(Mul(2,LengthOf(Line(M,N))),LengthOf(Line(A,N))))"
+        ]
+    },
+
+    {
+        "line": 16,
+        "imply": [
+            "Equals(LengthOf(Line(A,C)),Sub(Mul(2,LengthOf(Line(D,M))),LengthOf(Line(F,N))))"
+        ]
+    },
+    
+    {
+        "line": 17,
+        "imply": [
+            "Equals(LengthOf(Line(E,F)),LengthOf(Line(A,C)))"
+        ]
+    }
+]
