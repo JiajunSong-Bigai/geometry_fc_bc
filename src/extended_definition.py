@@ -1,6 +1,3 @@
-from basic_definition import BasicDefinition
-from utils import isNumber
-
 from kanren import facts
 from kanren import run, var
 
@@ -10,11 +7,15 @@ from itertools import permutations, product, combinations
 
 import math
 
+from src.basic_definition import BasicDefinition
+from src.uutils import isNumber
+
 
 class ExtendedDefinition(BasicDefinition):
+
     def __init__(self, debug):
         super(ExtendedDefinition, self).__init__(debug)
-        # self.symbols = [] 
+        # self.symbols = []
 
     def parseAngle(self, angle):
         if len(angle) == 3:
@@ -47,7 +48,8 @@ class ExtendedDefinition(BasicDefinition):
         if line == '$':
             # Solve with Line($)
             if extra_point is not None:
-                line = self.find_all_lines_for_point(extra_point)  # find all linked points
+                line = self.find_all_lines_for_point(
+                    extra_point)  # find all linked points
                 if len(line) == 2:
                     return line
             return None
@@ -111,7 +113,8 @@ class ExtendedDefinition(BasicDefinition):
         self.define_point([pointO, pointA, pointB])
         changed = self.define_arc(pointO, pointA, pointB)
         if value:
-            changed = self.define_arc_measure(pointO, pointA, pointB, value) or changed
+            changed = self.define_arc_measure(pointO, pointA, pointB,
+                                              value) or changed
         return changed
 
     def definePolygon(self, points):
@@ -119,7 +122,8 @@ class ExtendedDefinition(BasicDefinition):
         for i in range(l):
             self.define_point(points[i])
             self.define_line(points[i], points[(i + 1) % l])
-            self.define_angle(points[i], points[(i + 1) % l], points[(i + 2) % l])
+            self.define_angle(points[i], points[(i + 1) % l],
+                              points[(i + 2) % l])
         if l == 3:
             facts(self.Triangle, points)
         elif l == 4:
@@ -159,7 +163,8 @@ class ExtendedDefinition(BasicDefinition):
         self.defineLine(*line1)
         self.defineLine(*line2)
         changed = False
-        symbol1 = list(self.find_line_with_length(line1))  # try to find all possible expressions
+        symbol1 = list(self.find_line_with_length(
+            line1))  # try to find all possible expressions
         symbol2 = list(self.find_line_with_length(line2))
         if symbol1 == [] and symbol2 == []:
             symbol1 = [self.newLineSymbol(line1)]
@@ -189,11 +194,13 @@ class ExtendedDefinition(BasicDefinition):
         copy1, copy2 = symbol1.copy(), symbol2.copy()
         for sym in copy2:
             if sym in symbol1: continue
-            changed = self.defineAngle(angle1[0], angle1[1], angle1[2], sym) or changed
+            changed = self.defineAngle(angle1[0], angle1[1], angle1[2],
+                                       sym) or changed
             symbol1.append(sym)
         for sym in copy1:
             if sym in symbol2: continue
-            changed = self.defineAngle(angle2[0], angle2[1], angle2[2], sym) or changed
+            changed = self.defineAngle(angle2[0], angle2[1], angle2[2],
+                                       sym) or changed
             symbol2.append(sym)
         return changed
 
@@ -222,14 +229,19 @@ class ExtendedDefinition(BasicDefinition):
         self.definePolygon(tri1)
         self.definePolygon(tri2)
         for ch in permutations([0, 1, 2]):
-            facts(self.SimilarTriangle, (tri1[ch[0]], tri1[ch[1]], tri1[ch[2]], tri2[ch[0]], tri2[ch[1]], tri2[ch[2]]))
-            facts(self.SimilarTriangle, (tri2[ch[0]], tri2[ch[1]], tri2[ch[2]], tri1[ch[0]], tri1[ch[1]], tri1[ch[2]]))
+            facts(self.SimilarTriangle,
+                  (tri1[ch[0]], tri1[ch[1]], tri1[ch[2]], tri2[ch[0]],
+                   tri2[ch[1]], tri2[ch[2]]))
+            facts(self.SimilarTriangle,
+                  (tri2[ch[0]], tri2[ch[1]], tri2[ch[2]], tri1[ch[0]],
+                   tri1[ch[1]], tri1[ch[2]]))
 
     def defineCongruentTriangle(self, tri1, tri2):
         self.definePolygon(tri1)
         self.definePolygon(tri2)
         for ch in range(3):
-            self.lineEqual([tri1[ch], tri1[(ch + 1) % 3]], [tri2[ch], tri2[(ch + 1) % 3]])
+            self.lineEqual([tri1[ch], tri1[(ch + 1) % 3]],
+                           [tri2[ch], tri2[(ch + 1) % 3]])
         for ch in range(3):
             self.angleEqual([tri1[ch], tri1[(ch + 1) % 3], tri1[(ch + 2) % 3]],
                             [tri2[ch], tri2[(ch + 1) % 3], tri2[(ch + 2) % 3]])
@@ -250,8 +262,11 @@ class ExtendedDefinition(BasicDefinition):
                 sym1, sym2 = sym2, sym1
             # self.variable[sym1] = sym2
             nowdict = {sym1: sym2}
-            self.variables = {key: value if type(value) in [int, float] else value.subs(nowdict)
-                              for key, value in self.variables.items()}
+            self.variables = {
+                key:
+                value if type(value) in [int, float] else value.subs(nowdict)
+                for key, value in self.variables.items()
+            }
             self.variables.update(nowdict)
 
     def try_delete_unused_points(self):
@@ -319,7 +334,8 @@ class ExtendedDefinition(BasicDefinition):
         for line in lines:
             is_uni = True
             for point in points:
-                if (line[0], point, line[1]) in f or (line[1], point, line[0]) in f:
+                if (line[0], point, line[1]) in f or (line[1], point,
+                                                      line[0]) in f:
                     is_uni = False
                     break
             if is_uni:
@@ -346,7 +362,9 @@ class ExtendedDefinition(BasicDefinition):
             poly2 = poly1[::-1]
             id1 = poly1.index(min(poly1))
             id2 = poly2.index(min(poly2))
-            polygons.append(min(tuple(poly1[id1:] + poly1[0:id1]), tuple(poly2[id2:] + poly2[0:id2])))
+            polygons.append(
+                min(tuple(poly1[id1:] + poly1[0:id1]),
+                    tuple(poly2[id2:] + poly2[0:id2])))
             # Use minimum representation to represent polygons.
 
         polygons = list(set(polygons))  # Erase the duplicated polygons
@@ -356,7 +374,10 @@ class ExtendedDefinition(BasicDefinition):
             is_polygon = True
             set_list = []
             for i in range(l):
-                set_list.append(set(self.find_all_points_on_line((polygon[i], polygon[(i + 1) % l]))))
+                set_list.append(
+                    set(
+                        self.find_all_points_on_line(
+                            (polygon[i], polygon[(i + 1) % l]))))
             for i in range(l):
                 for j in range(i + 1, l):
                     # Can not belong to the same line
@@ -408,11 +429,12 @@ class ExtendedDefinition(BasicDefinition):
             sym = angle[3] if len(angle) > 3 else self.newAngleSymbol(angle)
             for point1, point2 in product(_1, _2):
                 if point1 == angle[1] or point2 == angle[1]: continue
-                same_side1 = (angle[1], angle[0], point1) in f or (angle[1], point1, angle[0]) in f or point1 == angle[
-                    0]
-                same_side2 = (angle[1], angle[2], point2) in f or (angle[1], point2, angle[2]) in f or point2 == angle[
-                    2]
-                if same_side1 != same_side2: continue  # All True: normal angles; All False: vertical angles.
+                same_side1 = (angle[1], angle[0], point1) in f or (
+                    angle[1], point1, angle[0]) in f or point1 == angle[0]
+                same_side2 = (angle[1], angle[2], point2) in f or (
+                    angle[1], point2, angle[2]) in f or point2 == angle[2]
+                if same_side1 != same_side2:
+                    continue  # All True: normal angles; All False: vertical angles.
 
                 self.defineAngle(point1, angle[1], point2, sym)
                 have_set_value.add((point1, angle[1], point2))
@@ -435,23 +457,32 @@ class ExtendedDefinition(BasicDefinition):
             for l in range(1, number):  # l: length of line
                 for i in range(0, number - l):
                     point1, point2 = points[i], points[i + l]  # start, end
-                    val = self.find_line_with_length((point1, point2))  # e.g., 6, x+21.0
+                    val = self.find_line_with_length(
+                        (point1, point2))  # e.g., 6, x+21.0
                     if l == 1:
                         # one-segment line
                         if len(val) == 0:
-                            self.define_length(point1, point2, self.newLineSymbol((point1, point2)))
+                            self.define_length(
+                                point1, point2,
+                                self.newLineSymbol((point1, point2)))
                     else:
                         # multiple-segment line
-                        val = sum([self.find_line_with_length((points[t], points[t + 1]))[0] for t in range(i, i + l)])
+                        val = sum([
+                            self.find_line_with_length(
+                                (points[t], points[t + 1]))[0]
+                            for t in range(i, i + l)
+                        ])
                         self.define_length(point1, point2, val)
 
     def _possible_angle(self, line0, line1, line2, angle1):
         ok1, ok2 = False, False
-        for p, q in product(line0[line0.index(angle1) + 1:], line1[line1.index(angle1) + 1:]):
+        for p, q in product(line0[line0.index(angle1) + 1:],
+                            line1[line1.index(angle1) + 1:]):
             if self.check_uni_line((p, q)):
                 ok1 = True
                 break
-        for p, q in product(line2[line2.index(angle1) + 1:], line1[line1.index(angle1) + 1:]):
+        for p, q in product(line2[line2.index(angle1) + 1:],
+                            line1[line1.index(angle1) + 1:]):
             if self.check_uni_line((p, q)):
                 ok2 = True
         return ok1 and ok2
@@ -461,14 +492,16 @@ class ExtendedDefinition(BasicDefinition):
         p0 = self.point_positions[p0]
         p1 = self.point_positions[p1]
         p2 = self.point_positions[p2]
-        return (p1[0] - p0[0]) * (p2[1] - p0[1]) - (p2[0] - p0[0]) * (p1[1] - p0[1])
+        return (p1[0] - p0[0]) * (p2[1] - p0[1]) - (p2[0] - p0[0]) * (p1[1] -
+                                                                      p0[1])
 
     def pdot(self, p0, p1, p2):
         if self.point_positions is None: return 0
         p0 = self.point_positions[p0]
         p1 = self.point_positions[p1]
         p2 = self.point_positions[p2]
-        return (p1[0] - p0[0]) * (p2[0] - p0[0]) + (p1[1] - p0[1]) * (p2[1] - p0[1])
+        return (p1[0] - p0[0]) * (p2[0] - p0[0]) + (p1[1] - p0[1]) * (p2[1] -
+                                                                      p0[1])
 
     def set_angle_sum(self):
         """
@@ -486,7 +519,7 @@ class ExtendedDefinition(BasicDefinition):
                 if line1.index(point) <= line1.index(angle[1]): continue
                 if self.point_positions is None: continue
 
-                # Maybe (0, 1, 2) = (0, 1, p) + (p, 1, 2). 
+                # Maybe (0, 1, 2) = (0, 1, p) + (p, 1, 2).
                 # But we can not determine the sign is + or -.
                 # Use point_positions to determine.
                 if self.cross(angle[1], angle[0], point) * self.cross(angle[1], point, angle[2]) > 0 and \
@@ -501,7 +534,7 @@ class ExtendedDefinition(BasicDefinition):
         """
         This function is to calculate the arc measure
         """
-        fdis = lambda x, y: ((x[0] - y[0]) ** 2 + (x[1] - y[1]) ** 2) ** 0.5
+        fdis = lambda x, y: ((x[0] - y[0])**2 + (x[1] - y[1])**2)**0.5
         length = fdis(self.point_positions[arc[1]], self.point_positions[arc[0]]) * \
                  fdis(self.point_positions[arc[2]], self.point_positions[arc[0]])
         theta = math.acos(self.pdot(*arc) / length) / math.pi * 180.0
@@ -519,21 +552,25 @@ class ExtendedDefinition(BasicDefinition):
             points = self.find_points_on_circle(center)
             for x, y in permutations(points, 2):
                 val = None
-                if self.check_angle((x, center, y)) and self.cross(center, x, y) <= 0:
+                if self.check_angle(
+                    (x, center, y)) and self.cross(center, x, y) <= 0:
                     val = self.find_angle_measure((x, center, y))[0]
                 self.defineArc(center, x, y, val)
 
         arcs = self.find_all_arcs()
         for arc in arcs:
-            if self.check_line((arc[0], arc[1])) and self.check_line((arc[0], arc[2])):
+            if self.check_line((arc[0], arc[1])) and self.check_line(
+                (arc[0], arc[2])):
                 try:
-                    angle = self.find_angle_measure((arc[1], arc[0], arc[2]))[0]
+                    angle = self.find_angle_measure(
+                        (arc[1], arc[0], arc[2]))[0]
                 except:
                     angle = self.newAngleSymbol((arc[1], arc[0], arc[2]))
                     self.defineAngle(arc[1], arc[0], arc[2], angle)
 
                 # Note that it opposites to the normal coordinate system.
-                self.defineArc(*arc, angle if self.cross(*arc) <= 0 else 360 - angle)
+                self.defineArc(*arc,
+                               angle if self.cross(*arc) <= 0 else 360 - angle)
 
         # print (self.fine_all_arc_measures())
         for arc1, arc2 in permutations(arcs, 2):
@@ -541,10 +578,12 @@ class ExtendedDefinition(BasicDefinition):
             # Now we should build an equation like arc(A, C) = arc(A, B) + arc(B, C).
             if arc1[1] == arc2[2]:
                 try:
-                    self.defineArc(*arc1, 360 - self.find_arc_measure(*arc2)[0])
+                    self.defineArc(*arc1,
+                                   360 - self.find_arc_measure(*arc2)[0])
                 except:
                     try:
-                        self.defineArc(*arc2, 360 - self.find_arc_measure(*arc1)[0])
+                        self.defineArc(*arc2,
+                                       360 - self.find_arc_measure(*arc1)[0])
                     except:
                         v = self.newArcSymbol(arc1)
                         self.defineArc(*arc1, v)

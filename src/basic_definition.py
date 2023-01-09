@@ -5,6 +5,7 @@ from itertools import combinations
 
 
 class BasicDefinition(object):
+
     def __init__(self, debug):
 
         self.Point = Relation()
@@ -30,27 +31,11 @@ class BasicDefinition(object):
         self.SimilarTriangle = Relation()
 
         self.relations = [
-            self.Point,
-            self.Line,
-            self.Length,
-            self.UniLine,
-            self.Angle,
-            self.AngleMeasure,
-            self.Arc,
-            self.ArcMeasure,
-            self.Circle,
-
-            self.PointOnCircle,
-            self.PointLiesOnLine,
-            self.Perpendicule,
-            self.Parallel,
-
-            self.Triangle,
-            self.Quadrilateral,
-            self.Pentagon,
-
-            self.Equal,
-            self.SimilarTriangle
+            self.Point, self.Line, self.Length, self.UniLine, self.Angle,
+            self.AngleMeasure, self.Arc, self.ArcMeasure, self.Circle,
+            self.PointOnCircle, self.PointLiesOnLine, self.Perpendicule,
+            self.Parallel, self.Triangle, self.Quadrilateral, self.Pentagon,
+            self.Equal, self.SimilarTriangle
         ]
 
         self.variables = dict()
@@ -84,7 +69,8 @@ class BasicDefinition(object):
         return changed
 
     def define_line(self, point_A, point_B):
-        res = run(1, (), self.Line(point_A, point_B))  # res = () if new p_A and p_B, else ((),)
+        res = run(1, (), self.Line(
+            point_A, point_B))  # res = () if new p_A and p_B, else ((),)
         if len(res) > 0:  # res = ((),)
             return False
         facts(self.Line, (point_A, point_B))
@@ -140,15 +126,18 @@ class BasicDefinition(object):
         facts(self.Parallel, (line1[0], line1[1], line2[0], line2[1]))
 
     def seem_triangle(self, point_A, point_B, point_C):
-        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C), self.Line(point_A, point_C)))
+        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C),
+                      self.Line(point_A, point_C)))
 
     def seem_quadrilateral(self, point_A, point_B, point_C, point_D):
-        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C), self.Line(point_C, point_D),
-                      self.Line(point_D, point_A)))
+        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C),
+                      self.Line(point_C, point_D), self.Line(point_D,
+                                                             point_A)))
 
     def seem_pentagon(self, point_A, point_B, point_C, point_D, point_E):
-        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C), self.Line(point_C, point_D),
-                      self.Line(point_D, point_E), self.Line(point_E, point_A)))
+        return conde((self.Line(point_A, point_B), self.Line(point_B, point_C),
+                      self.Line(point_C, point_D), self.Line(point_D, point_E),
+                      self.Line(point_E, point_A)))
 
     ############### Finding out Attributes ###############
     def find_all_points(self):
@@ -196,7 +185,8 @@ class BasicDefinition(object):
             A list contains representations for the current line.
         """
         z = var()
-        res = run(0, z, self.Length(line[0], line[1], z))  # try to find the line length
+        res = run(0, z, self.Length(line[0], line[1],
+                                    z))  # try to find the line length
         final = set()  # use to get the unique result
         for val in res:
             try:
@@ -204,13 +194,16 @@ class BasicDefinition(object):
                     new_val = float(val)
                 else:
                     new_val = float(
-                        val.evalf(subs=self.variables))  # evalf evaluates the expression to a floating-point number
+                        val.evalf(subs=self.variables)
+                    )  # evalf evaluates the expression to a floating-point number
                 if skip_if_has_number:
                     return [new_val]
                 final.add(new_val)
             except:
                 # e.g., res = x + 21.0, val = x + 21.0
-                new_val = val.subs(self.variables)  # Substitute multiple symbols with a mapping dict (self.variables)
+                new_val = val.subs(
+                    self.variables
+                )  # Substitute multiple symbols with a mapping dict (self.variables)
                 final.add(new_val)  # e.g., final = {x + 21.0}
         return list(final)  # e.g., ['line_CA'], ['x'], ['line_CA+x']
 
@@ -350,7 +343,9 @@ class BasicDefinition(object):
         if point in self.lines_for_point:
             return self.lines_for_point[point]
         lines = self.find_all_lines()
-        self.lines_for_point[point] = [line[0] for line in lines if line[1] == point]
+        self.lines_for_point[point] = [
+            line[0] for line in lines if line[1] == point
+        ]
         return self.lines_for_point[point]
 
     @staticmethod
