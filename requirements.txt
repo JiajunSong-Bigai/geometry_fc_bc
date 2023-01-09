@@ -1,0 +1,6 @@
+clyngor==0.4.2
+kanren==0.2.3
+more-itertools==9.0.0
+pandas==1.5.2
+pyparsing==3.0.9
+sympy==1.11.1
