@@ -1,10 +1,4 @@
-basic_path = "src/knowledge_base/basic_clingo.pl"
-facts_path = "src/knowledge_base/facts_clingo.pl"
-theorem_path = "src/knowledge_base/theorem_clingo.pl"
-query_path = "src/knowledge_base/quest_clingo.pl"
-
-
-def read():
+def read(basic_path, query_path, facts_path, theorem_path):
     query_set = []
     f1 = open(query_path, "r")
     input = f1.readlines()

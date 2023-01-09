@@ -6,85 +6,6 @@ from sympy import sympify
 from src.my_unification import *
 
 
-def test_and_subst(str_set, bodies, head):
-    n_body = len(bodies)
-    theta = {}
-    _result = []
-
-    for jj in range(n_body):
-        _theta = unify(bodies[jj], str_set[jj], {})
-        for _key in _theta.keys():
-            if _key not in theta.keys():
-                theta[_key] = _theta[_key]
-            else:
-                if theta[_key] != _theta[_key]:
-                    return _result
-
-    _result.append(subst(theta, kg_parser.parse(head)))
-    return _result
-
-
-def test_and_subst_assign(str_set, bodies, head, fact):
-
-    #pdb.set_trace()
-
-    n_body = len(bodies)
-    theta = {}
-    _result = []
-
-    fact_theta = unify(head, fact, {})
-
-    for jj in range(n_body):
-        _theta = unify(bodies[jj], str_set[jj], {})
-        for _key in _theta.keys():
-            if _key not in theta.keys():
-                theta[_key] = _theta[_key]
-            else:
-                if theta[_key] != _theta[_key]:
-                    return _result
-
-    for _key in theta:
-        if _key in fact_theta.keys() and fact_theta[_key] != theta[_key]:
-            return _result
-
-    _result.append(fact[:-1])
-    return _result
-
-
-def test_and_subst_assign_generate(str_set, bodies, head, bodies_assign):
-
-    #pdb.set_trace()
-
-    n_body = len(bodies)
-    theta = {}
-    _result = []
-
-    for jj in range(n_body):
-        _theta = unify(bodies[jj], str_set[jj], {})
-        for _key in _theta.keys():
-            if _key not in theta.keys():
-                theta[_key] = _theta[_key]
-            else:
-                if theta[_key] != _theta[_key]:
-                    return _result
-
-    key_set = []
-    value_set = []
-    for key in theta.keys():
-        key_set.append(key)
-        value_set.append(theta[key])
-    vars = sympy.var(','.join(key_set))
-
-    for bdy_assign in bodies_assign:
-        bdy_side = bdy_assign.split('=')
-        sub_set = [(_var, _value) for _var, _value in zip(vars, value_set)]
-        right = sympify(bdy_side[1].strip()).subs(sub_set)
-        theta[bdy_side[0]] = str(right)
-
-    _result.append(subst(theta, kg_parser.parse(head)))
-    return _result
-
-
 def add_undeduced_facts(fact, theorem, gen_facts, original_gen_facts):
 
     original_fact = fact
@@ -889,3 +810,82 @@ def generate_deduce_path(rules, rules_dict_traj, undeduced_set, gen_facts):
                 [bdy for bdy in unproved_rule if (bdy in gen_facts)])
 
     return paths
+
+
+def test_and_subst(str_set, bodies, head):
+    n_body = len(bodies)
+    theta = {}
+    _result = []
+
+    for jj in range(n_body):
+        _theta = unify(bodies[jj], str_set[jj], {})
+        for _key in _theta.keys():
+            if _key not in theta.keys():
+                theta[_key] = _theta[_key]
+            else:
+                if theta[_key] != _theta[_key]:
+                    return _result
+
+    _result.append(subst(theta, kg_parser.parse(head)))
+    return _result
+
+
+def test_and_subst_assign(str_set, bodies, head, fact):
+
+    #pdb.set_trace()
+
+    n_body = len(bodies)
+    theta = {}
+    _result = []
+
+    fact_theta = unify(head, fact, {})
+
+    for jj in range(n_body):
+        _theta = unify(bodies[jj], str_set[jj], {})
+        for _key in _theta.keys():
+            if _key not in theta.keys():
+                theta[_key] = _theta[_key]
+            else:
+                if theta[_key] != _theta[_key]:
+                    return _result
+
+    for _key in theta:
+        if _key in fact_theta.keys() and fact_theta[_key] != theta[_key]:
+            return _result
+
+    _result.append(fact[:-1])
+    return _result
+
+
+def test_and_subst_assign_generate(str_set, bodies, head, bodies_assign):
+
+    #pdb.set_trace()
+
+    n_body = len(bodies)
+    theta = {}
+    _result = []
+
+    for jj in range(n_body):
+        _theta = unify(bodies[jj], str_set[jj], {})
+        for _key in _theta.keys():
+            if _key not in theta.keys():
+                theta[_key] = _theta[_key]
+            else:
+                if theta[_key] != _theta[_key]:
+                    return _result
+
+    key_set = []
+    value_set = []
+    for key in theta.keys():
+        key_set.append(key)
+        value_set.append(theta[key])
+    vars = sympy.var(','.join(key_set))
+
+    for bdy_assign in bodies_assign:
+        bdy_side = bdy_assign.split('=')
+        sub_set = [(_var, _value) for _var, _value in zip(vars, value_set)]
+        right = sympify(bdy_side[1].strip()).subs(sub_set)
+        theta[bdy_side[0]] = str(right)
+
+    _result.append(subst(theta, kg_parser.parse(head)))
+    return _result
