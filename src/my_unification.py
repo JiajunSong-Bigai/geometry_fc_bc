@@ -1,9 +1,10 @@
-from copy import deepcopy
-import numpy as np
 import pdb
+from copy import deepcopy
 
-from src.formula_parser import FormulaParser
+import numpy as np
+
 from src.extended_definition import ExtendedDefinition
+from src.formula_parser import FormulaParser
 from src.logic_parser import LogicParser
 
 kg_parser = LogicParser(ExtendedDefinition(debug=True))

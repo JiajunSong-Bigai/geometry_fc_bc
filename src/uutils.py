@@ -1,4 +1,4 @@
-from math import sqrt, sin, pi
+from math import pi, sin, sqrt
 
 
 def isNumber(number):

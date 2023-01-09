@@ -1,6 +1,8 @@
+from math import pi, sin, sqrt
+
 import sympy
 from sympy import sympify
-from math import sqrt, sin, pi
+
 from src.my_unification import *
 
 

@@ -1,11 +1,8 @@
-from kanren import facts
-from kanren import run, var
-
-from sympy import Symbol
-
-from itertools import permutations, product, combinations
-
 import math
+from itertools import combinations, permutations, product
+
+from kanren import facts, run, var
+from sympy import Symbol
 
 from src.basic_definition import BasicDefinition
 from src.uutils import isNumber

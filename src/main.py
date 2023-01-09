@@ -1,27 +1,26 @@
-import os
 import json
-import time
-import random
-
-import operator
 import numbers
-import pkg_resources
-from collections import OrderedDict
-import numpy as np
+import operator
+import os
+import pdb
 import pickle
+import random
+import time
+from collections import OrderedDict
 
-from clyngor import ASP, solve, answer_set_to_str
-from clyngor import grounded_program, solve_from_grounded
+import numpy as np
+import pkg_resources
 # from explain import bk_explain
 import sympy
+from clyngor import (ASP, answer_set_to_str, grounded_program, solve,
+                     solve_from_grounded)
 from sympy import *
-import pdb
 
 from src.input_reader import read
-from src.utils import (test_and_subst, test_and_subst_assign,
-                       test_and_subst_assign_generate, add_undeduced_facts,
+from src.utils import (add_undeduced_facts, generate_deduce_path,
                        iterate_add_undeduced_facts, single_step_forward,
-                       generate_deduce_path)
+                       test_and_subst, test_and_subst_assign,
+                       test_and_subst_assign_generate)
 from src.uutils import isNumber
 
 query_set, fact_set, theorem_set = read()

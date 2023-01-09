@@ -1,8 +1,9 @@
-from pyparsing import Optional, alphanums, Forward, Group, Word, Literal, ZeroOrMore
-from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication_application
+from pyparsing import (Forward, Group, Literal, Optional, Word, ZeroOrMore,
+                       alphanums)
+from sympy import Symbol, cos, cot, sin, tan
 from sympy.parsing.latex import parse_latex
-from sympy import Symbol
-from sympy import cos, sin, tan, cot
+from sympy.parsing.sympy_parser import (implicit_multiplication_application,
+                                        parse_expr, standard_transformations)
 
 from src.extended_definition import ExtendedDefinition
 

@@ -1,7 +1,6 @@
-from kanren import Relation, facts
-from kanren import run, var, conde
-
 from itertools import combinations
+
+from kanren import Relation, conde, facts, run, var
 
 
 class BasicDefinition(object):
