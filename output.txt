@@ -1,0 +1,896 @@
+iteration ...... 1
+      theorem ...... 1   facts ...... 58
+      theorem ...... 2   facts ...... 81
+      theorem ...... 3   facts ...... 88
+      theorem ...... 4   facts ...... 102
+      theorem ...... 5   facts ...... 130
+      theorem ...... 6   facts ...... 144
+      theorem ...... 7   facts ...... 144
+      theorem ...... 8   facts ...... 144
+      theorem ...... 9   facts ...... 148
+      theorem ...... 10   facts ...... 151
+      theorem ...... 11   facts ...... 213
+      theorem ...... 12   facts ...... 375
+      theorem ...... 13   facts ...... 375
+      theorem ...... 14   facts ...... 375
+      theorem ...... 15   facts ...... 375
+      theorem ...... 16   facts ...... 375
+      theorem ...... 17   facts ...... 375
+      theorem ...... 18   facts ...... 378
+      theorem ...... 19   facts ...... 378
+      theorem ...... 20   facts ...... 378
+      theorem ...... 21   facts ...... 379
+      theorem ...... 22   facts ...... 381
+      theorem ...... 23   facts ...... 427
+      theorem ...... 24   facts ...... 473
+      theorem ...... 25   facts ...... 473
+      theorem ...... 26   facts ...... 473
+      theorem ...... 27   facts ...... 473
+      theorem ...... 28   facts ...... 473
+      theorem ...... 29   facts ...... 571
+      theorem ...... 30   facts ...... 673
+      theorem ...... 31   facts ...... 764
+      theorem ...... 32   facts ...... 905
+      theorem ...... 33   facts ...... 910
+      theorem ...... 34   facts ...... 1056
+      theorem ...... 35   facts ...... 1166
+      theorem ...... 36   facts ...... 1362
+      theorem ...... 37   facts ...... 1392
+      theorem ...... 38   facts ...... 1396
+      theorem ...... 39   facts ...... 1400
+      theorem ...... 40   facts ...... 1400
+      theorem ...... 41   facts ...... 1400
+      theorem ...... 42   facts ...... 1400
+      theorem ...... 43   facts ...... 1400
+      theorem ...... 44   facts ...... 1400
+      theorem ...... 45   facts ...... 1400
+      theorem ...... 46   facts ...... 1400
+      theorem ...... 47   facts ...... 1400
+      theorem ...... 48   facts ...... 1400
+      theorem ...... 49   facts ...... 1400
+      theorem ...... 50   facts ...... 1400
+      theorem ...... 51   facts ...... 1400
+      theorem ...... 52   facts ...... 1400
+      theorem ...... 53   facts ...... 1400
+      theorem ...... 54   facts ...... 1400
+      theorem ...... 55   facts ...... 1400
+      theorem ...... 56   facts ...... 1400
+      theorem ...... 57   facts ...... 1400
+      theorem ...... 58   facts ...... 1400
+      theorem ...... 59   facts ...... 1400
+      theorem ...... 60   facts ...... 1400
+      theorem ...... 61   facts ...... 1400
+iteration ...... 2
+      theorem ...... 1   facts ...... 1400
+      theorem ...... 2   facts ...... 1400
+      theorem ...... 3   facts ...... 1414
+      theorem ...... 4   facts ...... 1414
+      theorem ...... 5   facts ...... 1414
+      theorem ...... 6   facts ...... 1422
+      theorem ...... 7   facts ...... 1422
+      theorem ...... 8   facts ...... 1422
+      theorem ...... 9   facts ...... 1422
+      theorem ...... 10   facts ...... 1422
+      theorem ...... 11   facts ...... 1422
+      theorem ...... 12   facts ...... 1422
+      theorem ...... 13   facts ...... 1426
+      theorem ...... 14   facts ...... 1426
+      theorem ...... 15   facts ...... 1434
+      theorem ...... 16   facts ...... 1442
+      theorem ...... 17   facts ...... 1450
+      theorem ...... 18   facts ...... 1450
+      theorem ...... 19   facts ...... 1454
+      theorem ...... 20   facts ...... 1466
+      theorem ...... 21   facts ...... 1468
+      theorem ...... 22   facts ...... 1470
+      theorem ...... 23   facts ...... 1470
+      theorem ...... 24   facts ...... 1470
+      theorem ...... 25   facts ...... 1470
+      theorem ...... 26   facts ...... 1478
+      theorem ...... 27   facts ...... 1491
+      theorem ...... 28   facts ...... 1783
+      theorem ...... 29   facts ...... 1791
+      theorem ...... 30   facts ...... 1801
+      theorem ...... 31   facts ...... 1801
+      theorem ...... 32   facts ...... 1825
+      theorem ...... 33   facts ...... 1825
+      theorem ...... 34   facts ...... 1849
+      theorem ...... 35   facts ...... 1879
+      theorem ...... 36   facts ...... 1879
+      theorem ...... 37   facts ...... 2037
+      theorem ...... 38   facts ...... 2037
+      theorem ...... 39   facts ...... 2037
+      theorem ...... 40   facts ...... 2037
+      theorem ...... 41   facts ...... 2037
+      theorem ...... 42   facts ...... 2037
+      theorem ...... 43   facts ...... 2045
+      theorem ...... 44   facts ...... 2045
+      theorem ...... 45   facts ...... 2045
+      theorem ...... 46   facts ...... 2047
+      theorem ...... 47   facts ...... 2047
+      theorem ...... 48   facts ...... 2047
+      theorem ...... 49   facts ...... 2047
+      theorem ...... 50   facts ...... 2047
+      theorem ...... 51   facts ...... 2047
+      theorem ...... 52   facts ...... 2047
+      theorem ...... 53   facts ...... 2047
+      theorem ...... 54   facts ...... 2047
+      theorem ...... 55   facts ...... 2047
+      theorem ...... 56   facts ...... 2047
+      theorem ...... 57   facts ...... 2047
+      theorem ...... 58   facts ...... 2047
+      theorem ...... 59   facts ...... 2047
+      theorem ...... 60   facts ...... 2047
+      theorem ...... 61   facts ...... 2047
+iteration ...... 3
+      theorem ...... 1   facts ...... 2047
+      theorem ...... 2   facts ...... 2047
+      theorem ...... 3   facts ...... 2047
+      theorem ...... 4   facts ...... 2047
+      theorem ...... 5   facts ...... 2047
+      theorem ...... 6   facts ...... 2047
+      theorem ...... 7   facts ...... 2047
+      theorem ...... 8   facts ...... 2047
+      theorem ...... 9   facts ...... 2047
+      theorem ...... 10   facts ...... 2047
+      theorem ...... 11   facts ...... 2047
+      theorem ...... 12   facts ...... 2047
+      theorem ...... 13   facts ...... 2047
+      theorem ...... 14   facts ...... 2047
+      theorem ...... 15   facts ...... 2063
+      theorem ...... 16   facts ...... 2063
+      theorem ...... 17   facts ...... 2063
+      theorem ...... 18   facts ...... 2063
+      theorem ...... 19   facts ...... 2065
+      theorem ...... 20   facts ...... 2065
+      theorem ...... 21   facts ...... 2065
+      theorem ...... 22   facts ...... 2065
+      theorem ...... 23   facts ...... 2065
+      theorem ...... 24   facts ...... 2065
+      theorem ...... 25   facts ...... 2065
+      theorem ...... 26   facts ...... 2065
+      theorem ...... 27   facts ...... 2085
+      theorem ...... 28   facts ...... 2129
+      theorem ...... 29   facts ...... 2129
+      theorem ...... 30   facts ...... 2129
+      theorem ...... 31   facts ...... 2129
+      theorem ...... 32   facts ...... 2129
+      theorem ...... 33   facts ...... 2129
+      theorem ...... 34   facts ...... 2129
+      theorem ...... 35   facts ...... 2129
+      theorem ...... 36   facts ...... 2129
+solved!
+deduced step:  157
+equals(measureOf(angle(b,m,e)),measureOf(angle(c,n,e))).
+equals(measureOf(angle(H,I,J)),measureOf(angle(D,E,F))):-equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),equals(measureOf(angle(A,B,C)),measureOf(angle(H,I,J))),not same_angle(angle(D,E,F),angle(H,I,J)).
+n_iteration  144
+equals(measureOf(angle(b,m,e)),measureOf(angle(c,n,e))).
+equals(measureOf(angle(H,I,J)),measureOf(angle(D,E,F))):-equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),equals(measureOf(angle(A,B,C)),measureOf(angle(H,I,J))),not same_angle(angle(D,E,F),angle(H,I,J)).
+n_iteration  1608
+len(undeduced_set)  0
+[]
+[['equals(measureOf(angle(h,f,e)),measureOf(angle(c,n,e))).', 'equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(c,n,e))).']]
+equals(measureOf(angle(b,m,e)),measureOf(angle(c,n,e))):-equals(measureOf(angle(h,f,e)),measureOf(angle(c,n,e))),equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).
+
+equals(measureOf(angle(h,f,e)),measureOf(angle(c,n,e))):-equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))),equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))).
+
+deduced step:  148
+deduced step:  147
+deduced step:  139
+deduced step:  135
+deduced step:  105
+equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))).
+equals(measureOf(angle(A,B,C)),measureOf(angle(A,C,B))):-triangle(A,B,C),equals(lengthOf(line(A,B)),lengthOf(line(A,C))).
+n_iteration  1
+len(undeduced_set)  2
+['equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).', 'equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))).']
+[['triangle(h,e,f).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).', 'equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))).']]
+equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))):-triangle(h,e,f),equals(lengthOf(line(h,e)),lengthOf(line(h,f))).
+
+deduced step:  102
+deduced step:  96
+equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))).
+equals(measureOf(angle(H,I,J)),measureOf(angle(D,E,F))):-equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),equals(measureOf(angle(A,B,C)),measureOf(angle(H,I,J))),not same_angle(angle(D,E,F),angle(H,I,J)).
+n_iteration  24
+len(undeduced_set)  3
+['equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).', 'triangle(h,e,f).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).']
+[['equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))).', 'equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))).']]
+equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))):-equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))),equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))).
+
+deduced step:  94
+deduced step:  93
+deduced step:  91
+deduced step:  89
+deduced step:  88
+deduced step:  87
+equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))).
+equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(C,B,A)),measureOf(angle(D,E,F))).
+n_iteration  1
+len(undeduced_set)  4
+['equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).', 'triangle(h,e,f).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).', 'equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))).']
+[['equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))).']]
+equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))):-equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).
+
+deduced step:  86
+equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).
+equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(D,E,F)),measureOf(angle(A,B,C))).
+n_iteration  1
+len(undeduced_set)  4
+['triangle(h,e,f).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).', 'equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).']
+[['equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).', 'equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).']]
+equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))):-equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).
+
+equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))).
+equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(D,E,F)),measureOf(angle(A,B,C))).
+n_iteration  1
+len(undeduced_set)  4
+['triangle(h,e,f).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).']
+[['equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).', 'equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))).']]
+equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))):-equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).
+
+deduced step:  85
+equals(lengthOf(line(h,e)),lengthOf(line(h,f))).
+equals(lengthOf(line(E,F)),lengthOf(line(G,H))) :- equals(lengthOf(line(A,B)),lengthOf(line(C,D))), equals(mul(lengthOf(line(E,F)),X),lengthOf(line(C,D))), equals(mul(lengthOf(line(G,H)),X),lengthOf(line(A,B))).
+n_iteration  8
+len(undeduced_set)  4
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).', 'equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).']
+[['equals(lengthOf(line(b,a)),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(h,e)),lengthOf(line(h,f))).']]
+equals(lengthOf(line(h,e)),lengthOf(line(h,f))):-equals(lengthOf(line(b,a)),lengthOf(line(d,c))),equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))),equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).
+
+deduced step:  81
+equals(lengthOf(line(b,a)),lengthOf(line(d,c))).
+equals(lengthOf(line(A,B)),lengthOf(line(D,E))) :- equals(lengthOf(line(D,E)),lengthOf(line(A,B))).
+n_iteration  1
+len(undeduced_set)  6
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).', 'equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).']
+[['equals(lengthOf(line(d,c)),lengthOf(line(b,a))).', 'equals(lengthOf(line(b,a)),lengthOf(line(d,c))).']]
+equals(lengthOf(line(b,a)),lengthOf(line(d,c))):-equals(lengthOf(line(d,c)),lengthOf(line(b,a))).
+
+deduced step:  80
+equals(lengthOf(line(d,c)),lengthOf(line(b,a))).
+equals(lengthOf(line(A,B)),lengthOf(line(D,E))) :- equals(lengthOf(line(B,A)),lengthOf(line(D,E))).
+n_iteration  1
+len(undeduced_set)  6
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).', 'equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).']
+[['equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'equals(lengthOf(line(d,c)),lengthOf(line(b,a))).']]
+equals(lengthOf(line(d,c)),lengthOf(line(b,a))):-equals(lengthOf(line(c,d)),lengthOf(line(b,a))).
+
+deduced step:  79
+equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).
+equals(measureOf(angle(A,B,F)),measureOf(angle(E,D,F))) :- parallel(line(A,B),line(D,E)), line(B, D), on_same_line(B, D, F), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), pointPosition(F,Xf,Yf), (Xa-Xb)*(Xe-Xd)>0, (Ya-Yb)*(Ye-Yd)>0, (Xf-Xb)*(Xf-Xd)>0, (Yf-Yb)*(Yf-Yd)>0.
+n_iteration  4
+len(undeduced_set)  6
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).']
+[['parallel(line(b,m),line(f,h)).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(b,799,1827).', 'pointPosition(m,1018,855).', 'pointPosition(f,1080,1220).', 'pointPosition(h,996,1545).', 'pointPosition(e,1194,1827).', 'equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).']]
+equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))):-parallel(line(b,m),line(f,h)),line(m,f),on_same_line(m,f,e),pointPosition(b,799,1827),pointPosition(m,1018,855),pointPosition(f,1080,1220),pointPosition(h,996,1545),pointPosition(e,1194,1827).
+
+undeduced_fact in gen_facts_dict:  pointPosition(b,799,1827).
+undeduced_fact in gen_facts_dict:  pointPosition(m,1018,855).
+undeduced_fact in gen_facts_dict:  pointPosition(f,1080,1220).
+undeduced_fact in gen_facts_dict:  pointPosition(e,1194,1827).
+deduced step:  78
+equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).
+equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) :- parallel(line(A,B),line(D,E)), line(B, D), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), (Xa-Xb)*(Xe-Xd)<0, (Ya-Yb)*(Ye-Yd)<0.
+n_iteration  2
+len(undeduced_set)  9
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'parallel(line(b,m),line(f,h)).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).']
+[['parallel(line(c,n),line(e,h)).', 'line(n,e).', 'pointPosition(c,1592,1834).', 'pointPosition(n,1055,1060).', 'pointPosition(e,1194,1827).', 'pointPosition(h,996,1545).', 'equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).']]
+equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))):-parallel(line(c,n),line(e,h)),line(n,e),pointPosition(c,1592,1834),pointPosition(n,1055,1060),pointPosition(e,1194,1827),pointPosition(h,996,1545).
+
+undeduced_fact in gen_facts_dict:  pointPosition(c,1592,1834).
+undeduced_fact in gen_facts_dict:  pointPosition(n,1055,1060).
+undeduced_fact in gen_facts_dict:  pointPosition(e,1194,1827).
+deduced step:  76
+deduced step:  75
+parallel(line(b,m),line(f,h)).
+parallel(line(A,C),line(D,E)) :- parallel(line(A,B),line(D,E)), on_same_line(A, B, C).
+n_iteration  1
+len(undeduced_set)  11
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'parallel(line(c,n),line(e,h)).', 'line(n,e).', 'pointPosition(h,996,1545).']
+[['parallel(line(b,a),line(f,h)).', 'on_same_line(b,a,m).', 'parallel(line(b,m),line(f,h)).']]
+parallel(line(b,m),line(f,h)):-parallel(line(b,a),line(f,h)),on_same_line(b,a,m).
+
+parallel(line(c,n),line(e,h)).
+parallel(line(A,C),line(D,E)) :- parallel(line(A,B),line(D,E)), on_same_line(A, B, C).
+n_iteration  1
+len(undeduced_set)  12
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'parallel(line(b,a),line(f,h)).', 'on_same_line(b,a,m).']
+[['parallel(line(c,d),line(e,h)).', 'on_same_line(c,d,n).', 'parallel(line(c,n),line(e,h)).']]
+parallel(line(c,n),line(e,h)):-parallel(line(c,d),line(e,h)),on_same_line(c,d,n).
+
+deduced step:  74
+parallel(line(b,a),line(f,h)).
+parallel(line(D,E),line(B,C)) :- parallel(line(B,C), line(D,E)).
+n_iteration  1
+len(undeduced_set)  13
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'parallel(line(c,d),line(e,h)).', 'on_same_line(c,d,n).']
+[['parallel(line(f,h),line(b,a)).', 'parallel(line(b,a),line(f,h)).']]
+parallel(line(b,a),line(f,h)):-parallel(line(f,h),line(b,a)).
+
+parallel(line(c,d),line(e,h)).
+parallel(line(D,E),line(B,C)) :- parallel(line(B,C), line(D,E)).
+n_iteration  1
+len(undeduced_set)  13
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'parallel(line(f,h),line(b,a)).']
+[['parallel(line(e,h),line(c,d)).', 'parallel(line(c,d),line(e,h)).']]
+parallel(line(c,d),line(e,h)):-parallel(line(e,h),line(c,d)).
+
+deduced step:  72
+parallel(line(f,h),line(b,a)).
+parallel(line(B,C),line(D,E)) :- parallel(line(B,C), line(E,D)).
+n_iteration  1
+len(undeduced_set)  13
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'parallel(line(e,h),line(c,d)).']
+[['parallel(line(f,h),line(a,b)).', 'parallel(line(f,h),line(b,a)).']]
+parallel(line(f,h),line(b,a)):-parallel(line(f,h),line(a,b)).
+
+deduced step:  65
+deduced step:  62
+deduced step:  37
+equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).
+equals(mul(lengthOf(line(D,E)),2),lengthOf(line(B,C))):-triangle(A,B,C),isMidpointOf(point(D),line(A,B)),isMidpointOf(point(E),line(A,C)),line(D,E).
+n_iteration  1
+len(undeduced_set)  13
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'parallel(line(e,h),line(c,d)).', 'parallel(line(f,h),line(a,b)).']
+[['triangle(b,d,c).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(e),line(b,c)).', 'line(h,e).', 'equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))).']]
+equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))):-triangle(b,d,c),isMidpointOf(point(h),line(b,d)),isMidpointOf(point(e),line(b,c)),line(h,e).
+
+equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).
+equals(mul(lengthOf(line(D,E)),2),lengthOf(line(B,C))):-triangle(A,B,C),isMidpointOf(point(D),line(A,B)),isMidpointOf(point(E),line(A,C)),line(D,E).
+n_iteration  1
+len(undeduced_set)  16
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'parallel(line(e,h),line(c,d)).', 'parallel(line(f,h),line(a,b)).', 'triangle(b,d,c).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(e),line(b,c)).', 'line(h,e).']
+[['triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'line(h,f).', 'equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).']]
+equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))):-triangle(d,b,a),isMidpointOf(point(h),line(d,b)),isMidpointOf(point(f),line(d,a)),line(h,f).
+
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(e),line(b,c)).
+undeduced_fact in gen_facts_dict:  line(h,e).
+undeduced_fact in gen_facts_dict:  line(h,f).
+deduced step:  36
+parallel(line(e,h),line(c,d)).
+parallel(line(D,E),line(B,C)):-triangle(A,B,C),isMidpointOf(point(D),line(A,B)),isMidpointOf(point(E),line(A,C)),line(D,E).
+n_iteration  1
+len(undeduced_set)  15
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'parallel(line(f,h),line(a,b)).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).']
+[['triangle(b,c,d).', 'isMidpointOf(point(e),line(b,c)).', 'isMidpointOf(point(h),line(b,d)).', 'line(e,h).', 'parallel(line(e,h),line(c,d)).']]
+parallel(line(e,h),line(c,d)):-triangle(b,c,d),isMidpointOf(point(e),line(b,c)),isMidpointOf(point(h),line(b,d)),line(e,h).
+
+parallel(line(f,h),line(a,b)).
+parallel(line(D,E),line(B,C)):-triangle(A,B,C),isMidpointOf(point(D),line(A,B)),isMidpointOf(point(E),line(A,C)),line(D,E).
+n_iteration  1
+len(undeduced_set)  18
+['triangle(h,e,f).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'isMidpointOf(point(e),line(b,c)).', 'isMidpointOf(point(h),line(b,d)).', 'line(e,h).']
+[['triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'parallel(line(f,h),line(a,b)).']]
+parallel(line(f,h),line(a,b)):-triangle(d,a,b),isMidpointOf(point(f),line(d,a)),isMidpointOf(point(h),line(d,b)),line(f,h).
+
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(e),line(b,c)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+deduced step:  35
+deduced step:  34
+deduced step:  33
+deduced step:  32
+deduced step:  31
+deduced step:  30
+deduced step:  29
+deduced step:  28
+equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).
+equals(measureOf(angle(A,B,C)),measureOf(angle(D,B,E))) :- line(A,B), line(B,C), line(D,B), line(B,E), not on_same_line(A,B,C), not on_same_line(D,B,E), A==D, on_same_line(B, C, E), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), pointPosition(C,Xc,Yc), (Xa-Xb)*(Xd-Xb)>=0, (Ya-Yb)*(Yd-Yb)>=0, (Xc-Xb)*(Xe-Xb)>=0, (Yc-Yb)*(Ye-Yb)>=0, not same_angle_from_line(line(A,B), line(B,C), line(D,B), line(B,E)).
+n_iteration  4
+len(undeduced_set)  19
+['triangle(h,e,f).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).']
+[['line(h,e).', 'line(e,n).', 'line(h,e).', 'line(e,f).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'pointPosition(e,1194,1827).', 'pointPosition(h,996,1545).', 'pointPosition(f,1080,1220).', 'pointPosition(n,1055,1060).', 'equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))).']]
+equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))):-line(h,e),line(e,n),line(h,e),line(e,f),on_same_line(e,n,f),pointPosition(h,996,1545),pointPosition(e,1194,1827),pointPosition(h,996,1545),pointPosition(f,1080,1220),pointPosition(n,1055,1060).
+
+undeduced_fact in gen_facts_dict:  line(h,e).
+undeduced_fact in gen_facts_dict:  line(e,n).
+undeduced_fact in gen_facts_dict:  line(h,e).
+undeduced_fact in gen_facts_dict:  line(e,f).
+undeduced_fact in gen_facts_dict:  pointPosition(e,1194,1827).
+undeduced_fact in gen_facts_dict:  pointPosition(f,1080,1220).
+undeduced_fact in gen_facts_dict:  pointPosition(n,1055,1060).
+deduced step:  27
+deduced step:  22
+deduced step:  21
+deduced step:  20
+equals(lengthOf(line(c,d)),lengthOf(line(b,a))).
+equals(lengthOf(line(A,B)),lengthOf(line(D,E))) :- equals(lengthOf(line(D,E)),lengthOf(line(A,B))).
+n_iteration  1
+len(undeduced_set)  21
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'pointPosition(h,996,1545).']
+[['equals(lengthOf(line(b,a)),lengthOf(line(c,d))).', 'equals(lengthOf(line(c,d)),lengthOf(line(b,a))).']]
+equals(lengthOf(line(c,d)),lengthOf(line(b,a))):-equals(lengthOf(line(b,a)),lengthOf(line(c,d))).
+
+deduced step:  19
+equals(lengthOf(line(b,a)),lengthOf(line(c,d))).
+equals(lengthOf(line(A,B)),lengthOf(line(D,E))) :- equals(lengthOf(line(B,A)),lengthOf(line(D,E))).
+n_iteration  1
+len(undeduced_set)  21
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'pointPosition(h,996,1545).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'pointPosition(h,996,1545).']
+[['equals(lengthOf(line(a,b)),lengthOf(line(c,d))).', 'equals(lengthOf(line(b,a)),lengthOf(line(c,d))).']]
+equals(lengthOf(line(b,a)),lengthOf(line(c,d))):-equals(lengthOf(line(a,b)),lengthOf(line(c,d))).
+
+undeduced_fact in gen_facts_dict:  equals(lengthOf(line(a,b)),lengthOf(line(c,d))).
+deduced step:  16
+pointPosition(h,996,1545).
+pointPosition(A,X,Y) :- isMidpointOf(point(A),line(B,C)), pointPosition(B,X1,Y1), pointPosition(C,X2,Y2), X=(X1+X2)/2, Y=(Y1+Y2)/2.
+n_iteration  128
+len(undeduced_set)  20
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'pointPosition(h,996,1545).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'pointPosition(h,996,1545).']
+[['isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'pointPosition(h,996,1545).']]
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+
+pointPosition(h,996,1545).
+pointPosition(A,X,Y) :- isMidpointOf(point(A),line(B,C)), pointPosition(B,X1,Y1), pointPosition(C,X2,Y2), X=(X1+X2)/2, Y=(Y1+Y2)/2.
+n_iteration  128
+len(undeduced_set)  22
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'pointPosition(h,996,1545).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).']
+[['isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'pointPosition(h,996,1545).']]
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+
+pointPosition(h,996,1545).
+pointPosition(A,X,Y) :- isMidpointOf(point(A),line(B,C)), pointPosition(B,X1,Y1), pointPosition(C,X2,Y2), X=(X1+X2)/2, Y=(Y1+Y2)/2.
+n_iteration  128
+len(undeduced_set)  24
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'pointPosition(h,996,1545).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).']
+[['isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'pointPosition(h,996,1545).']]
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+
+pointPosition(h,996,1545).
+pointPosition(A,X,Y) :- isMidpointOf(point(A),line(B,C)), pointPosition(B,X1,Y1), pointPosition(C,X2,Y2), X=(X1+X2)/2, Y=(Y1+Y2)/2.
+n_iteration  128
+len(undeduced_set)  26
+['triangle(h,e,f).', 'line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).']
+[['isMidpointOf(point(h),line(d,b)).', 'pointPosition(d,1194,1264).', 'pointPosition(b,799,1827).', 'pointPosition(h,996,1545).']]
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+
+undeduced_fact in gen_facts_dict:  pointPosition(d,1194,1264).
+undeduced_fact in gen_facts_dict:  pointPosition(b,799,1827).
+undeduced_fact in gen_facts_dict:  pointPosition(d,1194,1264).
+undeduced_fact in gen_facts_dict:  pointPosition(b,799,1827).
+undeduced_fact in gen_facts_dict:  pointPosition(d,1194,1264).
+undeduced_fact in gen_facts_dict:  pointPosition(b,799,1827).
+undeduced_fact in gen_facts_dict:  pointPosition(d,1194,1264).
+undeduced_fact in gen_facts_dict:  pointPosition(b,799,1827).
+deduced step:  10
+deduced step:  9
+triangle(h,e,f).
+triangle(A,B,C) :- point(A), point(B), point(C), line(A,B), line(C,B), line(A,C), not A==B, not A==C, not B==C, not on_same_line(A, B,C).
+n_iteration  1
+len(undeduced_set)  20
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(b,d,c).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).']
+[['point(h).', 'point(e).', 'point(f).', 'line(h,e).', 'line(f,e).', 'line(h,f).', 'triangle(h,e,f).']]
+triangle(h,e,f):-point(h),point(e),point(f),line(h,e),line(f,e),line(h,f).
+
+triangle(b,d,c).
+triangle(A,B,C) :- point(A), point(B), point(C), line(A,B), line(C,B), line(A,C), not A==B, not A==C, not B==C, not on_same_line(A, B,C).
+n_iteration  1
+len(undeduced_set)  25
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'triangle(d,b,a).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'point(h).', 'point(e).', 'point(f).', 'line(h,e).', 'line(f,e).', 'line(h,f).']
+[['point(b).', 'point(d).', 'point(c).', 'line(b,d).', 'line(c,d).', 'line(b,c).', 'triangle(b,d,c).']]
+triangle(b,d,c):-point(b),point(d),point(c),line(b,d),line(c,d),line(b,c).
+
+triangle(d,b,a).
+triangle(A,B,C) :- point(A), point(B), point(C), line(A,B), line(C,B), line(A,C), not A==B, not A==C, not B==C, not on_same_line(A, B,C).
+n_iteration  1
+len(undeduced_set)  30
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'triangle(b,c,d).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'point(h).', 'point(e).', 'point(f).', 'line(h,e).', 'line(f,e).', 'line(h,f).', 'point(b).', 'point(d).', 'point(c).', 'line(b,d).', 'line(c,d).', 'line(b,c).']
+[['point(d).', 'point(b).', 'point(a).', 'line(d,b).', 'line(a,b).', 'line(d,a).', 'triangle(d,b,a).']]
+triangle(d,b,a):-point(d),point(b),point(a),line(d,b),line(a,b),line(d,a).
+
+triangle(b,c,d).
+triangle(A,B,C) :- point(A), point(B), point(C), line(A,B), line(C,B), line(A,C), not A==B, not A==C, not B==C, not on_same_line(A, B,C).
+n_iteration  1
+len(undeduced_set)  35
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'line(e,h).', 'triangle(d,a,b).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'point(h).', 'point(e).', 'point(f).', 'line(h,e).', 'line(f,e).', 'line(h,f).', 'point(b).', 'point(d).', 'point(c).', 'line(b,d).', 'line(c,d).', 'line(b,c).', 'point(d).', 'point(b).', 'point(a).', 'line(d,b).', 'line(a,b).', 'line(d,a).']
+[['point(b).', 'point(c).', 'point(d).', 'line(b,c).', 'line(d,c).', 'line(b,d).', 'triangle(b,c,d).']]
+triangle(b,c,d):-point(b),point(c),point(d),line(b,c),line(d,c),line(b,d).
+
+triangle(d,a,b).
+triangle(A,B,C) :- point(A), point(B), point(C), line(A,B), line(C,B), line(A,C), not A==B, not A==C, not B==C, not on_same_line(A, B,C).
+n_iteration  1
+len(undeduced_set)  40
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(f),line(d,a)).', 'line(e,h).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'point(h).', 'point(e).', 'point(f).', 'line(h,e).', 'line(f,e).', 'line(h,f).', 'point(b).', 'point(d).', 'point(c).', 'line(b,d).', 'line(c,d).', 'line(b,c).', 'point(d).', 'point(b).', 'point(a).', 'line(d,b).', 'line(a,b).', 'line(d,a).', 'point(b).', 'point(c).', 'point(d).', 'line(b,c).', 'line(d,c).', 'line(b,d).']
+[['point(d).', 'point(a).', 'point(b).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'triangle(d,a,b).']]
+triangle(d,a,b):-point(d),point(a),point(b),line(d,a),line(b,a),line(d,b).
+
+undeduced_fact in gen_facts_dict:  point(h).
+undeduced_fact in gen_facts_dict:  point(e).
+undeduced_fact in gen_facts_dict:  point(f).
+undeduced_fact in gen_facts_dict:  line(h,e).
+undeduced_fact in gen_facts_dict:  line(h,f).
+undeduced_fact in gen_facts_dict:  point(b).
+undeduced_fact in gen_facts_dict:  point(d).
+undeduced_fact in gen_facts_dict:  point(c).
+undeduced_fact in gen_facts_dict:  line(b,d).
+undeduced_fact in gen_facts_dict:  line(c,d).
+undeduced_fact in gen_facts_dict:  line(b,c).
+undeduced_fact in gen_facts_dict:  point(d).
+undeduced_fact in gen_facts_dict:  point(b).
+undeduced_fact in gen_facts_dict:  point(a).
+undeduced_fact in gen_facts_dict:  line(a,b).
+undeduced_fact in gen_facts_dict:  point(b).
+undeduced_fact in gen_facts_dict:  point(c).
+undeduced_fact in gen_facts_dict:  point(d).
+undeduced_fact in gen_facts_dict:  line(b,c).
+undeduced_fact in gen_facts_dict:  line(b,d).
+undeduced_fact in gen_facts_dict:  point(d).
+undeduced_fact in gen_facts_dict:  point(a).
+undeduced_fact in gen_facts_dict:  point(b).
+deduced step:  8
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'isMidpointOf(point(f),line(d,a)).', 'line(e,h).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+isMidpointOf(point(f),line(d,a)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'isMidpointOf(point(f),line(d,a)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).']
+[['isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(d,a)).']]
+isMidpointOf(point(f),line(d,a)):-isMidpointOf(point(f),line(a,d)).
+
+isMidpointOf(point(f),line(d,a)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).']
+[['isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(d,a)).']]
+isMidpointOf(point(f),line(d,a)):-isMidpointOf(point(f),line(a,d)).
+
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(a,d)).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(h),line(b,d)).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'on_same_line(e,n,f).', 'isMidpointOf(point(h),line(d,b)).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+isMidpointOf(point(h),line(d,b)).
+isMidpointOf(point(D),line(B,C)) :- isMidpointOf(point(D),line(C,B)).
+n_iteration  1
+len(undeduced_set)  22
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'on_same_line(e,n,f).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(f),line(a,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(b,d)).']
+[['isMidpointOf(point(h),line(b,d)).', 'isMidpointOf(point(h),line(d,b)).']]
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(f),line(a,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(f),line(a,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+undeduced_fact in gen_facts_dict:  isMidpointOf(point(h),line(b,d)).
+deduced step:  7
+on_same_line(e,n,f).
+on_same_line(A, C, D) :- on_same_line(A, B,C), on_same_line(A, B,D), not C==D.
+n_iteration  1
+len(undeduced_set)  14
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).']
+[['on_same_line(e,m,n).', 'on_same_line(e,m,f).', 'on_same_line(e,n,f).']]
+on_same_line(e,n,f):-on_same_line(e,m,n),on_same_line(e,m,f).
+
+deduced step:  4
+on_same_line(e,m,n).
+on_same_line(A, B, C) :- on_same_line(B, C, A).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(e,m,f).']
+[['on_same_line(m,n,e).', 'on_same_line(e,m,n).']]
+on_same_line(e,m,n):-on_same_line(m,n,e).
+
+on_same_line(e,m,f).
+on_same_line(A, B, C) :- on_same_line(B, C, A).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'on_same_line(m,f,e).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(m,n,e).']
+[['on_same_line(m,f,e).', 'on_same_line(e,m,f).']]
+on_same_line(e,m,f):-on_same_line(m,f,e).
+
+deduced step:  3
+on_same_line(m,f,e).
+on_same_line(A, B, C) :- pointLiesOnLine(A, line(B,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'on_same_line(b,a,m).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(m,n,e).', 'on_same_line(m,f,e).']
+[['pointLiesOnLine(m,line(f,e)).', 'on_same_line(m,f,e).']]
+on_same_line(m,f,e):-pointLiesOnLine(m,line(f,e)).
+
+on_same_line(b,a,m).
+on_same_line(A, B, C) :- pointLiesOnLine(A, line(B,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'on_same_line(c,d,n).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(m,n,e).', 'on_same_line(m,f,e).', 'pointLiesOnLine(m,line(f,e)).']
+[['pointLiesOnLine(b,line(a,m)).', 'on_same_line(b,a,m).']]
+on_same_line(b,a,m):-pointLiesOnLine(b,line(a,m)).
+
+on_same_line(c,d,n).
+on_same_line(A, B, C) :- pointLiesOnLine(A, line(B,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(m,n,e).', 'on_same_line(m,f,e).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(b,line(a,m)).']
+[['pointLiesOnLine(c,line(d,n)).', 'on_same_line(c,d,n).']]
+on_same_line(c,d,n):-pointLiesOnLine(c,line(d,n)).
+
+on_same_line(m,n,e).
+on_same_line(A, B, C) :- pointLiesOnLine(A, line(B,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'on_same_line(m,f,e).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(b,line(a,m)).', 'pointLiesOnLine(c,line(d,n)).']
+[['pointLiesOnLine(m,line(n,e)).', 'on_same_line(m,n,e).']]
+on_same_line(m,n,e):-pointLiesOnLine(m,line(n,e)).
+
+on_same_line(m,f,e).
+on_same_line(A, B, C) :- pointLiesOnLine(A, line(B,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(b,line(a,m)).', 'pointLiesOnLine(c,line(d,n)).', 'pointLiesOnLine(m,line(n,e)).']
+[['pointLiesOnLine(m,line(f,e)).', 'on_same_line(m,f,e).']]
+on_same_line(m,f,e):-pointLiesOnLine(m,line(f,e)).
+
+deduced step:  2
+pointLiesOnLine(m,line(f,e)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(B, line(A,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(b,line(a,m)).', 'pointLiesOnLine(c,line(d,n)).', 'pointLiesOnLine(m,line(n,e)).', 'pointLiesOnLine(m,line(f,e)).']
+[['pointLiesOnLine(f,line(m,e)).', 'pointLiesOnLine(m,line(f,e)).']]
+pointLiesOnLine(m,line(f,e)):-pointLiesOnLine(f,line(m,e)).
+
+pointLiesOnLine(b,line(a,m)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(B, line(A,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(c,line(d,n)).', 'pointLiesOnLine(m,line(n,e)).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(f,line(m,e)).']
+[['pointLiesOnLine(a,line(b,m)).', 'pointLiesOnLine(b,line(a,m)).']]
+pointLiesOnLine(b,line(a,m)):-pointLiesOnLine(a,line(b,m)).
+
+pointLiesOnLine(c,line(d,n)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(B, line(A,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(m,line(n,e)).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(f,line(m,e)).', 'pointLiesOnLine(a,line(b,m)).']
+[['pointLiesOnLine(d,line(c,n)).', 'pointLiesOnLine(c,line(d,n)).']]
+pointLiesOnLine(c,line(d,n)):-pointLiesOnLine(d,line(c,n)).
+
+pointLiesOnLine(m,line(n,e)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(B, line(A,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(m,line(f,e)).', 'pointLiesOnLine(f,line(m,e)).', 'pointLiesOnLine(a,line(b,m)).', 'pointLiesOnLine(d,line(c,n)).']
+[['pointLiesOnLine(n,line(m,e)).', 'pointLiesOnLine(m,line(n,e)).']]
+pointLiesOnLine(m,line(n,e)):-pointLiesOnLine(n,line(m,e)).
+
+pointLiesOnLine(m,line(f,e)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(B, line(A,C)).
+n_iteration  1
+len(undeduced_set)  15
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(f,line(m,e)).', 'pointLiesOnLine(a,line(b,m)).', 'pointLiesOnLine(d,line(c,n)).', 'pointLiesOnLine(n,line(m,e)).']
+[['pointLiesOnLine(f,line(m,e)).', 'pointLiesOnLine(m,line(f,e)).']]
+pointLiesOnLine(m,line(f,e)):-pointLiesOnLine(f,line(m,e)).
+
+undeduced_fact in gen_facts_dict:  pointLiesOnLine(f,line(m,e)).
+undeduced_fact in gen_facts_dict:  pointLiesOnLine(n,line(m,e)).
+undeduced_fact in gen_facts_dict:  pointLiesOnLine(f,line(m,e)).
+deduced step:  1
+pointLiesOnLine(a,line(b,m)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(A, line(C,B)).
+n_iteration  1
+len(undeduced_set)  12
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(d,line(c,n)).']
+[['pointLiesOnLine(a,line(m,b)).', 'pointLiesOnLine(a,line(b,m)).']]
+pointLiesOnLine(a,line(b,m)):-pointLiesOnLine(a,line(m,b)).
+
+pointLiesOnLine(d,line(c,n)).
+pointLiesOnLine(A, line(B,C)) :- pointLiesOnLine(A, line(C,B)).
+n_iteration  1
+len(undeduced_set)  12
+['line(m,f).', 'line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'pointLiesOnLine(a,line(m,b)).']
+[['pointLiesOnLine(d,line(n,c)).', 'pointLiesOnLine(d,line(c,n)).']]
+pointLiesOnLine(d,line(c,n)):-pointLiesOnLine(d,line(n,c)).
+
+undeduced_fact in gen_facts_dict:  pointLiesOnLine(a,line(m,b)).
+undeduced_fact in gen_facts_dict:  pointLiesOnLine(d,line(n,c)).
+deduced step:  0
+line(m,f).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(n,e).', 'line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).']
+[['line(f,m).', 'line(m,f).']]
+line(m,f):-line(f,m).
+
+line(n,e).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(e,h).', 'line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).']
+[['line(e,n).', 'line(n,e).']]
+line(n,e):-line(e,n).
+
+line(e,h).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(f,h).', 'line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).']
+[['line(h,e).', 'line(e,h).']]
+line(e,h):-line(h,e).
+
+line(f,h).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(f,e).', 'line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).']
+[['line(h,f).', 'line(f,h).']]
+line(f,h):-line(h,f).
+
+line(f,e).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(d,b).', 'line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).']
+[['line(e,f).', 'line(f,e).']]
+line(f,e):-line(e,f).
+
+line(d,b).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(d,a).', 'line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).']
+[['line(b,d).', 'line(d,b).']]
+line(d,b):-line(b,d).
+
+line(d,a).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(d,c).', 'line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).', 'line(b,d).']
+[['line(a,d).', 'line(d,a).']]
+line(d,a):-line(a,d).
+
+line(d,c).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(d,a).', 'line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).', 'line(b,d).', 'line(a,d).']
+[['line(c,d).', 'line(d,c).']]
+line(d,c):-line(c,d).
+
+line(d,a).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(b,a).', 'line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).', 'line(b,d).', 'line(a,d).', 'line(c,d).']
+[['line(a,d).', 'line(d,a).']]
+line(d,a):-line(a,d).
+
+line(b,a).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(d,b).', 'line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).', 'line(b,d).', 'line(a,d).', 'line(c,d).', 'line(a,d).']
+[['line(a,b).', 'line(b,a).']]
+line(b,a):-line(a,b).
+
+line(d,b).
+line(A, B) :- line(B, A).
+n_iteration  1
+len(undeduced_set)  10
+['line(f,m).', 'line(e,n).', 'line(h,e).', 'line(h,f).', 'line(e,f).', 'line(b,d).', 'line(a,d).', 'line(c,d).', 'line(a,d).', 'line(a,b).']
+[['line(b,d).', 'line(d,b).']]
+line(d,b):-line(b,d).
+
+undeduced_fact in gen_facts_dict:  line(f,m).
+undeduced_fact in gen_facts_dict:  line(e,n).
+undeduced_fact in gen_facts_dict:  line(h,e).
+undeduced_fact in gen_facts_dict:  line(h,f).
+undeduced_fact in gen_facts_dict:  line(e,f).
+undeduced_fact in gen_facts_dict:  line(b,d).
+undeduced_fact in gen_facts_dict:  line(a,d).
+undeduced_fact in gen_facts_dict:  line(c,d).
+undeduced_fact in gen_facts_dict:  line(a,d).
+undeduced_fact in gen_facts_dict:  line(a,b).
+undeduced_fact in gen_facts_dict:  line(b,d).
+Proof finished!
+The process of proving:----------------------------------
+line(d,b):-line(b,d).
+line(b,a):-line(a,b).
+line(d,a):-line(a,d).
+line(d,c):-line(c,d).
+line(d,a):-line(a,d).
+line(d,b):-line(b,d).
+line(f,e):-line(e,f).
+line(f,h):-line(h,f).
+line(e,h):-line(h,e).
+line(n,e):-line(e,n).
+line(m,f):-line(f,m).
+pointLiesOnLine(d,line(c,n)):-pointLiesOnLine(d,line(n,c)).
+pointLiesOnLine(a,line(b,m)):-pointLiesOnLine(a,line(m,b)).
+pointLiesOnLine(m,line(f,e)):-pointLiesOnLine(f,line(m,e)).
+pointLiesOnLine(m,line(n,e)):-pointLiesOnLine(n,line(m,e)).
+pointLiesOnLine(c,line(d,n)):-pointLiesOnLine(d,line(c,n)).
+pointLiesOnLine(b,line(a,m)):-pointLiesOnLine(a,line(b,m)).
+pointLiesOnLine(m,line(f,e)):-pointLiesOnLine(f,line(m,e)).
+on_same_line(m,f,e):-pointLiesOnLine(m,line(f,e)).
+on_same_line(m,n,e):-pointLiesOnLine(m,line(n,e)).
+on_same_line(c,d,n):-pointLiesOnLine(c,line(d,n)).
+on_same_line(b,a,m):-pointLiesOnLine(b,line(a,m)).
+on_same_line(m,f,e):-pointLiesOnLine(m,line(f,e)).
+on_same_line(e,m,f):-on_same_line(m,f,e).
+on_same_line(e,m,n):-on_same_line(m,n,e).
+on_same_line(e,n,f):-on_same_line(e,m,n),on_same_line(e,m,f).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+isMidpointOf(point(f),line(d,a)):-isMidpointOf(point(f),line(a,d)).
+isMidpointOf(point(f),line(d,a)):-isMidpointOf(point(f),line(a,d)).
+isMidpointOf(point(h),line(d,b)):-isMidpointOf(point(h),line(b,d)).
+triangle(d,a,b):-point(d),point(a),point(b),line(d,a),line(b,a),line(d,b).
+triangle(b,c,d):-point(b),point(c),point(d),line(b,c),line(d,c),line(b,d).
+triangle(d,b,a):-point(d),point(b),point(a),line(d,b),line(a,b),line(d,a).
+triangle(b,d,c):-point(b),point(d),point(c),line(b,d),line(c,d),line(b,c).
+triangle(h,e,f):-point(h),point(e),point(f),line(h,e),line(f,e),line(h,f).
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+pointPosition(h,996,1545):-isMidpointOf(point(h),line(d,b)),pointPosition(d,1194,1264),pointPosition(b,799,1827).
+equals(lengthOf(line(b,a)),lengthOf(line(c,d))):-equals(lengthOf(line(a,b)),lengthOf(line(c,d))).
+equals(lengthOf(line(c,d)),lengthOf(line(b,a))):-equals(lengthOf(line(b,a)),lengthOf(line(c,d))).
+equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))):-line(h,e),line(e,n),line(h,e),line(e,f),on_same_line(e,n,f),pointPosition(h,996,1545),pointPosition(e,1194,1827),pointPosition(h,996,1545),pointPosition(f,1080,1220),pointPosition(n,1055,1060).
+parallel(line(f,h),line(a,b)):-triangle(d,a,b),isMidpointOf(point(f),line(d,a)),isMidpointOf(point(h),line(d,b)),line(f,h).
+parallel(line(e,h),line(c,d)):-triangle(b,c,d),isMidpointOf(point(e),line(b,c)),isMidpointOf(point(h),line(b,d)),line(e,h).
+equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))):-triangle(d,b,a),isMidpointOf(point(h),line(d,b)),isMidpointOf(point(f),line(d,a)),line(h,f).
+equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))):-triangle(b,d,c),isMidpointOf(point(h),line(b,d)),isMidpointOf(point(e),line(b,c)),line(h,e).
+parallel(line(f,h),line(b,a)):-parallel(line(f,h),line(a,b)).
+parallel(line(c,d),line(e,h)):-parallel(line(e,h),line(c,d)).
+parallel(line(b,a),line(f,h)):-parallel(line(f,h),line(b,a)).
+parallel(line(c,n),line(e,h)):-parallel(line(c,d),line(e,h)),on_same_line(c,d,n).
+parallel(line(b,m),line(f,h)):-parallel(line(b,a),line(f,h)),on_same_line(b,a,m).
+equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))):-parallel(line(c,n),line(e,h)),line(n,e),pointPosition(c,1592,1834),pointPosition(n,1055,1060),pointPosition(e,1194,1827),pointPosition(h,996,1545).
+equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))):-parallel(line(b,m),line(f,h)),line(m,f),on_same_line(m,f,e),pointPosition(b,799,1827),pointPosition(m,1018,855),pointPosition(f,1080,1220),pointPosition(h,996,1545),pointPosition(e,1194,1827).
+equals(lengthOf(line(d,c)),lengthOf(line(b,a))):-equals(lengthOf(line(c,d)),lengthOf(line(b,a))).
+equals(lengthOf(line(b,a)),lengthOf(line(d,c))):-equals(lengthOf(line(d,c)),lengthOf(line(b,a))).
+equals(lengthOf(line(h,e)),lengthOf(line(h,f))):-equals(lengthOf(line(b,a)),lengthOf(line(d,c))),equals(mul(lengthOf(line(h,e)),2),lengthOf(line(d,c))),equals(mul(lengthOf(line(h,f)),2),lengthOf(line(b,a))).
+equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))):-equals(measureOf(angle(c,n,e)),measureOf(angle(n,e,h))).
+equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))):-equals(measureOf(angle(b,m,e)),measureOf(angle(h,f,e))).
+equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))):-equals(measureOf(angle(h,e,n)),measureOf(angle(h,e,f))                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ).
+equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))):-equals(measureOf(angle(n,e,h)),measureOf(angle(c,n,e))),equals(measureOf(angle(n,e,h)),measureOf(angle(h,e,f))).
+equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))):-triangle(h,e,f),equals(lengthOf(line(h,e)),lengthOf(line(h,f))).
+equals(measureOf(angle(h,f,e)),measureOf(angle(c,n,e))):-equals(measureOf(angle(h,e,f)),measureOf(angle(c,n,e))),equals(measureOf(angle(h,e,f)),measureOf(angle(h,f,e))).
+equals(measureOf(angle(b,m,e)),measureOf(angle(c,n,e))):-equals(measureOf(angle(h,f,e)),measureOf(angle(c,n,e))),equals(measureOf(angle(h,f,e)),measureOf(angle(b,m,e))).
+[?2004h[01;32mjiajun[00m:[01;34mgeometry[01;31m(main)[00m$ exit
+[?2004l
+exit
+
+Script done on 2023-01-11 11:20:52+08:00 [COMMAND_EXIT_CODE="0"]

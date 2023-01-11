@@ -1,4 +1,4 @@
-from src.input_reader import read
+from src.input_reader import read_query, read_fact, read_rules
 from src.generator import generate
 from src.deductor import deduct
 
@@ -9,10 +9,10 @@ query_path = "src/knowledge_base/quest_clingo.pl"
 
 
 def main():
-    query_set, fact_set, theorem_set = read(basic_path=basic_path,
-                                            query_path=query_path,
-                                            facts_path=facts_path,
-                                            theorem_path=theorem_path)
+    query_set = read_query(query_path)
+    theorem_set = read_rules(basic_path, theorem_path)
+    fact_set = read_fact(facts_path)
+
     gen_facts_dict, used_theorem_set = generate(query_set=query_set,
                                                 fact_set=fact_set,
                                                 theorem_set=theorem_set)
