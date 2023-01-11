@@ -9,7 +9,8 @@ def generate(fact_set, theorem_set, query_set):
     max_n_iter = 10
     i = 0
 
-    while True and i < max_n_iter:
+    fact_set_till_i = fact_set
+    while i < max_n_iter:
         print("iteration ...... " + str(i + 1))
         print(f"Facts from {len(fact_set)}", end=" ")
 
@@ -23,21 +24,17 @@ def generate(fact_set, theorem_set, query_set):
             _answers = [ans + "." for ans in _answers]
 
             new_fact_set = list(set(fact_set + _answers))
+            fact_set_till_i = list(set(fact_set_till_i + _answers))
             gen_facts_dict.append(new_fact_set)
-
-            fact_set = new_fact_set
 
             for query in query_set:
                 if query in _answers:
-
-                    n_steps = len(gen_facts_dict)
-                    n_theorem = len(used_theorem_set)
-                    assert n_steps == n_theorem + 1
-
-                    print(f"\nStopped at iteration {i} and theorem {j}.")
+                    print(f"to {len(fact_set_till_i)}")
+                    print(f"\nStopped at iteration {i + 1} and theorem {j}.")
 
                     return gen_facts_dict, used_theorem_set
 
+        fact_set = fact_set_till_i
         print(f"to {len(fact_set)}")
 
         i = i + 1

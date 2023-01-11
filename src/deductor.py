@@ -2,6 +2,19 @@ from src.utils import (generate_deduce_path, iterate_add_undeduced_facts)
 
 
 def deduct(gen_facts_dict, query_set, n_theorem, used_theorem_set):
+    """
+    Args:
+        gen_facts_dict: a list of generated facts. During the first iteration,
+        each time one new theorem is added to the inference machine and
+        facts are derived. For the second and more iterations, the fact will be
+        updated to be the one at the last iteration.
+        The generation process stops when the quest is found in the generated
+        facts. Hence we acquire a list of generated facts.
+    
+    """
+
+    # diff set
+    #
     diff_set = []
     for i in range(n_theorem):
         tmp = [
