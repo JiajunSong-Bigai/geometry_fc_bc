@@ -1,7 +1,7 @@
 from clyngor import ASP, answer_set_to_str
 
 
-def generate(fact_set, theorem_set, query_set):
+def fc(fact_set, theorem_set, query_set):
 
     used_theorem_set = []
     n_theorem = len(theorem_set)

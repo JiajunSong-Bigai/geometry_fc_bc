@@ -1,7 +1,7 @@
 from src.utils import (generate_deduce_path, iterate_add_undeduced_facts)
 
 
-def deduct(gen_facts_dict, query_set, n_theorem, used_theorem_set):
+def bc(gen_facts_dict, query_set, n_theorem, used_theorem_set):
     diff_set = []
     for ii in range(n_theorem):
         tmp = [

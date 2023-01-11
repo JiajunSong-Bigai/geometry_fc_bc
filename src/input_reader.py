@@ -24,7 +24,7 @@ def read_rules(rule_folder_path):
                 rule_set.append(clause.strip().replace("^", ","))
         f1.close()
 
-    return rule_set
+    return list(set(rule_set))
 
 
 def read_fact(fact_path):
