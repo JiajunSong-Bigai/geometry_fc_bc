@@ -1,30 +1,17 @@
-import os
-import json
-import time
-import random
-
-import operator
-import numbers
-import pkg_resources
-from collections import OrderedDict
-import numpy as np
-import pickle
-
-from clyngor import ASP, solve, answer_set_to_str
-from clyngor import grounded_program, solve_from_grounded
-# from explain import bk_explain
-import sympy
+from clyngor import ASP, answer_set_to_str
 from sympy import *
-import pdb
 
-from src.input_reader import read
-from src.utils import (test_and_subst, test_and_subst_assign,
-                       test_and_subst_assign_generate, add_undeduced_facts,
-                       iterate_add_undeduced_facts, single_step_forward,
-                       generate_deduce_path)
-from src.uutils import isNumber
+from src.input_reader import read_query, read_fact, read_rules
+from src.utils import (iterate_add_undeduced_facts, generate_deduce_path)
 
-query_set, fact_set, theorem_set = read()
+basic_path = "src/knowledge_base/basic_clingo.pl"
+facts_path = "src/knowledge_base/facts_clingo.pl"
+theorem_path = "src/knowledge_base/theorem_clingo.pl"
+query_path = "src/knowledge_base/quest_clingo.pl"
+
+query_set = read_query(query_path=query_path)
+fact_set = read_fact(fact_path=facts_path)
+theorem_set = read_rules(basic_path, theorem_path)
 
 used_theorem_set = []
 n_theorem = len(theorem_set)
