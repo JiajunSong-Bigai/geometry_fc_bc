@@ -1,0 +1,10 @@
+clyngor==0.4.2
+ipython==8.8.0
+kanren==0.2.3
+more-itertools==9.0.0
+pandas==1.5.2
+pip-chill==1.0.1
+pyparsing==3.0.9
+src==1.0
+sympy==1.11.1
+yapf==0.32.0
