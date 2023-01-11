@@ -14,4 +14,4 @@ equals(measureOf(angle(A,B,F)),measureOf(angle(E,D,F))) :- parallel(line(A,B),li
 equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(B,C,D))),180) :- parallel(line(A,B),line(C,D))^ quadrilateral(A,B,C,D).
 
 % parallel from equal angles
-parallel(line(A,B),line(D,E)) :- equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) ^quadrilateral(A,B,E,D).
+parallel(line(A,B),line(D,E)) :- equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) ^ quadrilateral(A,B,E,D).

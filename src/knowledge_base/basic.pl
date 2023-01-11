@@ -12,7 +12,7 @@ on_same_line(A,B,C) :- pointLiesOnLine(A,line(B,C)).
 on_same_line(A,C,B) :- on_same_line(A,B,C).
 on_same_line(B,A,C) :- on_same_line(A,B,C).
 on_same_line(C,A,B) :- on_same_line(A,B,C).
-on_same_line(A,C,D) :- on_same_line(A,B,C) ^ on_same_line(A,B,D) ^ not C==D.
+%on_same_line(A,C,D) :- on_same_line(A,B,C) ^ on_same_line(A,B,D) ^ not C==D.
 
 %equals(lengthOf(line(A,C)),sumOf(lengthOf(line(A,B)),lengthOf(line(B,C)))) :- on_same_line(A,B,C)^ pointPosition(A, Xa, Ya)^ pointPosition(B, Xb, Yb)^ pointPosition(C, Xc, Yc)^ (Xb-Xa)*(Xb-Xc)<0.
 %equals(lengthOf(line(A,C)),sumOf(lengthOf(line(B,A)),lengthOf(line(B,C)))) :- equals(lengthOf(line(A,C)),sumOf(lengthOf(line(A,B)),lengthOf(line(B,C)))).

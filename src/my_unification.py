@@ -501,6 +501,22 @@ def parse_predicates(rule_str):
     return strset
 
 
+def testparsing():
+    from src.input_reader import read_rules
+
+    rules = read_rules("src/knowledge_base")
+    for rule in rules:
+        try:
+            parse_predicates(rule)
+        except Exception as e:
+            print(e)
+            print(rule, "Failed")
+
+
+parse_predicates(
+    "parallel(line(A,B),line(D,E)) :- equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) ,  quadrilateral(A,B,E,D)."
+)
+
 #test_str ="equals(measureOf(angle(A,B,F)),measureOf(angle(E,D,F))) :- parallel(line(A,B),line(D,E)), line(B, D), on_same_line(B, D, F), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), pointPosition(F,Xf,Yf), (Xa-Xb)*(Xe-Xd)>0, (Ya-Yb)*(Ye-Yd)>0, (Xf-Xb)*(Xf-Xd)>0, (Yf-Yb)*(Yf-Yd)>0, not A==C."
 
 #strset = parse_predicates(test_str)
