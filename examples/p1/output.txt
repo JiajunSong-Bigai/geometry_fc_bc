@@ -1,0 +1,566 @@
+Script started on 2023-01-11 16:58:16+08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="112" LINES="44"]
+[?2004h[01;32mjiajun[00m:[01;34mgeometry[01;31m(main)[00m$ python src/main.py 
+[?2004literation ...... 1
+      theorem ...... 1   facts ...... 112
+      theorem ...... 2   facts ...... 136
+      theorem ...... 3   facts ...... 190
+      theorem ...... 4   facts ...... 244
+      theorem ...... 5   facts ...... 274
+      theorem ...... 6   facts ...... 436
+      theorem ...... 7   facts ...... 436
+      theorem ...... 8   facts ...... 436
+      theorem ...... 9   facts ...... 436
+      theorem ...... 10   facts ...... 436
+      theorem ...... 11   facts ...... 436
+      theorem ...... 12   facts ...... 436
+      theorem ...... 13   facts ...... 436
+      theorem ...... 14   facts ...... 436
+      theorem ...... 15   facts ...... 436
+      theorem ...... 16   facts ...... 436
+      theorem ...... 17   facts ...... 436
+      theorem ...... 18   facts ...... 436
+      theorem ...... 19   facts ...... 436
+      theorem ...... 20   facts ...... 436
+      theorem ...... 21   facts ...... 436
+      theorem ...... 22   facts ...... 436
+      theorem ...... 23   facts ...... 436
+      theorem ...... 24   facts ...... 436
+      theorem ...... 25   facts ...... 436
+      theorem ...... 26   facts ...... 436
+      theorem ...... 27   facts ...... 436
+      theorem ...... 28   facts ...... 436
+      theorem ...... 29   facts ...... 436
+      theorem ...... 30   facts ...... 436
+      theorem ...... 31   facts ...... 436
+      theorem ...... 32   facts ...... 436
+      theorem ...... 33   facts ...... 436
+      theorem ...... 34   facts ...... 436
+      theorem ...... 35   facts ...... 436
+      theorem ...... 36   facts ...... 436
+      theorem ...... 37   facts ...... 436
+      theorem ...... 38   facts ...... 436
+      theorem ...... 39   facts ...... 436
+      theorem ...... 40   facts ...... 436
+      theorem ...... 41   facts ...... 436
+      theorem ...... 42   facts ...... 436
+      theorem ...... 43   facts ...... 436
+      theorem ...... 44   facts ...... 436
+      theorem ...... 45   facts ...... 436
+      theorem ...... 46   facts ...... 436
+      theorem ...... 47   facts ...... 436
+      theorem ...... 48   facts ...... 440
+      theorem ...... 49   facts ...... 448
+      theorem ...... 50   facts ...... 456
+      theorem ...... 51   facts ...... 472
+      theorem ...... 52   facts ...... 480
+      theorem ...... 53   facts ...... 488
+      theorem ...... 54   facts ...... 496
+      theorem ...... 55   facts ...... 496
+      theorem ...... 56   facts ...... 498
+      theorem ...... 57   facts ...... 498
+      theorem ...... 58   facts ...... 502
+      theorem ...... 59   facts ...... 550
+      theorem ...... 60   facts ...... 550
+      theorem ...... 61   facts ...... 598
+      theorem ...... 62   facts ...... 694
+      theorem ...... 63   facts ...... 694
+      theorem ...... 64   facts ...... 790
+      theorem ...... 65   facts ...... 791
+      theorem ...... 66   facts ...... 889
+      theorem ...... 67   facts ...... 987
+      theorem ...... 68   facts ...... 1389
+      theorem ...... 69   facts ...... 1481
+      theorem ...... 70   facts ...... 1545
+      theorem ...... 71   facts ...... 1545
+      theorem ...... 72   facts ...... 1707
+      theorem ...... 73   facts ...... 1869
+      theorem ...... 74   facts ...... 1874
+      theorem ...... 75   facts ...... 1880
+      theorem ...... 76   facts ...... 1905
+      theorem ...... 77   facts ...... 1947
+      theorem ...... 78   facts ...... 1989
+      theorem ...... 79   facts ...... 1989
+      theorem ...... 80   facts ...... 1989
+      theorem ...... 81   facts ...... 2037
+      theorem ...... 82   facts ...... 2085
+      theorem ...... 83   facts ...... 2133
+      theorem ...... 84   facts ...... 2133
+      theorem ...... 85   facts ...... 2181
+      theorem ...... 86   facts ...... 2229
+      theorem ...... 87   facts ...... 2391
+      theorem ...... 88   facts ...... 2391
+      theorem ...... 89   facts ...... 2391
+      theorem ...... 90   facts ...... 2391
+      theorem ...... 91   facts ...... 2391
+      theorem ...... 92   facts ...... 2431
+      theorem ...... 93   facts ...... 2431
+      theorem ...... 94   facts ...... 2431
+      theorem ...... 95   facts ...... 2431
+      theorem ...... 96   facts ...... 2431
+      theorem ...... 97   facts ...... 2431
+      theorem ...... 98   facts ...... 2431
+      theorem ...... 99   facts ...... 2431
+      theorem ...... 100   facts ...... 2431
+      theorem ...... 101   facts ...... 2431
+iteration ...... 2
+      theorem ...... 1   facts ...... 2431
+      theorem ...... 2   facts ...... 2431
+      theorem ...... 3   facts ...... 2431
+      theorem ...... 4   facts ...... 2431
+      theorem ...... 5   facts ...... 2431
+      theorem ...... 6   facts ...... 2431
+      theorem ...... 7   facts ...... 2431
+      theorem ...... 8   facts ...... 2431
+      theorem ...... 9   facts ...... 2431
+      theorem ...... 10   facts ...... 2431
+      theorem ...... 11   facts ...... 2431
+      theorem ...... 12   facts ...... 2431
+      theorem ...... 13   facts ...... 2431
+      theorem ...... 14   facts ...... 2431
+      theorem ...... 15   facts ...... 2452
+      theorem ...... 16   facts ...... 2466
+      theorem ...... 17   facts ...... 2472
+      theorem ...... 18   facts ...... 2472
+      theorem ...... 19   facts ...... 2472
+      theorem ...... 20   facts ...... 2472
+      theorem ...... 21   facts ...... 2472
+      theorem ...... 22   facts ...... 2472
+      theorem ...... 23   facts ...... 2472
+      theorem ...... 24   facts ...... 2472
+      theorem ...... 25   facts ...... 2472
+      theorem ...... 26   facts ...... 2472
+      theorem ...... 27   facts ...... 2472
+      theorem ...... 28   facts ...... 2472
+      theorem ...... 29   facts ...... 2472
+      theorem ...... 30   facts ...... 2472
+      theorem ...... 31   facts ...... 2472
+      theorem ...... 32   facts ...... 2472
+      theorem ...... 33   facts ...... 2472
+      theorem ...... 34   facts ...... 2472
+      theorem ...... 35   facts ...... 2472
+      theorem ...... 36   facts ...... 2472
+      theorem ...... 37   facts ...... 2472
+      theorem ...... 38   facts ...... 2562
+      theorem ...... 39   facts ...... 2562
+      theorem ...... 40   facts ...... 2562
+      theorem ...... 41   facts ...... 2562
+      theorem ...... 42   facts ...... 2562
+      theorem ...... 43   facts ...... 2562
+      theorem ...... 44   facts ...... 2562
+      theorem ...... 45   facts ...... 2562
+      theorem ...... 46   facts ...... 2562
+      theorem ...... 47   facts ...... 2562
+      theorem ...... 48   facts ...... 2570
+      theorem ...... 49   facts ...... 2578
+      theorem ...... 50   facts ...... 2586
+      theorem ...... 51   facts ...... 2586
+      theorem ...... 52   facts ...... 2586
+      theorem ...... 53   facts ...... 2586
+      theorem ...... 54   facts ...... 2586
+      theorem ...... 55   facts ...... 2586
+      theorem ...... 56   facts ...... 2586
+      theorem ...... 57   facts ...... 2586
+      theorem ...... 58   facts ...... 2586
+      theorem ...... 59   facts ...... 2586
+      theorem ...... 60   facts ...... 2586
+      theorem ...... 61   facts ...... 2586
+      theorem ...... 62   facts ...... 2586
+      theorem ...... 63   facts ...... 2586
+      theorem ...... 64   facts ...... 2586
+      theorem ...... 65   facts ...... 2586
+      theorem ...... 66   facts ...... 2586
+      theorem ...... 67   facts ...... 2586
+      theorem ...... 68   facts ...... 2586
+      theorem ...... 69   facts ...... 2586
+      theorem ...... 70   facts ...... 2586
+      theorem ...... 71   facts ...... 2586
+      theorem ...... 72   facts ...... 2586
+      theorem ...... 73   facts ...... 2586
+      theorem ...... 74   facts ...... 2588
+      theorem ...... 75   facts ...... 2590
+      theorem ...... 76   facts ...... 2590
+      theorem ...... 77   facts ...... 2590
+      theorem ...... 78   facts ...... 2590
+      theorem ...... 79   facts ...... 2590
+      theorem ...... 80   facts ...... 2590
+      theorem ...... 81   facts ...... 2590
+      theorem ...... 82   facts ...... 2590
+      theorem ...... 83   facts ...... 2590
+      theorem ...... 84   facts ...... 2590
+      theorem ...... 85   facts ...... 2590
+      theorem ...... 86   facts ...... 2590
+      theorem ...... 87   facts ...... 2590
+      theorem ...... 88   facts ...... 2590
+      theorem ...... 89   facts ...... 2590
+      theorem ...... 90   facts ...... 2590
+      theorem ...... 91   facts ...... 2590
+      theorem ...... 92   facts ...... 2590
+      theorem ...... 93   facts ...... 2590
+      theorem ...... 94   facts ...... 2590
+      theorem ...... 95   facts ...... 2590
+      theorem ...... 96   facts ...... 2590
+      theorem ...... 97   facts ...... 2590
+      theorem ...... 98   facts ...... 2590
+      theorem ...... 99   facts ...... 2590
+      theorem ...... 100   facts ...... 2590
+      theorem ...... 101   facts ...... 2590
+iteration ...... 3
+      theorem ...... 1   facts ...... 2590
+      theorem ...... 2   facts ...... 2590
+      theorem ...... 3   facts ...... 2590
+      theorem ...... 4   facts ...... 2590
+      theorem ...... 5   facts ...... 2590
+      theorem ...... 6   facts ...... 2590
+      theorem ...... 7   facts ...... 2590
+      theorem ...... 8   facts ...... 2590
+      theorem ...... 9   facts ...... 2619
+      theorem ...... 10   facts ...... 2645
+      theorem ...... 11   facts ...... 2657
+      theorem ...... 12   facts ...... 2657
+      theorem ...... 13   facts ...... 2665
+      theorem ...... 14   facts ...... 2681
+      theorem ...... 15   facts ...... 2681
+      theorem ...... 16   facts ...... 2681
+      theorem ...... 17   facts ...... 2681
+      theorem ...... 18   facts ...... 2681
+      theorem ...... 19   facts ...... 2681
+      theorem ...... 20   facts ...... 2681
+      theorem ...... 21   facts ...... 2681
+      theorem ...... 22   facts ...... 2681
+      theorem ...... 23   facts ...... 2681
+      theorem ...... 24   facts ...... 2681
+      theorem ...... 25   facts ...... 2681
+      theorem ...... 26   facts ...... 2681
+      theorem ...... 27   facts ...... 2681
+      theorem ...... 28   facts ...... 2681
+      theorem ...... 29   facts ...... 2681
+      theorem ...... 30   facts ...... 2681
+      theorem ...... 31   facts ...... 2681
+      theorem ...... 32   facts ...... 2681
+      theorem ...... 33   facts ...... 2681
+      theorem ...... 34   facts ...... 2681
+      theorem ...... 35   facts ...... 2771
+      theorem ...... 36   facts ...... 2771
+      theorem ...... 37   facts ...... 2771
+      theorem ...... 38   facts ...... 2795
+      theorem ...... 39   facts ...... 2795
+      theorem ...... 40   facts ...... 2795
+      theorem ...... 41   facts ...... 2795
+      theorem ...... 42   facts ...... 2795
+      theorem ...... 43   facts ...... 2795
+      theorem ...... 44   facts ...... 2795
+      theorem ...... 45   facts ...... 2795
+      theorem ...... 46   facts ...... 2795
+      theorem ...... 47   facts ...... 2795
+      theorem ...... 48   facts ...... 2795
+      theorem ...... 49   facts ...... 2795
+      theorem ...... 50   facts ...... 2795
+      theorem ...... 51   facts ...... 2795
+      theorem ...... 52   facts ...... 2795
+      theorem ...... 53   facts ...... 2795
+      theorem ...... 54   facts ...... 2795
+      theorem ...... 55   facts ...... 2795
+      theorem ...... 56   facts ...... 2795
+      theorem ...... 57   facts ...... 2795
+      theorem ...... 58   facts ...... 2795
+      theorem ...... 59   facts ...... 2795
+      theorem ...... 60   facts ...... 2795
+      theorem ...... 61   facts ...... 2795
+      theorem ...... 62   facts ...... 2795
+      theorem ...... 63   facts ...... 2795
+      theorem ...... 64   facts ...... 2795
+      theorem ...... 65   facts ...... 2795
+      theorem ...... 66   facts ...... 2811
+      theorem ...... 67   facts ...... 2811
+      theorem ...... 68   facts ...... 2971
+      theorem ...... 69   facts ...... 2971
+      theorem ...... 70   facts ...... 3019
+      theorem ...... 71   facts ...... 3019
+      theorem ...... 72   facts ...... 3019
+      theorem ...... 73   facts ...... 3019
+      theorem ...... 74   facts ...... 3027
+      theorem ...... 75   facts ...... 3027
+      theorem ...... 76   facts ...... 3035
+      theorem ...... 77   facts ...... 3035
+      theorem ...... 78   facts ...... 3035
+      theorem ...... 79   facts ...... 3035
+      theorem ...... 80   facts ...... 3035
+      theorem ...... 81   facts ...... 3035
+      theorem ...... 82   facts ...... 3035
+      theorem ...... 83   facts ...... 3035
+      theorem ...... 84   facts ...... 3035
+      theorem ...... 85   facts ...... 3035
+      theorem ...... 86   facts ...... 3035
+      theorem ...... 87   facts ...... 3035
+      theorem ...... 88   facts ...... 3035
+      theorem ...... 89   facts ...... 3035
+      theorem ...... 90   facts ...... 3035
+      theorem ...... 91   facts ...... 3035
+      theorem ...... 92   facts ...... 3035
+      theorem ...... 93   facts ...... 3037
+      theorem ...... 94   facts ...... 3037
+      theorem ...... 95   facts ...... 3037
+      theorem ...... 96   facts ...... 3037
+      theorem ...... 97   facts ...... 3037
+      theorem ...... 98   facts ...... 3037
+      theorem ...... 99   facts ...... 3037
+      theorem ...... 100   facts ...... 3037
+      theorem ...... 101   facts ...... 3037
+iteration ...... 4
+      theorem ...... 1   facts ...... 3045
+      theorem ...... 2   facts ...... 3045
+      theorem ...... 3   facts ...... 3045
+      theorem ...... 4   facts ...... 3045
+      theorem ...... 5   facts ...... 3045
+      theorem ...... 6   facts ...... 3045
+      theorem ...... 7   facts ...... 3045
+      theorem ...... 8   facts ...... 3045
+      theorem ...... 9   facts ...... 3045
+      theorem ...... 10   facts ...... 3045
+      theorem ...... 11   facts ...... 3045
+      theorem ...... 12   facts ...... 3045
+      theorem ...... 13   facts ...... 3045
+      theorem ...... 14   facts ...... 3045
+      theorem ...... 15   facts ...... 3045
+      theorem ...... 16   facts ...... 3045
+      theorem ...... 17   facts ...... 3053
+      theorem ...... 18   facts ...... 3053
+      theorem ...... 19   facts ...... 3053
+      theorem ...... 20   facts ...... 3053
+      theorem ...... 21   facts ...... 3053
+      theorem ...... 22   facts ...... 3053
+      theorem ...... 23   facts ...... 3053
+      theorem ...... 24   facts ...... 3053
+      theorem ...... 25   facts ...... 3053
+      theorem ...... 26   facts ...... 3053
+      theorem ...... 27   facts ...... 3053
+      theorem ...... 28   facts ...... 3053
+      theorem ...... 29   facts ...... 3053
+      theorem ...... 30   facts ...... 3053
+      theorem ...... 31   facts ...... 3061
+      theorem ...... 32   facts ...... 3061
+      theorem ...... 33   facts ...... 3061
+      theorem ...... 34   facts ...... 3061
+      theorem ...... 35   facts ...... 3085
+      theorem ...... 36   facts ...... 3085
+      theorem ...... 37   facts ...... 3085
+      theorem ...... 38   facts ...... 3093
+      theorem ...... 39   facts ...... 3093
+      theorem ...... 40   facts ...... 3093
+      theorem ...... 41   facts ...... 3093
+      theorem ...... 42   facts ...... 3093
+      theorem ...... 43   facts ...... 3093
+      theorem ...... 44   facts ...... 3093
+      theorem ...... 45   facts ...... 3093
+      theorem ...... 46   facts ...... 3093
+      theorem ...... 47   facts ...... 3093
+      theorem ...... 48   facts ...... 3093
+      theorem ...... 49   facts ...... 3093
+      theorem ...... 50   facts ...... 3093
+      theorem ...... 51   facts ...... 3093
+      theorem ...... 52   facts ...... 3093
+      theorem ...... 53   facts ...... 3093
+      theorem ...... 54   facts ...... 3093
+      theorem ...... 55   facts ...... 3093
+      theorem ...... 56   facts ...... 3093
+      theorem ...... 57   facts ...... 3093
+      theorem ...... 58   facts ...... 3093
+      theorem ...... 59   facts ...... 3093
+      theorem ...... 60   facts ...... 3141
+      theorem ...... 61   facts ...... 3141
+      theorem ...... 62   facts ...... 3141
+      theorem ...... 63   facts ...... 3141
+      theorem ...... 64   facts ...... 3141
+      theorem ...... 65   facts ...... 3141
+      theorem ...... 66   facts ...... 3143
+      theorem ...... 67   facts ...... 3145
+      theorem ...... 68   facts ...... 3379
+      theorem ...... 69   facts ...... 3379
+      theorem ...... 70   facts ...... 3403
+      theorem ...... 71   facts ...... 3403
+      theorem ...... 72   facts ...... 3403
+      theorem ...... 73   facts ...... 3403
+      theorem ...... 74   facts ...... 3403
+      theorem ...... 75   facts ...... 3403
+      theorem ...... 76   facts ...... 3403
+      theorem ...... 77   facts ...... 3403
+      theorem ...... 78   facts ...... 3403
+      theorem ...... 79   facts ...... 3403
+      theorem ...... 80   facts ...... 3403
+      theorem ...... 81   facts ...... 3403
+      theorem ...... 82   facts ...... 3403
+      theorem ...... 83   facts ...... 3403
+      theorem ...... 84   facts ...... 3403
+      theorem ...... 85   facts ...... 3403
+      theorem ...... 86   facts ...... 3403
+      theorem ...... 87   facts ...... 3403
+      theorem ...... 88   facts ...... 3403
+      theorem ...... 89   facts ...... 3403
+      theorem ...... 90   facts ...... 3403
+      theorem ...... 91   facts ...... 3403
+      theorem ...... 92   facts ...... 3403
+      theorem ...... 93   facts ...... 3403
+      theorem ...... 94   facts ...... 3411
+      theorem ...... 95   facts ...... 3411
+      theorem ...... 96   facts ...... 3411
+      theorem ...... 97   facts ...... 3411
+      theorem ...... 98   facts ...... 3411
+      theorem ...... 99   facts ...... 3411
+      theorem ...... 100   facts ...... 3411
+      theorem ...... 101   facts ...... 3419
+iteration ...... 5
+      theorem ...... 1   facts ...... 3421
+      theorem ...... 2   facts ...... 3421
+      theorem ...... 3   facts ...... 3421
+      theorem ...... 4   facts ...... 3421
+      theorem ...... 5   facts ...... 3421
+      theorem ...... 6   facts ...... 3421
+      theorem ...... 7   facts ...... 3421
+      theorem ...... 8   facts ...... 3421
+      theorem ...... 9   facts ...... 3421
+      theorem ...... 10   facts ...... 3429
+      theorem ...... 11   facts ...... 3437
+      theorem ...... 12   facts ...... 3437
+      theorem ...... 13   facts ...... 3437
+      theorem ...... 14   facts ...... 3445
+      theorem ...... 15   facts ...... 3445
+      theorem ...... 16   facts ...... 3445
+      theorem ...... 17   facts ...... 3447
+      theorem ...... 18   facts ...... 3447
+      theorem ...... 19   facts ...... 3447
+      theorem ...... 20   facts ...... 3447
+      theorem ...... 21   facts ...... 3447
+      theorem ...... 22   facts ...... 3447
+      theorem ...... 23   facts ...... 3447
+      theorem ...... 24   facts ...... 3447
+      theorem ...... 25   facts ...... 3447
+      theorem ...... 26   facts ...... 3447
+      theorem ...... 27   facts ...... 3447
+      theorem ...... 28   facts ...... 3447
+      theorem ...... 29   facts ...... 3447
+      theorem ...... 30   facts ...... 3447
+      theorem ...... 31   facts ...... 3447
+      theorem ...... 32   facts ...... 3447
+      theorem ...... 33   facts ...... 3447
+      theorem ...... 34   facts ...... 3447
+      theorem ...... 35   facts ...... 3455
+      theorem ...... 36   facts ...... 3455
+      theorem ...... 37   facts ...... 3455
+      theorem ...... 38   facts ...... 3481
+      theorem ...... 39   facts ...... 3481
+      theorem ...... 40   facts ...... 3481
+      theorem ...... 41   facts ...... 3481
+      theorem ...... 42   facts ...... 3481
+      theorem ...... 43   facts ...... 3481
+      theorem ...... 44   facts ...... 3481
+      theorem ...... 45   facts ...... 3481
+      theorem ...... 46   facts ...... 3481
+      theorem ...... 47   facts ...... 3481
+      theorem ...... 48   facts ...... 3481
+      theorem ...... 49   facts ...... 3481
+      theorem ...... 50   facts ...... 3481
+      theorem ...... 51   facts ...... 3481
+      theorem ...... 52   facts ...... 3481
+      theorem ...... 53   facts ...... 3481
+      theorem ...... 54   facts ...... 3481
+      theorem ...... 55   facts ...... 3481
+      theorem ...... 56   facts ...... 3481
+      theorem ...... 57   facts ...... 3481
+      theorem ...... 58   facts ...... 3481
+      theorem ...... 59   facts ...... 3481
+      theorem ...... 60   facts ...... 3513
+      theorem ...... 61   facts ...... 3529
+      theorem ...... 62   facts ...... 3529
+      theorem ...... 63   facts ...... 3537
+      theorem ...... 64   facts ...... 3537
+      theorem ...... 65   facts ...... 3537
+      theorem ...... 66   facts ...... 3537
+      theorem ...... 67   facts ...... 3537
+      theorem ...... 68   facts ...... 3537
+      theorem ...... 69   facts ...... 3537
+      theorem ...... 70   facts ...... 3537
+      theorem ...... 71   facts ...... 3537
+      theorem ...... 72   facts ...... 3537
+      theorem ...... 73   facts ...... 3537
+      theorem ...... 74   facts ...... 3537
+      theorem ...... 75   facts ...... 3537
+      theorem ...... 76   facts ...... 3537
+      theorem ...... 77   facts ...... 3537
+      theorem ...... 78   facts ...... 3537
+      theorem ...... 79   facts ...... 3537
+      theorem ...... 80   facts ...... 3537
+      theorem ...... 81   facts ...... 3537
+      theorem ...... 82   facts ...... 3537
+      theorem ...... 83   facts ...... 3537
+      theorem ...... 84   facts ...... 3537
+      theorem ...... 85   facts ...... 3537
+      theorem ...... 86   facts ...... 3537
+      theorem ...... 87   facts ...... 3537
+      theorem ...... 88   facts ...... 3537
+      theorem ...... 89   facts ...... 3537
+      theorem ...... 90   facts ...... 3537
+      theorem ...... 91   facts ...... 3537
+      theorem ...... 92   facts ...... 3537
+      theorem ...... 93   facts ...... 3537
+      theorem ...... 94   facts ...... 3539
+      theorem ...... 95   facts ...... 3543
+      theorem ...... 96   facts ...... 3543
+      theorem ...... 97   facts ...... 3543
+solved!
+deduced step:  500
+parallel(line(a,b),line(e,f)).
+parallel(line(A,B),line(C,D)) :- parallel(line(A,B),line(E,F)), parallel(line(C,D),line(E,F)), not same_line(line(A,B),line(C,D)), not same_segment(line(A,B),line(C,D)).
+n_iteration  4
+len(undeduced_set)  0
+[]
+[['parallel(line(a,b),line(c,g)).', 'parallel(line(e,f),line(c,g)).', 'parallel(line(a,b),line(e,f)).']]
+parallel(line(a,b),line(e,f)):-parallel(line(a,b),line(c,g)),parallel(line(e,f),line(c,g)).
+
+deduced step:  497
+parallel(line(a,b),line(c,g)).
+parallel(line(B,C),line(D,E)) :- parallel(line(B,C), line(E,D)).
+n_iteration  1
+len(undeduced_set)  1
+['parallel(line(e,f),line(c,g)).']
+[['parallel(line(a,b),line(g,c)).', 'parallel(line(a,b),line(c,g)).']]
+parallel(line(a,b),line(c,g)):-parallel(line(a,b),line(g,c)).
+
+deduced step:  496
+parallel(line(a,b),line(g,c)).
+parallel(line(C,B),line(D,E)) :- parallel(line(B,C), line(D,E)).
+n_iteration  1
+len(undeduced_set)  1
+['parallel(line(e,f),line(c,g)).']
+[['parallel(line(b,a),line(g,c)).', 'parallel(line(a,b),line(g,c)).']]
+parallel(line(a,b),line(g,c)):-parallel(line(b,a),line(g,c)).
+
+deduced step:  465
+deduced step:  463
+deduced step:  462
+deduced step:  440
+deduced step:  437
+deduced step:  419
+deduced step:  416
+deduced step:  413
+deduced step:  412
+deduced step:  403
+parallel(line(b,a),line(g,c)).
+parallel(line(A,B),line(D,E)) :- equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) ,quadrilateral(A,B,E,D).
+Traceback (most recent call last):
+  File "/home/jiajun/Documents/geometry/src/main.py", line 45, in <module>
+    main(facts_path="examples/p1/facts.pl",
+  File "/home/jiajun/Documents/geometry/src/main.py", line 35, in main
+    undeduced_set, deduced_procedure_str = deduct(gen_facts_dict, query_set,
+  File "/home/jiajun/Documents/geometry/src/deductor.py", line 43, in deduct
+    rules, rules_dict_traj = iterate_add_undeduced_facts(
+  File "/home/jiajun/Documents/geometry/src/utils.py", line 821, in iterate_add_undeduced_facts
+    _rules, _bool_recursive, _body_related_fact_set, _body_related_fact_set_all = add_undeduced_facts(
+  File "/home/jiajun/Documents/geometry/src/utils.py", line 91, in add_undeduced_facts
+    bodies_ = parse_predicates(parts[1].strip())
+  File "/home/jiajun/Documents/geometry/src/my_unification.py", line 493, in parse_predicates
+    if _tmp[0] == "," or _tmp[0] == ".":
+IndexError: string index out of range
+[?2004h[01;32mjiajun[00m:[01;34mgeometry[01;31m(main)[00m$ [H[2J[01;32mjiajun[00m:[01;34mgeometry[01;31m(main)[00m$ s[Kexit
+[?2004lexit
+
+Script done on 2023-01-11 17:05:05+08:00 [COMMAND_EXIT_CODE="1"]

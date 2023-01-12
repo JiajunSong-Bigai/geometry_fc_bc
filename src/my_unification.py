@@ -502,8 +502,52 @@ def parse_predicates(rule_str):
     return strset
 
 
-if __name__ == "__main__":
-    test_str = "equals(measureOf(angle(A,B,F)),measureOf(angle(E,D,F))) :- parallel(line(A,B),line(D,E)), line(B, D), on_same_line(B, D, F), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), pointPosition(F,Xf,Yf), (Xa-Xb)*(Xe-Xd)>0, (Ya-Yb)*(Ye-Yd)>0, (Xf-Xb)*(Xf-Xd)>0, (Yf-Yb)*(Yf-Yd)>0, not A==C."
+def new_parse_predicates(premises_str):
+    splited_premises = []
+    start_premise = i = 0
+    parent_stack = []
+    while i < len(premises_str):
+        if premises_str[i] not in ["(", ")"]:
+            i += 1
+            continue
 
-    strset = parse_predicates(test_str)
-    print(strset)
+        if premises_str[i] == "(":
+            parent_stack.append("(")
+        elif premises_str[i] == ")":
+            parent_stack.pop()
+
+        if not parent_stack:
+            splited_premises.append(premises_str[start_premise:i + 1].strip())
+            start_premise = i + 2
+
+        i += 1
+    return splited_premises
+
+
+def testparsing():
+    from src.input_reader import read_rules
+
+    rules = read_rules("src/knowledge_base")
+    for rule in rules:
+        try:
+            # print(new_parse_predicates(rule.split(":-")[1]))
+            # print(parse_predicates(rule.split(":-")[1]), "\n\n\n")
+            assert new_parse_predicates(
+                rule.split(":-")[1]) == parse_predicates(rule.split(":-")[1])
+        except Exception as e:
+            print(e)
+            print(rule, "Failed")
+            print(new_parse_predicates(rule.split(":-")[1]))
+            print(parse_predicates(rule.split(":-")[1]), "\n\n\n")
+
+
+print(
+    parse_predicates(
+        "equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))),quadrilateral(A,B,E,D)."
+    ))
+
+# parse_predicates(
+#     "parallel(line(A,B),line(D,E)) :- equals(measureOf(angle(A,B,D)),measureOf(angle(B,D,E))) ,  quadrilateral(A,B,E,D)."
+# )
+
+#test_str ="equals(measureOf(angle(A,B,F)),measureOf(angle(E,D,F))) :- parallel(line(A,B),line(D,E)), line(B, D), on_same_line(B, D, F), pointPosition(A,Xa,Ya), pointPosition(B,Xb,Yb), pointPosition(D,Xd,Yd), pointPosition(E,Xe,Ye), pointPosition(F,Xf,Yf), (Xa-Xb)*(Xe-Xd)>0, (Ya-Yb)*(Ye-Yd)>0, (Xf-Xb)*(Xf-Xd)>0, (Yf-Yb)*(Yf-Yd)>0, not A==C."
