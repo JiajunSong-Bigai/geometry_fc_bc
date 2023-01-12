@@ -41,12 +41,12 @@ equals(measureOf(angle(A,B,C)),measureOf(angle(A,B,D))) :- angle(A,B,C)^ angle(A
 % equal angle 
 equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(D,E,F)),measureOf(angle(A,B,C))).
 equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(C,B,A)),measureOf(angle(D,E,F))).
-equals(measureOf(angle(A,B,C)),X) :- equals(X, measureOf(angle(A,B,C))).
-equals(measureOf(angle(H,I,J)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F)))^ equals(measureOf(angle(A,B,C)),measureOf(angle(H,I,J)))^ not same_angle(angle(D,E,F), angle(H,I,J))^ angle(A,B,C)^ angle(D,E,F)^angle(H,I,J).
-equals(measureOf(angle(D,E,F)),measureOf(angle(G,H,I))) :- equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X)^ equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ not same_angle(angle(D,E,F),angle(G,H,I)).
+%equals(measureOf(angle(A,B,C)),X) :- equals(X, measureOf(angle(A,B,C))).
+%equals(measureOf(angle(H,I,J)),measureOf(angle(D,E,F))) :- equals(measureOf(angle(A,B,C)),measureOf(angle(D,E,F)))^ equals(measureOf(angle(A,B,C)),measureOf(angle(H,I,J)))^ not same_angle(angle(D,E,F), angle(H,I,J))^ angle(A,B,C)^ angle(D,E,F)^angle(H,I,J).
+%equals(measureOf(angle(D,E,F)),measureOf(angle(G,H,I))) :- equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X)^ equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ not same_angle(angle(D,E,F),angle(G,H,I)).
 
-equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X) :- equals(measureOf(angle(D,E,F)),measureOf(angle(G,H,I)))^ equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ not same_angle(angle(D,E,F),angle(G,H,I)).
-equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X) :- equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ equals(measureOf(angle(G,H,I)),measureOf(angle(D,E,F))).
+%equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X) :- equals(measureOf(angle(D,E,F)),measureOf(angle(G,H,I)))^ equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ not same_angle(angle(D,E,F),angle(G,H,I)).
+%equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(D,E,F))),X) :- equals(sumOf(measureOf(angle(A,B,C)),measureOf(angle(G,H,I))),X)^ equals(measureOf(angle(G,H,I)),measureOf(angle(D,E,F))).
 
 
 % same angle
