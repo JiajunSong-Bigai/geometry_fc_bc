@@ -10,7 +10,7 @@ def read_query(query_path):
             query_set.append(clause.strip().replace("^", ","))
     f1.close()
 
-    return query_set
+    return set(query_set)
 
 
 def read_rules(rule_folder_path):
@@ -24,7 +24,7 @@ def read_rules(rule_folder_path):
                 rule_set.append(clause.strip().replace("^", ","))
         f1.close()
 
-    return list(set(rule_set))
+    return set(rule_set)
 
 
 def read_fact(fact_path):
@@ -36,4 +36,4 @@ def read_fact(fact_path):
             fact_set.append(clause.strip().replace("^", ","))
     f1.close()
 
-    return fact_set
+    return set(fact_set)

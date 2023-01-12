@@ -57,3 +57,11 @@ def AND( proofsteps, goals, theta ):
 * Deal with negation
 
 """
+
+############################################
+##### Recover the proving process
+###########################################
+
+
+def recover_prove_tree():
+    pass
