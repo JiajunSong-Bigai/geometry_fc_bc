@@ -30,6 +30,12 @@ OR : only one of the rule satisfies
 We can omit the OR part as we know the rule for each facts.
 
 
+def OR( proofsteps, goal, theta):
+    lhs, rhs = parse(goal.fact)
+    for theta1 in AND(proofsteps, lhs, unify_mm(rhs, goal.rule, theta) ):
+        yield theta
+
+
 def AND( proofsteps, goals, theta ):
     '''
     Args:
@@ -49,13 +55,46 @@ def AND( proofsteps, goals, theta ):
 
     first, rest = goals[0], goals[1:]
 
-    theta1 = update_theta( first, theta )
-    for theta2 in AND( proofsteps, rest, theta1 ):
-        yield theta2
+    for theta1 in OR( proofsteps, subst(first), theta ):
+        for theta2 in AND( proofsteps, rest, theta1 ):
+            yield theta2
 
+
+* subst
+
+* unify_mm
 
 * Deal with negation
 
+Test cases:
+
+1. Q = R1 ( R2 ( A, B) , A, R3 (B, D ) )
+2. Proofsteps:
+    pf(NF1, R2), pf(NF2, R3), pf(Q, R1)
+3. BC to recover
+    Q <- pf(Q, R1)
+
+
+AND( pfs, [Q], {})
+
+for theta1 in OR( pfs, Q, {} )
+    for theta2 in AND( pfs, [], theta1 ):
+        yield theta2
+
+OR( pfs, Q, {} )
+    lhs, rhs = parse( Q.fact )
+    for theta in AND( pfs, lhs,  )
+
+"""
+"""
+unify_mm
+
+Unify expressions x,y with substitution s using an efficient rule-based
+unification algorithm by Martelli & Montanari; return a substitution that
+would make x,y equal, or None if x,y can not unify. x and y can be
+variables (e.g. Expr('x')), constants, lists, or Exprs.
+>>> unify_mm(x, 3, {})
+{x: 3}
 """
 
 ############################################
